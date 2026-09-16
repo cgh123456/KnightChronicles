@@ -1,6 +1,7 @@
 {
   "asset_path": "/Users/chenguanhan/游戏项目/骑士异闻录/assets/models/azure_reference_reconstruction/Azure_Reference_Reconstruction.glb",
   "validation_scope": "Export parsing, independent fresh import, dimensions, textures, normals and topology; no repairs.",
+  "validated_at_utc": "2026-09-16T08:46:37.896019+00:00",
   "appearance_disclosure": "Fine visual engraving and wear use projection of the original concept image. Original lighting remains baked into that image. This is not a fully baked physically based material set.",
   "single_view_disclosure": "The rear side, thickness and hidden construction are inferred from a single front concept view.",
   "errors": [],
@@ -10,6 +11,8 @@
     "42_Leather_wrap_seam.001: 16 geometric non-manifold edges in leather_seam_decoration (16 boundary, 0 with more than two faces).",
     "Reference-image projection is present; this report does not certify independent albedo/normal/roughness/metalness texture baking."
   ],
+  "asset_sha256": "6998cb6e25705a0ceff22d62987383af1cb7685707a2e1b3b3f225f88e4ee152",
+  "asset_modified_at_utc": "2026-09-16T08:43:10.120508+00:00",
   "glb": {
     "file_bytes": 6054692,
     "header_version": 2,

@@ -13,6 +13,8 @@ boundary edges must not be represented as proof of holes in the physical volume.
 
 import argparse
 from collections import Counter
+from datetime import datetime, timezone
+import hashlib
 import json
 import math
 from pathlib import Path
@@ -238,11 +240,14 @@ def inspect_import(path):
 def validate(path, report_path):
     report = {
         'asset_path': str(path), 'validation_scope': 'Export parsing, independent fresh import, dimensions, textures, normals and topology; no repairs.',
+        'validated_at_utc': datetime.now(timezone.utc).isoformat(),
         'appearance_disclosure': 'Fine visual engraving and wear use projection of the original concept image. Original lighting remains baked into that image. This is not a fully baked physically based material set.',
         'single_view_disclosure': 'The rear side, thickness and hidden construction are inferred from a single front concept view.',
         'errors': [], 'warnings': [],
     }
     try:
+        report['asset_sha256'] = hashlib.sha256(path.read_bytes()).hexdigest()
+        report['asset_modified_at_utc'] = datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat()
         container = report['glb'] = parse_glb(path)
         imported = report['blender_import'] = inspect_import(path)
         if not imported['mesh_objects']:
@@ -253,13 +258,15 @@ def validate(path, report_path):
             report['errors'].append('Container and imported triangle counts differ.')
         if any(not p['has_normals'] or not p['normal_count_matches_positions'] for p in container['primitives']):
             report['errors'].append('One or more GLB primitives lack valid matched NORMAL attributes.')
+        if any(p['mode'] != 4 or not p['triangle_count_integral'] for p in container['primitives']):
+            report['errors'].append('One or more GLB primitives are not valid indexed/non-indexed triangle lists.')
         if not container['images']:
             report['errors'].append('No image textures are present in the exported asset.')
         if any(not image['valid_resource_bounds'] or image.get('signature_matches_mime') is False for image in container['images']):
             report['errors'].append('An image resource has invalid bounds or MIME signature.')
         if any(not binding['valid'] for material in container['materials'] for binding in material['texture_bindings']):
             report['errors'].append('A material texture points to a missing or invalid image.')
-        if any(not image['has_loaded_pixels'] or min(image['dimensions_px']) <= 0 for image in imported['loaded_images']):
+        if not imported['loaded_images'] or any(not image['has_loaded_pixels'] or min(image['dimensions_px']) <= 0 for image in imported['loaded_images']):
             report['errors'].append('An imported image did not decode into valid pixels.')
         for item in imported['objects']:
             if item['non_finite_vertices'] or item['non_finite_corner_normals'] or item['zero_length_corner_normals']:
