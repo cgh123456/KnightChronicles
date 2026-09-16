@@ -208,7 +208,7 @@ def build_blade():
     # Metal inlays above and below the light channel, with their own depth.
     edge_path=[(488,467),(492,496),(492,720),(493,834),(499,859),(497,900),
                (494,935),(495,1120),(498,1188),(491,1214),(500,1238),(509,1355)]
-    paired_strip("03_Fuller_antique_gold_border",edge_path,width=1.8,depth=4.7,thickness=.7)
+    paired_strip("03_Fuller_antique_gold_border",edge_path,width=1.35,depth=4.65,thickness=.45)
     paired_strip("04_Fuller_inner_silver_border",[(497,520),(497,809),(501,839)],width=.8,depth=4,thickness=.45,mat="pale_gold")
     paired_strip("05_Lower_fuller_silver",[(500,929),(501,1140),(500,1180),(496,1204),(499,1225),(509,1352)],width=.85,depth=4.6,thickness=.4,mat="edge")
     # Tiny leaf etching sits flush on the metal; texture carries finer-than-geometry detail.
@@ -220,7 +220,7 @@ def build_blade():
             if side == -1: pts=mirror(pts)
             strip("06_Engraved_vine_%02d_%s"%(k,side),pts,width=.7,depth=4.55,thickness=.22,mat="pale_gold")
     # Light is constrained to a 6-pixel channel, ending above the lower steel blade.
-    panel("07_Narrow_runic_energy_inlay",[(507,537),(513,537),(513,832),(510,846),(507,832)],2.8,"energy",.12,False)
+    panel("07_Narrow_runic_energy_inlay",[(507,537),(513,537),(513,832),(510,846),(507,832)],2.8,"energy",.12,True)
     for i in range(21):
         y=548+i*13.8
         strip("08_Arcane_rune_%02d"%i,[(507,y-4),(511,y),(507,y+4),(511,y+7)],width=.65,depth=3.2,thickness=.2,mat="energy",curved=False)
@@ -251,16 +251,18 @@ def build_guard():
             [(446,350),(458,359),(478,364),(457,369),(438,378),(446,366),(430,362)]]
     for i,outline in enumerate(leaves):
         for tag,poly in (("L",outline),("R",mirror(outline))):
-            panel("24_Acanthus_leaf_%s_%s"%(i,tag),poly,10.2,"gold",.5)
+            # Seat the leaf inside the upper quillon edge, preserving the measured silhouette.
+            poly=[(x,y+4) for x,y in poly]
+            panel("24_Acanthus_leaf_%s_%s"%(i,tag),poly,9.6,"gold",.4)
     for j in range(7):
         x=334+j*18
         y=385-5*math.sin(j*.40)
         pts=[(x-6,y+5),(x-1,y+3),(x+3,y-1),(x+1,y-5),(x-3,y-4),(x-3,y),(x+4,y+3),(x+9,y)]
         paired_strip("25_Quillon_engraved_scroll_%02d"%j,pts,width=.8,depth=9.65,thickness=.28,mat="pale_gold")
     # Diamond frame and pointed finials accurately follow the reference silhouette.
-    panel("26_Central_diamond_frame",[(510,317),(549,378),(510,439),(472,378)],14,"gold",1.05)
+    panel("26_Central_diamond_frame",[(510,317),(549,378),(510,432),(472,378)],14,"gold",.75)
     panel("27_Central_recess",[(510,330),(539,378),(510,425),(480,378)],15.2,"recess",.5)
-    strip("28_Diamond_bezel_outer",[(510,323),(545,378),(510,431),(476,378),(510,323)],width=2.5,depth=15.2,thickness=1,mat="pale_gold",curved=False)
+    strip("28_Diamond_bezel_outer",[(510,323),(545,378),(510,431),(476,378),(510,323)],width=1.8,depth=14.9,thickness=.6,mat="pale_gold",curved=False)
     strip("29_Diamond_bezel_inner",[(510,337),(536,378),(510,419),(484,378),(510,337)],width=1.3,depth=16.2,thickness=.6,mat="edge",curved=False)
     gem("30_Principal_cut_sapphire",510,377,25,40,base=16.6,crown=26)
     # Four sweeping structural ribs surround the blade shoulder with real gaps.
@@ -269,7 +271,7 @@ def build_guard():
     for tag,p in (("L",rib),("R",mirror(rib))):
         panel("31_Gothic_shoulder_rib_"+tag,p,10.6,"dark",.55)
     paired_strip("32_Gilded_shoulder_ogive",[(478,390),(466,408),(475,438),(481,460),(493,489),(510,533)],width=2.1,depth=11.2,thickness=.7)
-    paired_strip("33_Shoulder_silver_chisel",[(464,408),(473,433),(475,449),(466,459),(479,473),(490,498)],width=2.3,depth=10.9,thickness=.7,mat="edge")
+    paired_strip("33_Shoulder_silver_chisel",[(464,408),(473,433),(475,449),(467,459),(479,473),(490,498)],width=1.3,depth=10.65,thickness=.3,mat="edge")
     paired_strip("34_Inner_gothic_rib",[(486,410),(494,437),(490,460),(497,485),(510,533)],width=1,depth=11.5,thickness=.4,mat="pale_gold")
     # Flaring collar under the grip meets the main stone without a round boss.
     flare=[(488,313),(479,331),(474,346),(464,354),(451,358),(471,360),(487,350),(498,332),(510,307)]
@@ -299,6 +301,9 @@ def build_grip():
             a=i*4+j; faces.append((a,a+1,a+5,a+4))
     obj=mesh_object("41_Continuous_overlapping_leather_ribbon",verts,faces,M["leather"],0,True)
     apply_projection(obj,"leather")
+    shell=obj.modifiers.new("Real leather strip thickness","SOLIDIFY")
+    shell.thickness=.5*S
+    shell.offset=-1
     # Stitched wrap edging actually follows the oval grip in depth.
     for edge in (-8.4,8.4):
         pts=[]
@@ -308,6 +313,7 @@ def build_grip():
             pts.append(xyz(CX+(rx+.9)*math.cos(a),y+edge,18*math.sin(a)))
         data=bpy.data.curves.new("Leather_seam","CURVE"); data.dimensions="3D"
         data.bevel_depth=.40*S; data.bevel_resolution=2
+        data.use_fill_caps=True
         spl=data.splines.new("POLY"); spl.points.add(len(pts)-1)
         for p,co in zip(spl.points,pts):p.co=(*co,1)
         obj=bpy.data.objects.new("42_Leather_wrap_seam",data); bpy.data.collections["WEAPON"].objects.link(obj)
@@ -325,9 +331,9 @@ def build_pommel():
              (474,84),(470,91),(464,84),(460,71),(466,57),(478,45),(486,49),(498,32)]
     panel("50_Point_crown_pommel",outline,11,"dark",.65)
     left=[(510,16),(498,41),(485,63),(478,70),(490,89),(495,106),(498,123)]
-    paired_strip("51_Crown_silver_outer_frame",left,width=4.5,depth=12,thickness=1.2,mat="edge")
-    paired_strip("52_Crown_gold_inner_frame",[(510,25),(500,48),(489,68),(500,91),(504,114),(503,125)],width=2.0,depth=13,thickness=.7)
-    paired_strip("53_Crown_flared_shoulder",[(480,48),(469,66),(466,76),(471,86),(478,74),(486,84),(491,100),(494,120)],width=3,depth=11.9,thickness=1.1,mat="pale_gold")
+    paired_strip("51_Crown_silver_outer_frame",left,width=3.2,depth=11.6,thickness=.8,mat="edge")
+    paired_strip("52_Crown_gold_inner_frame",[(510,25),(500,48),(489,68),(500,91),(504,114),(503,125)],width=1.5,depth=12.2,thickness=.5)
+    paired_strip("53_Crown_flared_shoulder",[(480,48),(469,66),(466,76),(471,86),(478,74),(486,84),(491,100),(494,120)],width=2.2,depth=11.5,thickness=.7,mat="pale_gold")
     panel("54_Pommel_diamond_bezel",[(510,33),(530,67),(510,101),(489,67)],14.6,"gold",.7)
     panel("55_Pommel_diamond_recess",[(510,37),(527,67),(510,96),(493,67)],15.4,"recess",.2)
     gem("56_Pommel_cut_sapphire",510,66,14.5,28,base=16,crown=23)
@@ -350,7 +356,7 @@ def init():
     image.pack()
     # Source lighting is intentionally retained in this look-development variant.
     # A separate neutral clay render demonstrates the underlying volume.
-    for key in ("steel","dark","edge","gold","leather","pale_gold","recess","sapphire"):
+    for key in ("steel","dark","edge","gold","leather","pale_gold","recess","sapphire","energy"):
         mat=bpy.data.materials.new("REF_COLOR_"+key)
         mat.use_nodes=True
         n=mat.node_tree.nodes; l=mat.node_tree.links
@@ -364,6 +370,9 @@ def init():
         bs.inputs["Roughness"].default_value=.36 if key not in ("leather","sapphire") else (.6 if key=="leather" else .14)
         l.new(tex.outputs["Color"],bs.inputs["Emission Color"])
         bs.inputs["Emission Strength"].default_value=.55 if key!="sapphire" else .85
+        if key=="energy":
+            bs.inputs["Emission Strength"].default_value=2.4
+            bs.inputs["Metallic"].default_value=0
         mat["warning"]="Reference projection retains source lighting; not a de-lit PBR albedo."
         REF[key]=mat
 
@@ -409,6 +418,13 @@ def save_and_render(quick=False,only=None):
         matrix=obj.matrix_world.copy();obj.parent=root;obj.matrix_world=matrix
     bpy.context.view_layer.update()
     scene["MODEL_NOTES"]="Single-view reconstruction. Front colour uses reference projection. Reverse, thickness and hidden assembly inferred."
+    scene.render.image_settings.color_depth="8"
+    bpy.context.preferences.filepaths.save_version=0
+    for screen in bpy.data.screens:
+        for area in screen.areas:
+            if area.type=="VIEW_3D":
+                area.spaces.active.region_3d.view_perspective="CAMERA"
+                area.spaces.active.shading.type="MATERIAL"
     # Keep camera, reference image and construction geometry available for editing.
     cameras={o.name:o for o in bpy.data.objects if o.type=="CAMERA"}
     print("CAMERAS",list(cameras))
@@ -425,6 +441,8 @@ def save_and_render(quick=False,only=None):
                          ("threequarter",bpy.data.objects.get("threequarter_camera"))):
         if not camera or (only and label!=only):continue
         scene.camera=camera
+        scene.render.resolution_x=1024 if quick else 1536
+        scene.render.resolution_y=scene.render.resolution_x if label=="detail" else (1536 if quick else 2304)
         scene.render.filepath=str(OUT/(label+"_render.png"))
         print("RENDER",label,flush=True)
         bpy.ops.render.render(write_still=True)
@@ -433,9 +451,16 @@ def save_and_render(quick=False,only=None):
     shader=clay.node_tree.nodes.get("Principled BSDF")
     shader.inputs["Base Color"].default_value=(.26,.29,.32,1)
     shader.inputs["Roughness"].default_value=.45
-    bpy.context.view_layer.material_override=clay
+    # Override only the weapon, preserving studio contrast for readable topology.
+    for obj in PARTS:
+        for slot in obj.material_slots: slot.material=clay
     bpy.data.collections["VFX_PREVIEW_ONLY"].hide_render=True
+    for ob in bpy.data.collections["STUDIO"].objects:
+        if ob.type=="LIGHT":ob.data.energy*=1.5
     scene.camera=bpy.data.objects.get("threequarter_camera",scene.camera)
+    scene.camera.location.x=2.67
+    scene.camera.location.y=-3.0
+    scene.camera.rotation_euler=(Vector((0,0,.808))-scene.camera.location).to_track_quat("-Z","Y").to_euler()
     scene.render.filepath=str(OUT/"clay_geometry_render.png")
     bpy.ops.render.render(write_still=True)
     print("ALL_DONE",flush=True)

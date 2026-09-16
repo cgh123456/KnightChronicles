@@ -1,29 +1,26 @@
 {
   "asset_path": "/Users/chenguanhan/游戏项目/骑士异闻录/assets/models/azure_reference_reconstruction/Azure_Reference_Reconstruction.glb",
   "validation_scope": "Export parsing, independent fresh import, dimensions, textures, normals and topology; no repairs.",
-  "validated_at_utc": "2026-09-16T08:46:37.896019+00:00",
+  "validated_at_utc": "2026-09-16T08:55:58.391298+00:00",
   "appearance_disclosure": "Fine visual engraving and wear use projection of the original concept image. Original lighting remains baked into that image. This is not a fully baked physically based material set.",
   "single_view_disclosure": "The rear side, thickness and hidden construction are inferred from a single front concept view.",
   "errors": [],
   "warnings": [
-    "41_Continuous_overlapping_leather_ribbon: 1104 geometric non-manifold edges in leather_ribbon_surface (1104 boundary, 0 with more than two faces).",
-    "42_Leather_wrap_seam: 16 geometric non-manifold edges in leather_seam_decoration (16 boundary, 0 with more than two faces).",
-    "42_Leather_wrap_seam.001: 16 geometric non-manifold edges in leather_seam_decoration (16 boundary, 0 with more than two faces).",
     "Reference-image projection is present; this report does not certify independent albedo/normal/roughness/metalness texture baking."
   ],
-  "asset_sha256": "6998cb6e25705a0ceff22d62987383af1cb7685707a2e1b3b3f225f88e4ee152",
-  "asset_modified_at_utc": "2026-09-16T08:43:10.120508+00:00",
+  "asset_sha256": "0d96cf1b047bd28899cdbac3b3c255c9e920225a530afe6f23b881231ab999c2",
+  "asset_modified_at_utc": "2026-09-16T08:54:59.123813+00:00",
   "glb": {
-    "file_bytes": 6054692,
+    "file_bytes": 6166104,
     "header_version": 2,
     "chunks": [
       {
         "type": "0x4e4f534a",
-        "bytes": 305128
+        "bytes": 306496
       },
       {
         "type": "0x4e4942",
-        "bytes": 5749536
+        "bytes": 5859580
       }
     ],
     "gltf_asset": {
@@ -37,8 +34,8 @@
     ],
     "node_count": 306,
     "mesh_count": 305,
-    "material_count": 15,
-    "texture_count": 14,
+    "material_count": 16,
+    "texture_count": 16,
     "image_count": 1,
     "images": [
       {
@@ -261,7 +258,7 @@
       },
       {
         "index": 7,
-        "name": "REF_COLOR_sapphire",
+        "name": "REF_COLOR_energy",
         "texture_bindings": [
           {
             "channel": "emissiveTexture",
@@ -284,15 +281,16 @@
         },
         "pbr_factors": {
           "metallicFactor": 0,
-          "roughnessFactor": 0.14000000059604645
+          "roughnessFactor": 0.36000001430511475
         },
         "extensions": [
+          "KHR_materials_emissive_strength",
           "KHR_materials_specular"
         ]
       },
       {
         "index": 8,
-        "name": "REF_COLOR_dark",
+        "name": "REF_COLOR_sapphire",
         "texture_bindings": [
           {
             "channel": "emissiveTexture",
@@ -314,8 +312,8 @@
           "warning": "Reference projection retains source lighting; not a de-lit PBR albedo."
         },
         "pbr_factors": {
-          "metallicFactor": 0.6800000071525574,
-          "roughnessFactor": 0.36000001430511475
+          "metallicFactor": 0,
+          "roughnessFactor": 0.14000000059604645
         },
         "extensions": [
           "KHR_materials_specular"
@@ -323,7 +321,7 @@
       },
       {
         "index": 9,
-        "name": "REF_COLOR_gold",
+        "name": "REF_COLOR_dark",
         "texture_bindings": [
           {
             "channel": "emissiveTexture",
@@ -354,36 +352,7 @@
       },
       {
         "index": 10,
-        "name": "AZURE_REF | Deep carved shadow recess",
-        "texture_bindings": [],
-        "is_reference_colour_projection": false,
-        "extras": {
-          "units": "metres; apply object scale for procedural microdetail",
-          "gltf_fallback_base_color": [
-            0.007,
-            0.009,
-            0.012
-          ],
-          "gltf_fallback_metallic": 0.76,
-          "gltf_fallback_roughness": 0.44,
-          "requires_bake_for_gltf": "procedural roughness and tangent normal",
-          "azure_material_key": "recess",
-          "concept_target": "silver/black steel, pale antique gold, black leather, refractive sapphire"
-        },
-        "pbr_factors": {
-          "baseColorFactor": [
-            0.007000000216066837,
-            0.008999999612569809,
-            0.012000000104308128,
-            1
-          ],
-          "metallicFactor": 0.7599999904632568
-        },
-        "extensions": []
-      },
-      {
-        "index": 11,
-        "name": "REF_COLOR_recess",
+        "name": "REF_COLOR_gold",
         "texture_bindings": [
           {
             "channel": "emissiveTexture",
@@ -413,7 +382,67 @@
         ]
       },
       {
+        "index": 11,
+        "name": "AZURE_REF | Deep carved shadow recess",
+        "texture_bindings": [],
+        "is_reference_colour_projection": false,
+        "extras": {
+          "units": "metres; apply object scale for procedural microdetail",
+          "gltf_fallback_base_color": [
+            0.007,
+            0.009,
+            0.012
+          ],
+          "gltf_fallback_metallic": 0.76,
+          "gltf_fallback_roughness": 0.44,
+          "requires_bake_for_gltf": "procedural roughness and tangent normal",
+          "azure_material_key": "recess",
+          "concept_target": "silver/black steel, pale antique gold, black leather, refractive sapphire"
+        },
+        "pbr_factors": {
+          "baseColorFactor": [
+            0.007000000216066837,
+            0.008999999612569809,
+            0.012000000104308128,
+            1
+          ],
+          "metallicFactor": 0.7599999904632568
+        },
+        "extensions": []
+      },
+      {
         "index": 12,
+        "name": "REF_COLOR_recess",
+        "texture_bindings": [
+          {
+            "channel": "emissiveTexture",
+            "texture_index": 10,
+            "image_index": 0,
+            "texcoord": 0,
+            "valid": true
+          },
+          {
+            "channel": "pbrMetallicRoughness.baseColorTexture",
+            "texture_index": 11,
+            "image_index": 0,
+            "texcoord": 0,
+            "valid": true
+          }
+        ],
+        "is_reference_colour_projection": true,
+        "extras": {
+          "warning": "Reference projection retains source lighting; not a de-lit PBR albedo."
+        },
+        "pbr_factors": {
+          "metallicFactor": 0.6800000071525574,
+          "roughnessFactor": 0.36000001430511475
+        },
+        "extensions": [
+          "KHR_materials_specular"
+        ]
+      },
+      {
+        "index": 13,
         "name": "AZURE_REF | Black wrapped calf leather",
         "texture_bindings": [],
         "is_reference_colour_projection": false,
@@ -445,19 +474,19 @@
         ]
       },
       {
-        "index": 13,
+        "index": 14,
         "name": "REF_COLOR_leather",
         "texture_bindings": [
           {
             "channel": "emissiveTexture",
-            "texture_index": 10,
+            "texture_index": 12,
             "image_index": 0,
             "texcoord": 0,
             "valid": true
           },
           {
             "channel": "pbrMetallicRoughness.baseColorTexture",
-            "texture_index": 11,
+            "texture_index": 13,
             "image_index": 0,
             "texcoord": 0,
             "valid": true
@@ -476,19 +505,19 @@
         ]
       },
       {
-        "index": 14,
+        "index": 15,
         "name": "REF_COLOR_pale_gold",
         "texture_bindings": [
           {
             "channel": "emissiveTexture",
-            "texture_index": 12,
+            "texture_index": 14,
             "image_index": 0,
             "texcoord": 0,
             "valid": true
           },
           {
             "channel": "pbrMetallicRoughness.baseColorTexture",
-            "texture_index": 13,
+            "texture_index": 15,
             "image_index": 0,
             "texcoord": 0,
             "valid": true
@@ -2059,14 +2088,27 @@
         "mesh": 118,
         "primitive": 0,
         "mode": 4,
-        "vertices": 348,
-        "indices_or_vertices": 516,
-        "triangles": 172,
+        "vertices": 230,
+        "indices_or_vertices": 336,
+        "triangles": 112,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
         "material_index": 6
+      },
+      {
+        "mesh": 118,
+        "primitive": 1,
+        "mode": 4,
+        "vertices": 118,
+        "indices_or_vertices": 180,
+        "triangles": 60,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 7
       },
       {
         "mesh": 119,
@@ -2651,7 +2693,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 7
+        "material_index": 8
       },
       {
         "mesh": 164,
@@ -2664,7 +2706,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 7
+        "material_index": 8
       },
       {
         "mesh": 165,
@@ -2716,7 +2758,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 8
+        "material_index": 9
       },
       {
         "mesh": 168,
@@ -2742,7 +2784,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 8
+        "material_index": 9
       },
       {
         "mesh": 169,
@@ -2924,7 +2966,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 9
+        "material_index": 10
       },
       {
         "mesh": 182,
@@ -2950,7 +2992,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 9
+        "material_index": 10
       },
       {
         "mesh": 183,
@@ -2976,7 +3018,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 9
+        "material_index": 10
       },
       {
         "mesh": 184,
@@ -3002,7 +3044,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 9
+        "material_index": 10
       },
       {
         "mesh": 185,
@@ -3392,7 +3434,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 9
+        "material_index": 10
       },
       {
         "mesh": 214,
@@ -3405,7 +3447,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 10
+        "material_index": 11
       },
       {
         "mesh": 214,
@@ -3418,7 +3460,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 11
+        "material_index": 12
       },
       {
         "mesh": 215,
@@ -3483,7 +3525,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 7
+        "material_index": 8
       },
       {
         "mesh": 220,
@@ -3496,7 +3538,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 7
+        "material_index": 8
       },
       {
         "mesh": 221,
@@ -3522,7 +3564,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 8
+        "material_index": 9
       },
       {
         "mesh": 222,
@@ -3548,7 +3590,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 8
+        "material_index": 9
       },
       {
         "mesh": 223,
@@ -3730,7 +3772,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 9
+        "material_index": 10
       },
       {
         "mesh": 236,
@@ -3756,7 +3798,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 9
+        "material_index": 10
       },
       {
         "mesh": 237,
@@ -3886,7 +3928,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 8
+        "material_index": 9
       },
       {
         "mesh": 246,
@@ -3951,7 +3993,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 12
+        "material_index": 13
       },
       {
         "mesh": 250,
@@ -3964,41 +4006,41 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 13
+        "material_index": 14
       },
       {
         "mesh": 251,
         "primitive": 0,
         "mode": 4,
-        "vertices": 467,
-        "indices_or_vertices": 1692,
-        "triangles": 564,
+        "vertices": 934,
+        "indices_or_vertices": 4566,
+        "triangles": 1522,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 12
+        "material_index": 13
       },
       {
         "mesh": 251,
         "primitive": 1,
         "mode": 4,
-        "vertices": 1906,
-        "indices_or_vertices": 8190,
-        "triangles": 2730,
+        "vertices": 3812,
+        "indices_or_vertices": 21822,
+        "triangles": 7274,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 13
+        "material_index": 14
       },
       {
         "mesh": 252,
         "primitive": 0,
         "mode": 4,
-        "vertices": 4500,
-        "indices_or_vertices": 23952,
-        "triangles": 7984,
+        "vertices": 4516,
+        "indices_or_vertices": 23988,
+        "triangles": 7996,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
@@ -4009,9 +4051,9 @@
         "mesh": 253,
         "primitive": 0,
         "mode": 4,
-        "vertices": 4500,
-        "indices_or_vertices": 23952,
-        "triangles": 7984,
+        "vertices": 4516,
+        "indices_or_vertices": 23988,
+        "triangles": 7996,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
@@ -4042,7 +4084,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 14
+        "material_index": 15
       },
       {
         "mesh": 255,
@@ -4068,7 +4110,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 14
+        "material_index": 15
       },
       {
         "mesh": 256,
@@ -4094,7 +4136,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 14
+        "material_index": 15
       },
       {
         "mesh": 257,
@@ -4120,7 +4162,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 14
+        "material_index": 15
       },
       {
         "mesh": 258,
@@ -4250,7 +4292,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 9
+        "material_index": 10
       },
       {
         "mesh": 267,
@@ -4276,7 +4318,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 9
+        "material_index": 10
       },
       {
         "mesh": 268,
@@ -4302,7 +4344,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 8
+        "material_index": 9
       },
       {
         "mesh": 269,
@@ -4484,7 +4526,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 9
+        "material_index": 10
       },
       {
         "mesh": 282,
@@ -4497,7 +4539,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 10
+        "material_index": 11
       },
       {
         "mesh": 282,
@@ -4510,7 +4552,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 11
+        "material_index": 12
       },
       {
         "mesh": 283,
@@ -4523,7 +4565,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 7
+        "material_index": 8
       },
       {
         "mesh": 284,
@@ -4536,7 +4578,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 7
+        "material_index": 8
       },
       {
         "mesh": 285,
@@ -4799,14 +4841,14 @@
         "material_index": 4
       }
     ],
-    "triangles": 82318
+    "triangles": 87844
   },
   "blender_import": {
     "blender_version": "5.2.1 LTS",
     "import_completed": true,
     "mesh_objects": 305,
-    "triangles": 82318,
-    "vertices": 108307,
+    "triangles": 87844,
+    "vertices": 110712,
     "bounds_min_m": [
       -0.23625986278057098,
       -0.02909090928733349,
@@ -4853,18 +4895,18 @@
       },
       "leather_ribbon_surface": {
         "objects": 1,
-        "closed_manifold_objects": 0,
-        "raw_non_manifold_edges": 1402,
-        "geometric_non_manifold_edges": 1104,
-        "geometric_boundary_edges": 1104,
+        "closed_manifold_objects": 1,
+        "raw_non_manifold_edges": 692,
+        "geometric_non_manifold_edges": 0,
+        "geometric_boundary_edges": 0,
         "geometric_edges_with_more_than_two_faces": 0
       },
       "leather_seam_decoration": {
         "objects": 2,
-        "closed_manifold_objects": 0,
-        "raw_non_manifold_edges": 2028,
-        "geometric_non_manifold_edges": 32,
-        "geometric_boundary_edges": 32,
+        "closed_manifold_objects": 2,
+        "raw_non_manifold_edges": 2060,
+        "geometric_non_manifold_edges": 0,
+        "geometric_boundary_edges": 0,
         "geometric_edges_with_more_than_two_faces": 0
       },
       "metal_inlay_or_relief_decoration": {
@@ -5016,7 +5058,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.2631808387387116e-06
+          "signed_volume_m3": 6.090241790860929e-07
         }
       },
       {
@@ -5059,7 +5101,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.263180838738711e-06
+          "signed_volume_m3": 6.090241790860928e-07
         }
       },
       {
@@ -5102,7 +5144,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.2631542057783704e-06
+          "signed_volume_m3": 6.090213849483199e-07
         }
       },
       {
@@ -5145,7 +5187,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.2631542057783702e-06
+          "signed_volume_m3": 6.090213849483196e-07
         }
       },
       {
@@ -9971,7 +10013,8 @@
         "triangles": 172,
         "vertices": 348,
         "materials": [
-          "AZURE_REF | Narrow azure runic light"
+          "AZURE_REF | Narrow azure runic light",
+          "REF_COLOR_energy"
         ],
         "uv_layers": [
           "UVMap"
@@ -10004,7 +10047,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.4207030135999275e-05
+          "signed_volume_m3": 1.4207030135999276e-05
         }
       },
       {
@@ -12716,7 +12759,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.4260495984492327e-05
+          "signed_volume_m3": 1.342977415645259e-05
         }
       },
       {
@@ -12760,7 +12803,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.4260496438734194e-05
+          "signed_volume_m3": 1.3429772822201493e-05
         }
       },
       {
@@ -12804,7 +12847,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.3146939244210376e-05
+          "signed_volume_m3": 1.2381482498280488e-05
         }
       },
       {
@@ -12848,7 +12891,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.3146938641515207e-05
+          "signed_volume_m3": 1.2381482422046632e-05
         }
       },
       {
@@ -14096,7 +14139,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 0.00018395172682306112
+          "signed_volume_m3": 0.00017351661040878715
         }
       },
       {
@@ -14183,7 +14226,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 5.810946172742389e-07
+          "signed_volume_m3": 2.5103303283721264e-07
         }
       },
       {
@@ -14226,7 +14269,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 5.810946172742389e-07
+          "signed_volume_m3": 2.5103303283721264e-07
         }
       },
       {
@@ -14701,7 +14744,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.85980977548443e-07
+          "signed_volume_m3": 4.446098208552894e-08
         }
       },
       {
@@ -14744,7 +14787,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.8598097754844274e-07
+          "signed_volume_m3": 4.446098208552892e-08
         }
       },
       {
@@ -14787,7 +14830,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.8598053090621987e-07
+          "signed_volume_m3": 4.446103057987849e-08
         }
       },
       {
@@ -14830,7 +14873,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.859805309062199e-07
+          "signed_volume_m3": 4.446103057987847e-08
         }
       },
       {
@@ -15701,8 +15744,8 @@
         "name": "41_Continuous_overlapping_leather_ribbon",
         "category": "leather_ribbon_surface",
         "expected_closed_volume": false,
-        "triangles": 3294,
-        "vertices": 2373,
+        "triangles": 8796,
+        "vertices": 4746,
         "materials": [
           "AZURE_REF | Black wrapped calf leather",
           "REF_COLOR_leather"
@@ -15715,11 +15758,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 2373,
-          "edges": 5642,
-          "faces": 3294,
-          "non_manifold_edges": 1402,
-          "boundary_edges": 1402,
+          "vertices": 4746,
+          "edges": 13540,
+          "faces": 8796,
+          "non_manifold_edges": 692,
+          "boundary_edges": 692,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -15728,25 +15771,25 @@
           "signed_volume_m3": null
         },
         "geometric_seam_welded_topology": {
-          "vertices": 2200,
-          "edges": 5493,
-          "faces": 3294,
-          "non_manifold_edges": 1104,
-          "boundary_edges": 1104,
+          "vertices": 4400,
+          "edges": 13194,
+          "faces": 8796,
+          "non_manifold_edges": 0,
+          "boundary_edges": 0,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
-          "closed_manifold": false,
-          "signed_volume_m3": null
+          "closed_manifold": true,
+          "signed_volume_m3": 9.979264796624534e-06
         }
       },
       {
         "name": "42_Leather_wrap_seam",
         "category": "leather_seam_decoration",
         "expected_closed_volume": false,
-        "triangles": 7984,
-        "vertices": 4500,
+        "triangles": 7996,
+        "vertices": 4516,
         "materials": [
           "AZURE_REF | Blackened steel recess plates"
         ],
@@ -15758,11 +15801,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 4500,
-          "edges": 12483,
-          "faces": 7984,
-          "non_manifold_edges": 1014,
-          "boundary_edges": 1014,
+          "vertices": 4516,
+          "edges": 12509,
+          "faces": 7996,
+          "non_manifold_edges": 1030,
+          "boundary_edges": 1030,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -15772,24 +15815,24 @@
         },
         "geometric_seam_welded_topology": {
           "vertices": 4000,
-          "edges": 11984,
-          "faces": 7984,
-          "non_manifold_edges": 16,
-          "boundary_edges": 16,
+          "edges": 11994,
+          "faces": 7996,
+          "non_manifold_edges": 0,
+          "boundary_edges": 0,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
-          "closed_manifold": false,
-          "signed_volume_m3": null
+          "closed_manifold": true,
+          "signed_volume_m3": 5.357313745789516e-07
         }
       },
       {
         "name": "42_Leather_wrap_seam.001",
         "category": "leather_seam_decoration",
         "expected_closed_volume": false,
-        "triangles": 7984,
-        "vertices": 4500,
+        "triangles": 7996,
+        "vertices": 4516,
         "materials": [
           "AZURE_REF | Blackened steel recess plates"
         ],
@@ -15801,11 +15844,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 4500,
-          "edges": 12483,
-          "faces": 7984,
-          "non_manifold_edges": 1014,
-          "boundary_edges": 1014,
+          "vertices": 4516,
+          "edges": 12509,
+          "faces": 7996,
+          "non_manifold_edges": 1030,
+          "boundary_edges": 1030,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -15815,16 +15858,16 @@
         },
         "geometric_seam_welded_topology": {
           "vertices": 4000,
-          "edges": 11984,
-          "faces": 7984,
-          "non_manifold_edges": 16,
-          "boundary_edges": 16,
+          "edges": 11994,
+          "faces": 7996,
+          "non_manifold_edges": 0,
+          "boundary_edges": 0,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
-          "closed_manifold": false,
-          "signed_volume_m3": null
+          "closed_manifold": true,
+          "signed_volume_m3": 5.357315243840352e-07
         }
       },
       {
@@ -16519,7 +16562,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 7.340652642469881e-07
+          "signed_volume_m3": 3.4800634975446203e-07
         }
       },
       {
@@ -16562,7 +16605,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 7.340652642469881e-07
+          "signed_volume_m3": 3.4800634975446203e-07
         }
       },
       {
@@ -16605,7 +16648,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 7.340860834101906e-07
+          "signed_volume_m3": 3.4800503243072227e-07
         }
       },
       {
@@ -16648,7 +16691,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 7.340860834101925e-07
+          "signed_volume_m3": 3.480050324307223e-07
         }
       },
       {
@@ -16691,7 +16734,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.6976732944056043e-07
+          "signed_volume_m3": 9.094652762463781e-08
         }
       },
       {
@@ -16734,7 +16777,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.6976732944056065e-07
+          "signed_volume_m3": 9.094652762463789e-08
         }
       },
       {
@@ -16777,7 +16820,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.6976734482901292e-07
+          "signed_volume_m3": 9.09470369921982e-08
         }
       },
       {
@@ -16820,7 +16863,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.6976734482901324e-07
+          "signed_volume_m3": 9.094703699219814e-08
         }
       },
       {
@@ -16863,7 +16906,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.9627092689010617e-07
+          "signed_volume_m3": 1.849376502596784e-07
         }
       },
       {
@@ -16906,7 +16949,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.962709268901083e-07
+          "signed_volume_m3": 1.8493765025967834e-07
         }
       },
       {
@@ -16949,7 +16992,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.963213680163968e-07
+          "signed_volume_m3": 1.8493761956419595e-07
         }
       },
       {
@@ -16992,7 +17035,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.963213680163989e-07
+          "signed_volume_m3": 1.8493761956419595e-07
         }
       },
       {
@@ -18032,10 +18075,10 @@
     ]
   },
   "texture_channel_summary": {
-    "emissiveTexture": 7,
-    "pbrMetallicRoughness.baseColorTexture": 7
+    "emissiveTexture": 8,
+    "pbrMetallicRoughness.baseColorTexture": 8
   },
-  "reference_projection_material_count": 7,
+  "reference_projection_material_count": 8,
   "passed_export_integrity_checks": true,
   "status": "PASS_WITH_DISCLOSED_LIMITATIONS"
 }
