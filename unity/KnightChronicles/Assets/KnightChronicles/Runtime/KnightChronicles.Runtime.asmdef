@@ -1,0 +1,17 @@
+{
+    "name": "KnightChronicles.Runtime",
+    "rootNamespace": "KnightChronicles",
+    "references": [
+        "UnityEngine.UI",
+        "UnityEngine.AnimationModule"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

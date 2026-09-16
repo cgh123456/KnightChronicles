@@ -1,0 +1,19 @@
+{
+  "objects": 305,
+  "evaluated_triangles": 82318,
+  "evaluated_vertices": 42332,
+  "dimensions_m": [
+    0.47251977026462555,
+    0.05818181857466698,
+    1.5996387004852295
+  ],
+  "source_pixels": [
+    1024,
+    1536
+  ],
+  "assumed_total_length_m": 1.6,
+  "observed": "single front view",
+  "inferred": "reverse side, depth, tang, hidden assembly",
+  "texture_method": "Original front concept projected as colour; original lighting remains baked in.",
+  "detail_method": "Profile-matched closed volumes, blade wedge, cut stones, metal trims, leather wraps; fine engravings in texture."
+}

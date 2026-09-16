@@ -1,0 +1,21 @@
+{
+  "character": "Knight",
+  "action": "2H_Melee_Idle",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 12,
+  "frames": 12,
+  "fps": 12,
+  "loop": true,
+  "directions": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "note": "每行一个方向(行序=directions), 每列一帧(循环)"
+}

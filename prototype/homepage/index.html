@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="《骑士异闻录》主菜单交互原型" />
+    <title>骑士异闻录｜主菜单原型</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="home-shell" aria-label="骑士异闻录主菜单">
+      <div class="ambient ambient--left" aria-hidden="true"></div>
+      <div class="ambient ambient--right" aria-hidden="true"></div>
+
+      <section class="save-warning" id="saveWarning" hidden role="alert">
+        <span class="warning-mark">!</span>
+        <span>进度未能保存</span>
+        <button class="text-button" id="retrySave" type="button">重试</button>
+      </section>
+
+      <header class="topbar">
+        <div class="profile-summary" aria-label="玩家档案摘要">
+          <span class="eyebrow">旅者档案</span>
+          <strong id="playerName">艾尔文</strong>
+          <span id="profileStats">累计 18小时42分 · 27 次远征</span>
+        </div>
+        <div class="brand" aria-label="骑士异闻录">
+          <span class="brand__crest" aria-hidden="true">✦</span>
+          <span class="brand__name">骑士异闻录</span>
+          <span class="brand__subtitle">CHRONICLES OF THE KNIGHT</span>
+        </div>
+        <div class="currency" aria-label="当前宝石余额">
+          <span class="gem-icon" aria-hidden="true">◆</span>
+          <strong id="gemsBalance">1,240</strong>
+          <span class="version">v0.1.0-dev</span>
+        </div>
+      </header>
+
+      <div class="main-grid">
+        <section class="hero-panel" aria-label="当前角色展示">
+          <div class="hero-panel__frame">
+            <div class="hero-panel__rune rune--one" aria-hidden="true">✧</div>
+            <div class="hero-panel__rune rune--two" aria-hidden="true">◇</div>
+            <div class="hero-panel__spotlight" aria-hidden="true"></div>
+            <div class="hero-panel__pedestal" aria-hidden="true"></div>
+            <div class="hero-knight" aria-label="骑士角色展示">
+              <div class="knight-aura" aria-hidden="true"></div>
+              <div class="knight-cape" aria-hidden="true"></div>
+              <div class="knight-body" aria-hidden="true">
+                <span class="knight-helm"></span>
+                <span class="knight-torso"></span>
+                <span class="knight-arm knight-arm--left"></span>
+                <span class="knight-arm knight-arm--right"></span>
+                <span class="knight-leg knight-leg--left"></span>
+                <span class="knight-leg knight-leg--right"></span>
+                <span class="knight-sword"></span>
+              </div>
+            </div>
+            <span class="hero-panel__caption">当前出战配置 · 晨星长剑</span>
+          </div>
+          <div class="character-info">
+            <div>
+              <span class="eyebrow">当前角色</span>
+              <h1>骑士 <small>· 均衡型</small></h1>
+              <p>持盾而行，于黯夜中守望最后的火种。</p>
+            </div>
+            <button class="secondary-button" data-route="角色选择" type="button">更换角色 <span>→</span></button>
+          </div>
+        </section>
+
+        <section class="menu-panel" aria-label="游戏入口">
+          <div class="menu-panel__heading">
+            <span class="eyebrow">远征中枢</span>
+            <h2>选择你的道路</h2>
+          </div>
+          <nav class="menu-list" id="menuList" aria-label="主菜单入口"></nav>
+          <section class="record-card" id="recordCard" aria-live="polite">
+            <div class="record-card__header">
+              <span class="eyebrow">最近一局战绩</span>
+              <span class="record-result">通关</span>
+            </div>
+            <div class="record-card__metrics">
+              <div><strong>第 3 主题</strong><span>最远推进</span></div>
+              <div><strong>184</strong><span>击杀数</span></div>
+              <div><strong>28:41</strong><span>用时</span></div>
+              <div><strong class="metric-gem">+156 ◆</strong><span>宝石获取</span></div>
+            </div>
+            <button class="record-card__action" data-route="历史战绩" type="button">查看详情 <span>→</span></button>
+          </section>
+        </section>
+      </div>
+
+      <footer class="footer-hints" aria-label="操作提示">
+        <span><kbd>↑</kbd><kbd>↓</kbd> 选择</span>
+        <span><kbd>Enter</kbd> 确认</span>
+        <span><kbd>←</kbd><kbd>→</kbd> 切换区域</span>
+        <span><kbd>Esc</kbd> 返回</span>
+      </footer>
+
+      <aside class="dev-tools" aria-label="原型状态切换">
+        <button id="toggleRun" type="button">切换未完成远征</button>
+        <button id="toggleLoading" type="button">切换读取状态</button>
+        <button id="toggleSaveError" type="button">模拟存档失败</button>
+      </aside>
+    </main>
+
+    <dialog id="confirmDialog" class="confirm-dialog" aria-labelledby="dialogTitle">
+      <div class="dialog-icon" aria-hidden="true">!</div>
+      <span class="eyebrow">操作确认</span>
+      <h2 id="dialogTitle">确定退出《骑士异闻录》？</h2>
+      <p id="dialogBody">未保存的设置会在退出前写入本地档案。</p>
+      <div class="dialog-actions">
+        <button class="secondary-button" id="dialogCancel" type="button">取消</button>
+        <button class="danger-button" id="dialogConfirm" type="button">确认退出</button>
+      </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

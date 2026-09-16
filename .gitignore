@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+
+# Unity 子项目有独立 .gitignore(见 unity/KnightChronicles/.gitignore)
+
+# 临时/备份文件
+*.tmp
+*.swp

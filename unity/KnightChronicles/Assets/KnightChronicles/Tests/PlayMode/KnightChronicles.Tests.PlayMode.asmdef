@@ -1,0 +1,23 @@
+{
+    "name": "KnightChronicles.Tests.PlayMode",
+    "rootNamespace": "KnightChronicles.Tests",
+    "references": [
+        "KnightChronicles.Runtime",
+        "UnityEngine.TestRunner",
+        "UnityEngine.UI",
+        "UnityEngine.AnimationModule"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
