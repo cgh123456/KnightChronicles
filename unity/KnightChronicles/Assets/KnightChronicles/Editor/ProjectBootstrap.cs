@@ -18,6 +18,7 @@ namespace KnightChronicles.Editor
         private const string PipelineAssetPath = "Assets/Settings/KnightChroniclesURP.asset";
         private const string RendererDataPath = "Assets/Settings/KnightChronicles_Renderer.asset";
         private const string LobbyScenePath = "Assets/Scenes/Lobby.unity";
+        private const string TownScenePath = "Assets/Scenes/Town.unity";
 
         static ProjectBootstrap()
         {
@@ -53,9 +54,17 @@ namespace KnightChronicles.Editor
             }
 
             var buildScenes = EditorBuildSettings.scenes;
-            if (buildScenes.Length != 1 || buildScenes[0].path != LobbyScenePath || !buildScenes[0].enabled)
+            var expectedScenes = new[]
             {
-                EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(LobbyScenePath, true) };
+                new EditorBuildSettingsScene(LobbyScenePath, true),
+                new EditorBuildSettingsScene(TownScenePath, true),
+            };
+            if (buildScenes.Length != expectedScenes.Length
+                || buildScenes[0].path != expectedScenes[0].path
+                || buildScenes[1].path != expectedScenes[1].path
+                || !buildScenes[0].enabled || !buildScenes[1].enabled)
+            {
+                EditorBuildSettings.scenes = expectedScenes;
                 changed = true;
             }
 

@@ -466,7 +466,7 @@ namespace KnightChronicles.Runtime
         {
             if (_service.ActiveRun == null)
             {
-                StartCoroutine(Transition("正在进入选角与出战配置页（FR-1103）…"));
+                StartCoroutine(EnterTown());
                 return;
             }
 
@@ -478,8 +478,15 @@ namespace KnightChronicles.Runtime
                 delegate
                 {
                     _service.AbandonActiveRun();
-                    StartCoroutine(Transition("已放弃未完成远征，正在进入选角与出战配置页（FR-1103）…"));
+                    StartCoroutine(EnterTown());
                 });
+        }
+
+        /// <summary>进入冒险者小镇（FR-1103 选角页接入前的占位流程）。</summary>
+        private System.Collections.IEnumerator EnterTown()
+        {
+            yield return Transition("正在启程前往冒险者小镇…");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Town");
         }
 
         private void OpenExitConfirm()
@@ -499,7 +506,7 @@ namespace KnightChronicles.Runtime
                 return;
             }
 
-            StartCoroutine(Transition("正在进入选角与出战配置页（FR-1103）…"));
+            StartCoroutine(EnterTown());
         }
 
         private void RetrySave()

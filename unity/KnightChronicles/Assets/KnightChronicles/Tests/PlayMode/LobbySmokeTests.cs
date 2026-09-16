@@ -36,7 +36,7 @@ namespace KnightChronicles.Tests
             var spriteRenderer = knight.GetComponent<SpriteRenderer>();
             Assert.IsNotNull(spriteRenderer, "骑士应有 SpriteRenderer");
             Assert.IsNotNull(spriteRenderer.sprite, "骑士应已获得起始帧 sprite");
-            Assert.IsNotNull(knight.GetComponent<KnightChronicles.Runtime.SpriteSheetAnimator>(), "骑士应有帧动画组件");
+            Assert.IsNotNull(knight.GetComponent<KnightChronicles.Runtime.DirectionalKnightAnimator>(), "骑士应有完整四方向动画器");
 
             var canvas = Object.FindObjectOfType<Canvas>();
             Assert.IsNotNull(canvas, "首页 UGUI 应被创建");

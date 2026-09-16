@@ -40,5 +40,21 @@ namespace KnightChronicles.Editor
             Debug.Log("[场景转换] Lobby.unity 已保存。");
             EditorApplication.Exit(0);
         }
+
+        /// <summary>创建冒险者小镇占位场景并加入构建列表。</summary>
+        public static void CreateTownScene()
+        {
+            var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
+            var bootstrap = new GameObject("TownBootstrap", typeof(KnightChronicles.Runtime.TownBootstrap));
+            EditorSceneManager.SaveScene(scene, "Assets/Scenes/Town.unity");
+            Debug.Log("[场景创建] Town.unity 已生成（TownBootstrap 挂载，其余为运行时构建）。");
+
+            var buildScenes = new System.Collections.Generic.List<EditorBuildSettingsScene>(EditorBuildSettings.scenes)
+            {
+                new EditorBuildSettingsScene("Assets/Scenes/Town.unity", true),
+            };
+            EditorBuildSettings.scenes = buildScenes.ToArray();
+            EditorApplication.Exit(0);
+        }
     }
 }

@@ -13,24 +13,13 @@ namespace KnightChronicles.Runtime
         // 布局常量（世界单位；相机正交高度 10.8、宽度 19.2）。
         // 刻意不用序列化字段：场景里残留的旧值会覆盖代码默认值，导致布局漂移。
         private static readonly Vector2 KnightPosition = new Vector2(-4.6f, -2.95f);
-        private const float KnightScale = 1.2f;
+        private const float KnightScale = 1.5f;
 
         private void Awake()
         {
             CreateCamera();
             CreateBackground();
             CreateKnight();
-        }
-
-        private void Update()
-        {
-            // FR-1102 背景：极缓慢的镜头浮动，替代 3D 环绕镜头。
-            var t = Time.time * 0.08f;
-            var camera = Camera.main;
-            if (camera != null)
-            {
-                camera.transform.position = new Vector3(Mathf.Sin(t) * 0.25f, Mathf.Cos(t * 0.8f) * 0.15f, -10f);
-            }
         }
 
         private static void CreateCamera()
@@ -76,21 +65,10 @@ namespace KnightChronicles.Runtime
 
         private void CreateKnight()
         {
-            var sheet = Resources.Load<Texture2D>("Art/Sprites/Knight_sheet");
-            if (sheet == null)
-            {
-                Debug.LogWarning("HomeLobby2D: 未找到 Art/Sprites/Knight_sheet 图集。");
-                return;
-            }
-
-            var node = new GameObject("LobbyKnight", typeof(SpriteRenderer), typeof(SpriteSheetAnimator));
+            var node = new GameObject("LobbyKnight", typeof(SpriteRenderer), typeof(DirectionalKnightAnimator));
             node.transform.position = new Vector3(KnightPosition.x, KnightPosition.y, 0f);
             node.transform.localScale = Vector3.one * KnightScale;
-            var animator = node.GetComponent<SpriteSheetAnimator>();
-            animator.Sheet = sheet;
-            animator.Row = 0;  // S：面向镜头
-            var renderer = node.GetComponent<SpriteRenderer>();
-            renderer.sortingOrder = 0;
+            node.GetComponent<SpriteRenderer>().sortingOrder = 0;
         }
     }
 }

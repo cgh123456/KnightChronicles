@@ -3,7 +3,8 @@
     "rootNamespace": "KnightChronicles",
     "references": [
         "UnityEngine.UI",
-        "UnityEngine.AnimationModule"
+        "UnityEngine.AnimationModule",
+        "UnityEngine.Physics2DModule"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
