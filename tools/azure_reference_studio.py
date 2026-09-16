@@ -192,6 +192,18 @@ def setup_studio(out_dir, quick=False):
     scene.unit_settings.scale_length = 1.0
     scene.render.engine = 'CYCLES'
     scene.cycles.device = 'CPU'
+    # Use the available local Apple GPU without saving user preference changes.
+    try:
+        prefs = bpy.context.preferences.addons['cycles'].preferences
+        prefs.compute_device_type = 'METAL'
+        prefs.get_devices()
+        metal_devices = [device for device in prefs.devices if device.type == 'METAL']
+        if metal_devices:
+            for device in prefs.devices:
+                device.use = device.type == 'METAL'
+            scene.cycles.device = 'GPU'
+    except (AttributeError, TypeError, RuntimeError):
+        scene.cycles.device = 'CPU'
     scene.cycles.samples = 24 if quick else 64
     scene.cycles.use_denoising = True
     scene.cycles.use_adaptive_sampling = True

@@ -1,26 +1,26 @@
 {
   "asset_path": "/Users/chenguanhan/游戏项目/骑士异闻录/assets/models/azure_reference_reconstruction/Azure_Reference_Reconstruction.glb",
   "validation_scope": "Export parsing, independent fresh import, dimensions, textures, normals and topology; no repairs.",
-  "validated_at_utc": "2026-09-16T08:55:58.391298+00:00",
+  "validated_at_utc": "2026-09-16T09:07:10.269921+00:00",
   "appearance_disclosure": "Fine visual engraving and wear use projection of the original concept image. Original lighting remains baked into that image. This is not a fully baked physically based material set.",
   "single_view_disclosure": "The rear side, thickness and hidden construction are inferred from a single front concept view.",
   "errors": [],
   "warnings": [
     "Reference-image projection is present; this report does not certify independent albedo/normal/roughness/metalness texture baking."
   ],
-  "asset_sha256": "0d96cf1b047bd28899cdbac3b3c255c9e920225a530afe6f23b881231ab999c2",
-  "asset_modified_at_utc": "2026-09-16T08:54:59.123813+00:00",
+  "asset_sha256": "4b78841c150bff267a10b01db328ce4ce7bada3b7a139a61e2432a564e50d50a",
+  "asset_modified_at_utc": "2026-09-16T09:04:50.298291+00:00",
   "glb": {
-    "file_bytes": 6166104,
+    "file_bytes": 6184592,
     "header_version": 2,
     "chunks": [
       {
         "type": "0x4e4f534a",
-        "bytes": 306496
+        "bytes": 310136
       },
       {
         "type": "0x4e4942",
-        "bytes": 5859580
+        "bytes": 5874428
       }
     ],
     "gltf_asset": {
@@ -32,8 +32,8 @@
       "KHR_materials_emissive_strength",
       "KHR_materials_specular"
     ],
-    "node_count": 306,
-    "mesh_count": 305,
+    "node_count": 308,
+    "mesh_count": 307,
     "material_count": 16,
     "texture_count": 16,
     "image_count": 1,
@@ -2790,7 +2790,7 @@
         "mesh": 169,
         "primitive": 0,
         "mode": 4,
-        "vertices": 732,
+        "vertices": 756,
         "indices_or_vertices": 1452,
         "triangles": 484,
         "triangle_count_integral": true,
@@ -2803,7 +2803,7 @@
         "mesh": 170,
         "primitive": 0,
         "mode": 4,
-        "vertices": 732,
+        "vertices": 756,
         "indices_or_vertices": 1452,
         "triangles": 484,
         "triangle_count_integral": true,
@@ -2816,7 +2816,7 @@
         "mesh": 171,
         "primitive": 0,
         "mode": 4,
-        "vertices": 732,
+        "vertices": 756,
         "indices_or_vertices": 1452,
         "triangles": 484,
         "triangle_count_integral": true,
@@ -2829,7 +2829,7 @@
         "mesh": 172,
         "primitive": 0,
         "mode": 4,
-        "vertices": 732,
+        "vertices": 756,
         "indices_or_vertices": 1452,
         "triangles": 484,
         "triangle_count_integral": true,
@@ -2842,7 +2842,7 @@
         "mesh": 173,
         "primitive": 0,
         "mode": 4,
-        "vertices": 516,
+        "vertices": 528,
         "indices_or_vertices": 1020,
         "triangles": 340,
         "triangle_count_integral": true,
@@ -2855,7 +2855,7 @@
         "mesh": 174,
         "primitive": 0,
         "mode": 4,
-        "vertices": 516,
+        "vertices": 528,
         "indices_or_vertices": 1020,
         "triangles": 340,
         "triangle_count_integral": true,
@@ -2868,7 +2868,7 @@
         "mesh": 175,
         "primitive": 0,
         "mode": 4,
-        "vertices": 516,
+        "vertices": 528,
         "indices_or_vertices": 1020,
         "triangles": 340,
         "triangle_count_integral": true,
@@ -2881,7 +2881,7 @@
         "mesh": 176,
         "primitive": 0,
         "mode": 4,
-        "vertices": 516,
+        "vertices": 528,
         "indices_or_vertices": 1020,
         "triangles": 340,
         "triangle_count_integral": true,
@@ -3518,19 +3518,58 @@
         "mesh": 219,
         "primitive": 0,
         "mode": 4,
-        "vertices": 52,
-        "indices_or_vertices": 90,
-        "triangles": 30,
+        "vertices": 32,
+        "indices_or_vertices": 48,
+        "triangles": 16,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 8
+        "material_index": 3
+      },
+      {
+        "mesh": 219,
+        "primitive": 1,
+        "mode": 4,
+        "vertices": 24,
+        "indices_or_vertices": 48,
+        "triangles": 16,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 10
       },
       {
         "mesh": 220,
         "primitive": 0,
         "mode": 4,
+        "vertices": 32,
+        "indices_or_vertices": 48,
+        "triangles": 16,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 3
+      },
+      {
+        "mesh": 220,
+        "primitive": 1,
+        "mode": 4,
+        "vertices": 24,
+        "indices_or_vertices": 48,
+        "triangles": 16,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 10
+      },
+      {
+        "mesh": 221,
+        "primitive": 0,
+        "mode": 4,
         "vertices": 52,
         "indices_or_vertices": 90,
         "triangles": 30,
@@ -3541,82 +3580,69 @@
         "material_index": 8
       },
       {
-        "mesh": 221,
-        "primitive": 0,
-        "mode": 4,
-        "vertices": 458,
-        "indices_or_vertices": 672,
-        "triangles": 224,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 2
-      },
-      {
-        "mesh": 221,
-        "primitive": 1,
-        "mode": 4,
-        "vertices": 262,
-        "indices_or_vertices": 420,
-        "triangles": 140,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 9
-      },
-      {
         "mesh": 222,
         "primitive": 0,
         "mode": 4,
-        "vertices": 458,
-        "indices_or_vertices": 672,
-        "triangles": 224,
+        "vertices": 52,
+        "indices_or_vertices": 90,
+        "triangles": 30,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 2
-      },
-      {
-        "mesh": 222,
-        "primitive": 1,
-        "mode": 4,
-        "vertices": 262,
-        "indices_or_vertices": 420,
-        "triangles": 140,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 9
+        "material_index": 8
       },
       {
         "mesh": 223,
         "primitive": 0,
         "mode": 4,
-        "vertices": 372,
-        "indices_or_vertices": 732,
-        "triangles": 244,
+        "vertices": 458,
+        "indices_or_vertices": 672,
+        "triangles": 224,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 3
+        "material_index": 2
+      },
+      {
+        "mesh": 223,
+        "primitive": 1,
+        "mode": 4,
+        "vertices": 262,
+        "indices_or_vertices": 420,
+        "triangles": 140,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 9
       },
       {
         "mesh": 224,
         "primitive": 0,
         "mode": 4,
-        "vertices": 372,
-        "indices_or_vertices": 732,
-        "triangles": 244,
+        "vertices": 458,
+        "indices_or_vertices": 672,
+        "triangles": 224,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 3
+        "material_index": 2
+      },
+      {
+        "mesh": 224,
+        "primitive": 1,
+        "mode": 4,
+        "vertices": 262,
+        "indices_or_vertices": 420,
+        "triangles": 140,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 9
       },
       {
         "mesh": 225,
@@ -3655,7 +3681,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 5
+        "material_index": 3
       },
       {
         "mesh": 228,
@@ -3668,7 +3694,7 @@
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 5
+        "material_index": 3
       },
       {
         "mesh": 229,
@@ -3700,27 +3726,27 @@
         "mesh": 231,
         "primitive": 0,
         "mode": 4,
-        "vertices": 300,
-        "indices_or_vertices": 588,
-        "triangles": 196,
+        "vertices": 372,
+        "indices_or_vertices": 732,
+        "triangles": 244,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 4
+        "material_index": 5
       },
       {
         "mesh": 232,
         "primitive": 0,
         "mode": 4,
-        "vertices": 300,
-        "indices_or_vertices": 588,
-        "triangles": 196,
+        "vertices": 372,
+        "indices_or_vertices": 732,
+        "triangles": 244,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 4
+        "material_index": 5
       },
       {
         "mesh": 233,
@@ -3752,79 +3778,79 @@
         "mesh": 235,
         "primitive": 0,
         "mode": 4,
-        "vertices": 394,
-        "indices_or_vertices": 576,
-        "triangles": 192,
+        "vertices": 300,
+        "indices_or_vertices": 588,
+        "triangles": 196,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 3
-      },
-      {
-        "mesh": 235,
-        "primitive": 1,
-        "mode": 4,
-        "vertices": 206,
-        "indices_or_vertices": 324,
-        "triangles": 108,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 10
+        "material_index": 4
       },
       {
         "mesh": 236,
         "primitive": 0,
         "mode": 4,
-        "vertices": 394,
-        "indices_or_vertices": 576,
-        "triangles": 192,
+        "vertices": 300,
+        "indices_or_vertices": 588,
+        "triangles": 196,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 3
-      },
-      {
-        "mesh": 236,
-        "primitive": 1,
-        "mode": 4,
-        "vertices": 206,
-        "indices_or_vertices": 324,
-        "triangles": 108,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 10
+        "material_index": 4
       },
       {
         "mesh": 237,
         "primitive": 0,
         "mode": 4,
-        "vertices": 228,
-        "indices_or_vertices": 444,
-        "triangles": 148,
+        "vertices": 394,
+        "indices_or_vertices": 576,
+        "triangles": 192,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 4
+        "material_index": 3
+      },
+      {
+        "mesh": 237,
+        "primitive": 1,
+        "mode": 4,
+        "vertices": 206,
+        "indices_or_vertices": 324,
+        "triangles": 108,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 10
       },
       {
         "mesh": 238,
         "primitive": 0,
         "mode": 4,
-        "vertices": 228,
-        "indices_or_vertices": 444,
-        "triangles": 148,
+        "vertices": 394,
+        "indices_or_vertices": 576,
+        "triangles": 192,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 4
+        "material_index": 3
+      },
+      {
+        "mesh": 238,
+        "primitive": 1,
+        "mode": 4,
+        "vertices": 206,
+        "indices_or_vertices": 324,
+        "triangles": 108,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 10
       },
       {
         "mesh": 239,
@@ -3856,27 +3882,27 @@
         "mesh": 241,
         "primitive": 0,
         "mode": 4,
-        "vertices": 156,
-        "indices_or_vertices": 300,
-        "triangles": 100,
+        "vertices": 228,
+        "indices_or_vertices": 444,
+        "triangles": 148,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 5
+        "material_index": 4
       },
       {
         "mesh": 242,
         "primitive": 0,
         "mode": 4,
-        "vertices": 156,
-        "indices_or_vertices": 300,
-        "triangles": 100,
+        "vertices": 228,
+        "indices_or_vertices": 444,
+        "triangles": 148,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 5
+        "material_index": 4
       },
       {
         "mesh": 243,
@@ -3908,6 +3934,32 @@
         "mesh": 245,
         "primitive": 0,
         "mode": 4,
+        "vertices": 156,
+        "indices_or_vertices": 300,
+        "triangles": 100,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 5
+      },
+      {
+        "mesh": 246,
+        "primitive": 0,
+        "mode": 4,
+        "vertices": 156,
+        "indices_or_vertices": 300,
+        "triangles": 100,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 5
+      },
+      {
+        "mesh": 247,
+        "primitive": 0,
+        "mode": 4,
         "vertices": 264,
         "indices_or_vertices": 384,
         "triangles": 128,
@@ -3918,7 +3970,7 @@
         "material_index": 2
       },
       {
-        "mesh": 245,
+        "mesh": 247,
         "primitive": 1,
         "mode": 4,
         "vertices": 120,
@@ -3929,32 +3981,6 @@
         "has_uv0": true,
         "normal_count_matches_positions": true,
         "material_index": 9
-      },
-      {
-        "mesh": 246,
-        "primitive": 0,
-        "mode": 4,
-        "vertices": 36,
-        "indices_or_vertices": 60,
-        "triangles": 20,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 4
-      },
-      {
-        "mesh": 247,
-        "primitive": 0,
-        "mode": 4,
-        "vertices": 36,
-        "indices_or_vertices": 60,
-        "triangles": 20,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 4
       },
       {
         "mesh": 248,
@@ -3986,6 +4012,32 @@
         "mesh": 250,
         "primitive": 0,
         "mode": 4,
+        "vertices": 36,
+        "indices_or_vertices": 60,
+        "triangles": 20,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 4
+      },
+      {
+        "mesh": 251,
+        "primitive": 0,
+        "mode": 4,
+        "vertices": 36,
+        "indices_or_vertices": 60,
+        "triangles": 20,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 4
+      },
+      {
+        "mesh": 252,
+        "primitive": 0,
+        "mode": 4,
         "vertices": 396,
         "indices_or_vertices": 1956,
         "triangles": 652,
@@ -3996,7 +4048,7 @@
         "material_index": 13
       },
       {
-        "mesh": 250,
+        "mesh": 252,
         "primitive": 1,
         "mode": 4,
         "vertices": 448,
@@ -4009,7 +4061,7 @@
         "material_index": 14
       },
       {
-        "mesh": 251,
+        "mesh": 253,
         "primitive": 0,
         "mode": 4,
         "vertices": 934,
@@ -4022,7 +4074,7 @@
         "material_index": 13
       },
       {
-        "mesh": 251,
+        "mesh": 253,
         "primitive": 1,
         "mode": 4,
         "vertices": 3812,
@@ -4035,7 +4087,7 @@
         "material_index": 14
       },
       {
-        "mesh": 252,
+        "mesh": 254,
         "primitive": 0,
         "mode": 4,
         "vertices": 4516,
@@ -4048,7 +4100,7 @@
         "material_index": 2
       },
       {
-        "mesh": 253,
+        "mesh": 255,
         "primitive": 0,
         "mode": 4,
         "vertices": 4516,
@@ -4059,58 +4111,6 @@
         "has_uv0": true,
         "normal_count_matches_positions": true,
         "material_index": 2
-      },
-      {
-        "mesh": 254,
-        "primitive": 0,
-        "mode": 4,
-        "vertices": 264,
-        "indices_or_vertices": 384,
-        "triangles": 128,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 4
-      },
-      {
-        "mesh": 254,
-        "primitive": 1,
-        "mode": 4,
-        "vertices": 120,
-        "indices_or_vertices": 180,
-        "triangles": 60,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 15
-      },
-      {
-        "mesh": 255,
-        "primitive": 0,
-        "mode": 4,
-        "vertices": 264,
-        "indices_or_vertices": 384,
-        "triangles": 128,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 4
-      },
-      {
-        "mesh": 255,
-        "primitive": 1,
-        "mode": 4,
-        "vertices": 120,
-        "indices_or_vertices": 180,
-        "triangles": 60,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 15
       },
       {
         "mesh": 256,
@@ -4168,27 +4168,53 @@
         "mesh": 258,
         "primitive": 0,
         "mode": 4,
-        "vertices": 24,
-        "indices_or_vertices": 36,
-        "triangles": 12,
+        "vertices": 264,
+        "indices_or_vertices": 384,
+        "triangles": 128,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 5
+        "material_index": 4
+      },
+      {
+        "mesh": 258,
+        "primitive": 1,
+        "mode": 4,
+        "vertices": 120,
+        "indices_or_vertices": 180,
+        "triangles": 60,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 15
       },
       {
         "mesh": 259,
         "primitive": 0,
         "mode": 4,
-        "vertices": 24,
-        "indices_or_vertices": 36,
-        "triangles": 12,
+        "vertices": 264,
+        "indices_or_vertices": 384,
+        "triangles": 128,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 5
+        "material_index": 4
+      },
+      {
+        "mesh": 259,
+        "primitive": 1,
+        "mode": 4,
+        "vertices": 120,
+        "indices_or_vertices": 180,
+        "triangles": 60,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 15
       },
       {
         "mesh": 260,
@@ -4272,6 +4298,32 @@
         "mesh": 266,
         "primitive": 0,
         "mode": 4,
+        "vertices": 24,
+        "indices_or_vertices": 36,
+        "triangles": 12,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 5
+      },
+      {
+        "mesh": 267,
+        "primitive": 0,
+        "mode": 4,
+        "vertices": 24,
+        "indices_or_vertices": 36,
+        "triangles": 12,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 5
+      },
+      {
+        "mesh": 268,
+        "primitive": 0,
+        "mode": 4,
         "vertices": 390,
         "indices_or_vertices": 1956,
         "triangles": 652,
@@ -4282,7 +4334,7 @@
         "material_index": 3
       },
       {
-        "mesh": 266,
+        "mesh": 268,
         "primitive": 1,
         "mode": 4,
         "vertices": 378,
@@ -4295,7 +4347,7 @@
         "material_index": 10
       },
       {
-        "mesh": 267,
+        "mesh": 269,
         "primitive": 0,
         "mode": 4,
         "vertices": 424,
@@ -4308,7 +4360,7 @@
         "material_index": 3
       },
       {
-        "mesh": 267,
+        "mesh": 269,
         "primitive": 1,
         "mode": 4,
         "vertices": 542,
@@ -4321,7 +4373,7 @@
         "material_index": 10
       },
       {
-        "mesh": 268,
+        "mesh": 270,
         "primitive": 0,
         "mode": 4,
         "vertices": 1018,
@@ -4334,7 +4386,7 @@
         "material_index": 2
       },
       {
-        "mesh": 268,
+        "mesh": 270,
         "primitive": 1,
         "mode": 4,
         "vertices": 530,
@@ -4347,36 +4399,10 @@
         "material_index": 9
       },
       {
-        "mesh": 269,
-        "primitive": 0,
-        "mode": 4,
-        "vertices": 444,
-        "indices_or_vertices": 876,
-        "triangles": 292,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 5
-      },
-      {
-        "mesh": 270,
-        "primitive": 0,
-        "mode": 4,
-        "vertices": 444,
-        "indices_or_vertices": 876,
-        "triangles": 292,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 5
-      },
-      {
         "mesh": 271,
         "primitive": 0,
         "mode": 4,
-        "vertices": 444,
+        "vertices": 452,
         "indices_or_vertices": 876,
         "triangles": 292,
         "triangle_count_integral": true,
@@ -4389,7 +4415,7 @@
         "mesh": 272,
         "primitive": 0,
         "mode": 4,
-        "vertices": 444,
+        "vertices": 452,
         "indices_or_vertices": 876,
         "triangles": 292,
         "triangle_count_integral": true,
@@ -4402,33 +4428,33 @@
         "mesh": 273,
         "primitive": 0,
         "mode": 4,
-        "vertices": 372,
-        "indices_or_vertices": 732,
-        "triangles": 244,
+        "vertices": 452,
+        "indices_or_vertices": 876,
+        "triangles": 292,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 3
+        "material_index": 5
       },
       {
         "mesh": 274,
         "primitive": 0,
         "mode": 4,
-        "vertices": 372,
-        "indices_or_vertices": 732,
-        "triangles": 244,
+        "vertices": 452,
+        "indices_or_vertices": 876,
+        "triangles": 292,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 3
+        "material_index": 5
       },
       {
         "mesh": 275,
         "primitive": 0,
         "mode": 4,
-        "vertices": 372,
+        "vertices": 384,
         "indices_or_vertices": 732,
         "triangles": 244,
         "triangle_count_integral": true,
@@ -4441,7 +4467,7 @@
         "mesh": 276,
         "primitive": 0,
         "mode": 4,
-        "vertices": 372,
+        "vertices": 384,
         "indices_or_vertices": 732,
         "triangles": 244,
         "triangle_count_integral": true,
@@ -4454,33 +4480,33 @@
         "mesh": 277,
         "primitive": 0,
         "mode": 4,
-        "vertices": 516,
-        "indices_or_vertices": 1020,
-        "triangles": 340,
+        "vertices": 382,
+        "indices_or_vertices": 732,
+        "triangles": 244,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 4
+        "material_index": 3
       },
       {
         "mesh": 278,
         "primitive": 0,
         "mode": 4,
-        "vertices": 516,
-        "indices_or_vertices": 1020,
-        "triangles": 340,
+        "vertices": 382,
+        "indices_or_vertices": 732,
+        "triangles": 244,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 4
+        "material_index": 3
       },
       {
         "mesh": 279,
         "primitive": 0,
         "mode": 4,
-        "vertices": 516,
+        "vertices": 552,
         "indices_or_vertices": 1020,
         "triangles": 340,
         "triangle_count_integral": true,
@@ -4493,7 +4519,7 @@
         "mesh": 280,
         "primitive": 0,
         "mode": 4,
-        "vertices": 516,
+        "vertices": 552,
         "indices_or_vertices": 1020,
         "triangles": 340,
         "triangle_count_integral": true,
@@ -4506,6 +4532,32 @@
         "mesh": 281,
         "primitive": 0,
         "mode": 4,
+        "vertices": 540,
+        "indices_or_vertices": 1020,
+        "triangles": 340,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 4
+      },
+      {
+        "mesh": 282,
+        "primitive": 0,
+        "mode": 4,
+        "vertices": 540,
+        "indices_or_vertices": 1020,
+        "triangles": 340,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 4
+      },
+      {
+        "mesh": 283,
+        "primitive": 0,
+        "mode": 4,
         "vertices": 264,
         "indices_or_vertices": 384,
         "triangles": 128,
@@ -4516,7 +4568,7 @@
         "material_index": 3
       },
       {
-        "mesh": 281,
+        "mesh": 283,
         "primitive": 1,
         "mode": 4,
         "vertices": 120,
@@ -4529,7 +4581,7 @@
         "material_index": 10
       },
       {
-        "mesh": 282,
+        "mesh": 284,
         "primitive": 0,
         "mode": 4,
         "vertices": 264,
@@ -4542,7 +4594,7 @@
         "material_index": 11
       },
       {
-        "mesh": 282,
+        "mesh": 284,
         "primitive": 1,
         "mode": 4,
         "vertices": 120,
@@ -4555,56 +4607,30 @@
         "material_index": 12
       },
       {
-        "mesh": 283,
-        "primitive": 0,
-        "mode": 4,
-        "vertices": 52,
-        "indices_or_vertices": 90,
-        "triangles": 30,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 8
-      },
-      {
-        "mesh": 284,
-        "primitive": 0,
-        "mode": 4,
-        "vertices": 52,
-        "indices_or_vertices": 90,
-        "triangles": 30,
-        "triangle_count_integral": true,
-        "has_normals": true,
-        "has_uv0": true,
-        "normal_count_matches_positions": true,
-        "material_index": 8
-      },
-      {
         "mesh": 285,
         "primitive": 0,
         "mode": 4,
-        "vertices": 228,
-        "indices_or_vertices": 444,
-        "triangles": 148,
+        "vertices": 52,
+        "indices_or_vertices": 90,
+        "triangles": 30,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 4
+        "material_index": 8
       },
       {
         "mesh": 286,
         "primitive": 0,
         "mode": 4,
-        "vertices": 228,
-        "indices_or_vertices": 444,
-        "triangles": 148,
+        "vertices": 52,
+        "indices_or_vertices": 90,
+        "triangles": 30,
         "triangle_count_integral": true,
         "has_normals": true,
         "has_uv0": true,
         "normal_count_matches_positions": true,
-        "material_index": 4
+        "material_index": 8
       },
       {
         "mesh": 287,
@@ -4839,16 +4865,42 @@
         "has_uv0": true,
         "normal_count_matches_positions": true,
         "material_index": 4
+      },
+      {
+        "mesh": 305,
+        "primitive": 0,
+        "mode": 4,
+        "vertices": 228,
+        "indices_or_vertices": 444,
+        "triangles": 148,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 4
+      },
+      {
+        "mesh": 306,
+        "primitive": 0,
+        "mode": 4,
+        "vertices": 228,
+        "indices_or_vertices": 444,
+        "triangles": 148,
+        "triangle_count_integral": true,
+        "has_normals": true,
+        "has_uv0": true,
+        "normal_count_matches_positions": true,
+        "material_index": 4
       }
     ],
-    "triangles": 87844
+    "triangles": 87908
   },
   "blender_import": {
     "blender_version": "5.2.1 LTS",
     "import_completed": true,
-    "mesh_objects": 305,
-    "triangles": 87844,
-    "vertices": 110712,
+    "mesh_objects": 307,
+    "triangles": 87908,
+    "vertices": 111164,
     "bounds_min_m": [
       -0.23625986278057098,
       -0.02909090928733349,
@@ -4857,12 +4909,12 @@
     "bounds_max_m": [
       0.23625990748405457,
       0.02909090928733349,
-      1.5996387004852295
+      1.599599838256836
     ],
     "dimensions_m": {
       "width_x": 0.47251977026462555,
       "depth_y": 0.05818181857466698,
-      "height_z": 1.5996387004852295
+      "height_z": 1.599599838256836
     },
     "dimensions_expected_m": {
       "width_x": 0.473,
@@ -4910,9 +4962,9 @@
         "geometric_edges_with_more_than_two_faces": 0
       },
       "metal_inlay_or_relief_decoration": {
-        "objects": 279,
-        "closed_manifold_objects": 279,
-        "raw_non_manifold_edges": 80064,
+        "objects": 281,
+        "closed_manifold_objects": 281,
+        "raw_non_manifold_edges": 80516,
         "geometric_non_manifold_edges": 0,
         "geometric_boundary_edges": 0,
         "geometric_edges_with_more_than_two_faces": 0
@@ -12155,7 +12207,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 0.0001954353066731556
+          "signed_volume_m3": 0.00018240568831139685
         }
       },
       {
@@ -12199,7 +12251,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 0.00019543530665613263
+          "signed_volume_m3": 0.0001821235649571082
         }
       },
       {
@@ -12207,7 +12259,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 484,
-        "vertices": 732,
+        "vertices": 756,
         "materials": [
           "AZURE_REF | Sharpened silver bevel"
         ],
@@ -12219,11 +12271,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 732,
-          "edges": 1092,
+          "vertices": 756,
+          "edges": 1104,
           "faces": 484,
-          "non_manifold_edges": 732,
-          "boundary_edges": 732,
+          "non_manifold_edges": 756,
+          "boundary_edges": 756,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -12242,7 +12294,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.2515467832723488e-06
+          "signed_volume_m3": 1.2485014555690616e-06
         }
       },
       {
@@ -12250,7 +12302,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 484,
-        "vertices": 732,
+        "vertices": 756,
         "materials": [
           "AZURE_REF | Sharpened silver bevel"
         ],
@@ -12262,11 +12314,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 732,
-          "edges": 1092,
+          "vertices": 756,
+          "edges": 1104,
           "faces": 484,
-          "non_manifold_edges": 732,
-          "boundary_edges": 732,
+          "non_manifold_edges": 756,
+          "boundary_edges": 756,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -12285,7 +12337,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.2515467832723484e-06
+          "signed_volume_m3": 1.2485014555690612e-06
         }
       },
       {
@@ -12293,7 +12345,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 484,
-        "vertices": 732,
+        "vertices": 756,
         "materials": [
           "AZURE_REF | Sharpened silver bevel"
         ],
@@ -12305,11 +12357,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 732,
-          "edges": 1092,
+          "vertices": 756,
+          "edges": 1104,
           "faces": 484,
-          "non_manifold_edges": 732,
-          "boundary_edges": 732,
+          "non_manifold_edges": 756,
+          "boundary_edges": 756,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -12328,7 +12380,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.2515485586682272e-06
+          "signed_volume_m3": 1.2481118848921358e-06
         }
       },
       {
@@ -12336,7 +12388,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 484,
-        "vertices": 732,
+        "vertices": 756,
         "materials": [
           "AZURE_REF | Sharpened silver bevel"
         ],
@@ -12348,11 +12400,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 732,
-          "edges": 1092,
+          "vertices": 756,
+          "edges": 1104,
           "faces": 484,
-          "non_manifold_edges": 732,
-          "boundary_edges": 732,
+          "non_manifold_edges": 756,
+          "boundary_edges": 756,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -12371,7 +12423,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.2515485586682264e-06
+          "signed_volume_m3": 1.248111884892137e-06
         }
       },
       {
@@ -12379,7 +12431,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 340,
-        "vertices": 516,
+        "vertices": 528,
         "materials": [
           "AZURE_REF | Worn pale gold ridges"
         ],
@@ -12391,11 +12443,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 516,
-          "edges": 768,
+          "vertices": 528,
+          "edges": 774,
           "faces": 340,
-          "non_manifold_edges": 516,
-          "boundary_edges": 516,
+          "non_manifold_edges": 528,
+          "boundary_edges": 528,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -12414,7 +12466,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.148162263637866e-07
+          "signed_volume_m3": 3.1475710321630116e-07
         }
       },
       {
@@ -12422,7 +12474,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 340,
-        "vertices": 516,
+        "vertices": 528,
         "materials": [
           "AZURE_REF | Worn pale gold ridges"
         ],
@@ -12434,11 +12486,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 516,
-          "edges": 768,
+          "vertices": 528,
+          "edges": 774,
           "faces": 340,
-          "non_manifold_edges": 516,
-          "boundary_edges": 516,
+          "non_manifold_edges": 528,
+          "boundary_edges": 528,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -12457,7 +12509,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.1481622636378745e-07
+          "signed_volume_m3": 3.147571032163003e-07
         }
       },
       {
@@ -12465,7 +12517,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 340,
-        "vertices": 516,
+        "vertices": 528,
         "materials": [
           "AZURE_REF | Worn pale gold ridges"
         ],
@@ -12477,11 +12529,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 516,
-          "edges": 768,
+          "vertices": 528,
+          "edges": 774,
           "faces": 340,
-          "non_manifold_edges": 516,
-          "boundary_edges": 516,
+          "non_manifold_edges": 528,
+          "boundary_edges": 528,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -12500,7 +12552,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.1481651168191786e-07
+          "signed_volume_m3": 3.1449554162427836e-07
         }
       },
       {
@@ -12508,7 +12560,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 340,
-        "vertices": 516,
+        "vertices": 528,
         "materials": [
           "AZURE_REF | Worn pale gold ridges"
         ],
@@ -12520,11 +12572,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 516,
-          "edges": 768,
+          "vertices": 528,
+          "edges": 774,
           "faces": 340,
-          "non_manifold_edges": 516,
-          "boundary_edges": 516,
+          "non_manifold_edges": 528,
+          "boundary_edges": 528,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -12543,7 +12595,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.1481651168191786e-07
+          "signed_volume_m3": 3.1449554162427793e-07
         }
       },
       {
@@ -12586,7 +12638,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.367218232720933e-07
+          "signed_volume_m3": 1.3672205087849842e-07
         }
       },
       {
@@ -12629,7 +12681,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.367218232720933e-07
+          "signed_volume_m3": 1.3672205087849842e-07
         }
       },
       {
@@ -12672,7 +12724,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.367216918308155e-07
+          "signed_volume_m3": 1.3672191943704306e-07
         }
       },
       {
@@ -12715,7 +12767,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.367216918308155e-07
+          "signed_volume_m3": 1.3672191943704306e-07
         }
       },
       {
@@ -12759,7 +12811,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.342977415645259e-05
+          "signed_volume_m3": 1.085084615808327e-05
         }
       },
       {
@@ -12803,7 +12855,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.3429772822201493e-05
+          "signed_volume_m3": 1.0850846072234877e-05
         }
       },
       {
@@ -12934,7 +12986,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529658662942701e-09
+          "signed_volume_m3": 9.529658662975662e-09
         }
       },
       {
@@ -12977,7 +13029,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529658662942701e-09
+          "signed_volume_m3": 9.529658662975768e-09
         }
       },
       {
@@ -13020,7 +13072,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529646043928958e-09
+          "signed_volume_m3": 9.529646043936102e-09
         }
       },
       {
@@ -13063,7 +13115,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529646043928958e-09
+          "signed_volume_m3": 9.529646043936062e-09
         }
       },
       {
@@ -13106,7 +13158,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.52968350422006e-09
+          "signed_volume_m3": 9.529683504216341e-09
         }
       },
       {
@@ -13149,7 +13201,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529683504220113e-09
+          "signed_volume_m3": 9.529683504216394e-09
         }
       },
       {
@@ -13192,7 +13244,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529684445645228e-09
+          "signed_volume_m3": 9.529684445659548e-09
         }
       },
       {
@@ -13235,7 +13287,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529684445645254e-09
+          "signed_volume_m3": 9.529684445659548e-09
         }
       },
       {
@@ -13278,7 +13330,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529709062356421e-09
+          "signed_volume_m3": 9.529709062365901e-09
         }
       },
       {
@@ -13321,7 +13373,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529709062356309e-09
+          "signed_volume_m3": 9.529709062366007e-09
         }
       },
       {
@@ -13364,7 +13416,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529693676085835e-09
+          "signed_volume_m3": 9.529693676080713e-09
         }
       },
       {
@@ -13407,7 +13459,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529693676085782e-09
+          "signed_volume_m3": 9.529693676080713e-09
         }
       },
       {
@@ -13450,7 +13502,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529676087721401e-09
+          "signed_volume_m3": 9.529676087722328e-09
         }
       },
       {
@@ -13493,7 +13545,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529676087721309e-09
+          "signed_volume_m3": 9.529676087722328e-09
         }
       },
       {
@@ -13536,7 +13588,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529656230736562e-09
+          "signed_volume_m3": 9.529656230737955e-09
         }
       },
       {
@@ -13579,7 +13631,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529656230736628e-09
+          "signed_volume_m3": 9.529656230737981e-09
         }
       },
       {
@@ -13622,7 +13674,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529642349920886e-09
+          "signed_volume_m3": 9.529642349926319e-09
         }
       },
       {
@@ -13665,7 +13717,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529642349920767e-09
+          "signed_volume_m3": 9.529642349926412e-09
         }
       },
       {
@@ -13708,7 +13760,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.52960194635718e-09
+          "signed_volume_m3": 9.529601946350772e-09
         }
       },
       {
@@ -13751,7 +13803,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529601946357075e-09
+          "signed_volume_m3": 9.529601946350772e-09
         }
       },
       {
@@ -13794,7 +13846,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529672370604358e-09
+          "signed_volume_m3": 9.529672370619118e-09
         }
       },
       {
@@ -13837,7 +13889,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529672370604398e-09
+          "signed_volume_m3": 9.529672370619118e-09
         }
       },
       {
@@ -13880,7 +13932,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529656857322366e-09
+          "signed_volume_m3": 9.529656857321429e-09
         }
       },
       {
@@ -13923,7 +13975,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529656857322313e-09
+          "signed_volume_m3": 9.529656857321436e-09
         }
       },
       {
@@ -13966,7 +14018,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529643407151564e-09
+          "signed_volume_m3": 9.529643407145678e-09
         }
       },
       {
@@ -14009,7 +14061,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.52964340715159e-09
+          "signed_volume_m3": 9.529643407145651e-09
         }
       },
       {
@@ -14052,7 +14104,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.52965357892522e-09
+          "signed_volume_m3": 9.529653578930729e-09
         }
       },
       {
@@ -14095,7 +14147,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.529653578925134e-09
+          "signed_volume_m3": 9.529653578930676e-09
         }
       },
       {
@@ -14270,6 +14322,94 @@
           "zero_area_faces": 0,
           "closed_manifold": true,
           "signed_volume_m3": 2.5103303283721264e-07
+        }
+      },
+      {
+        "name": "29A_Supported_sloping_bezel_B",
+        "category": "metal_inlay_or_relief_decoration",
+        "expected_closed_volume": null,
+        "triangles": 32,
+        "vertices": 56,
+        "materials": [
+          "AZURE_REF | Patinated champagne gold inlay",
+          "REF_COLOR_gold"
+        ],
+        "uv_layers": [
+          "UVMap"
+        ],
+        "non_finite_vertices": 0,
+        "non_finite_corner_normals": 0,
+        "zero_length_corner_normals": 0,
+        "non_unit_corner_normals": 0,
+        "as_imported_topology": {
+          "vertices": 56,
+          "edges": 76,
+          "faces": 32,
+          "non_manifold_edges": 56,
+          "boundary_edges": 56,
+          "wire_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "non_contiguous_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "closed_manifold": false,
+          "signed_volume_m3": null
+        },
+        "geometric_seam_welded_topology": {
+          "vertices": 16,
+          "edges": 48,
+          "faces": 32,
+          "non_manifold_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "non_contiguous_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "closed_manifold": true,
+          "signed_volume_m3": 4.788227037009375e-06
+        }
+      },
+      {
+        "name": "29A_Supported_sloping_bezel_F",
+        "category": "metal_inlay_or_relief_decoration",
+        "expected_closed_volume": null,
+        "triangles": 32,
+        "vertices": 56,
+        "materials": [
+          "AZURE_REF | Patinated champagne gold inlay",
+          "REF_COLOR_gold"
+        ],
+        "uv_layers": [
+          "UVMap"
+        ],
+        "non_finite_vertices": 0,
+        "non_finite_corner_normals": 0,
+        "zero_length_corner_normals": 0,
+        "non_unit_corner_normals": 0,
+        "as_imported_topology": {
+          "vertices": 56,
+          "edges": 76,
+          "faces": 32,
+          "non_manifold_edges": 56,
+          "boundary_edges": 56,
+          "wire_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "non_contiguous_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "closed_manifold": false,
+          "signed_volume_m3": null
+        },
+        "geometric_seam_welded_topology": {
+          "vertices": 16,
+          "edges": 48,
+          "faces": 32,
+          "non_manifold_edges": 0,
+          "boundary_edges": 0,
+          "wire_edges": 0,
+          "edges_with_more_than_two_faces": 0,
+          "non_contiguous_manifold_edges": 0,
+          "zero_area_faces": 0,
+          "closed_manifold": true,
+          "signed_volume_m3": 4.788227037009375e-06
         }
       },
       {
@@ -14572,7 +14712,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 2.548993300537108e-07
+          "signed_volume_m3": 2.548993300537092e-07
         }
       },
       {
@@ -14615,7 +14755,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 2.5489933005371083e-07
+          "signed_volume_m3": 2.5489933005370924e-07
         }
       },
       {
@@ -14658,7 +14798,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 2.549004146455474e-07
+          "signed_volume_m3": 2.549004146455542e-07
         }
       },
       {
@@ -14701,7 +14841,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 2.549004146455476e-07
+          "signed_volume_m3": 2.549004146455542e-07
         }
       },
       {
@@ -14744,7 +14884,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 4.446098208552894e-08
+          "signed_volume_m3": 4.44609820855279e-08
         }
       },
       {
@@ -14787,7 +14927,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 4.446098208552892e-08
+          "signed_volume_m3": 4.4460982085527965e-08
         }
       },
       {
@@ -14830,7 +14970,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 4.446103057987849e-08
+          "signed_volume_m3": 4.446103057987535e-08
         }
       },
       {
@@ -14873,7 +15013,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 4.446103057987847e-08
+          "signed_volume_m3": 4.4461030579875255e-08
         }
       },
       {
@@ -14916,7 +15056,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 5.708907118699042e-08
+          "signed_volume_m3": 5.7089189985191757e-08
         }
       },
       {
@@ -14959,7 +15099,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 5.7089071186990446e-08
+          "signed_volume_m3": 5.708918998519166e-08
         }
       },
       {
@@ -15002,7 +15142,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 5.708964784297114e-08
+          "signed_volume_m3": 5.7089766642375753e-08
         }
       },
       {
@@ -15045,7 +15185,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 5.708964784297118e-08
+          "signed_volume_m3": 5.708976664237592e-08
         }
       },
       {
@@ -16519,7 +16659,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 0.0001940162247060909
+          "signed_volume_m3": 0.00017483397237215043
         }
       },
       {
@@ -16527,7 +16667,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 292,
-        "vertices": 444,
+        "vertices": 452,
         "materials": [
           "AZURE_REF | Sharpened silver bevel"
         ],
@@ -16539,11 +16679,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 444,
-          "edges": 660,
+          "vertices": 452,
+          "edges": 664,
           "faces": 292,
-          "non_manifold_edges": 444,
-          "boundary_edges": 444,
+          "non_manifold_edges": 452,
+          "boundary_edges": 452,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -16562,7 +16702,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.4800634975446203e-07
+          "signed_volume_m3": 3.473974268315959e-07
         }
       },
       {
@@ -16570,7 +16710,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 292,
-        "vertices": 444,
+        "vertices": 452,
         "materials": [
           "AZURE_REF | Sharpened silver bevel"
         ],
@@ -16582,11 +16722,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 444,
-          "edges": 660,
+          "vertices": 452,
+          "edges": 664,
           "faces": 292,
-          "non_manifold_edges": 444,
-          "boundary_edges": 444,
+          "non_manifold_edges": 452,
+          "boundary_edges": 452,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -16605,7 +16745,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.4800634975446203e-07
+          "signed_volume_m3": 3.473974268315937e-07
         }
       },
       {
@@ -16613,7 +16753,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 292,
-        "vertices": 444,
+        "vertices": 452,
         "materials": [
           "AZURE_REF | Sharpened silver bevel"
         ],
@@ -16625,11 +16765,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 444,
-          "edges": 660,
+          "vertices": 452,
+          "edges": 664,
           "faces": 292,
-          "non_manifold_edges": 444,
-          "boundary_edges": 444,
+          "non_manifold_edges": 452,
+          "boundary_edges": 452,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -16648,7 +16788,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.4800503243072227e-07
+          "signed_volume_m3": 3.486139512505081e-07
         }
       },
       {
@@ -16656,7 +16796,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 292,
-        "vertices": 444,
+        "vertices": 452,
         "materials": [
           "AZURE_REF | Sharpened silver bevel"
         ],
@@ -16668,11 +16808,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 444,
-          "edges": 660,
+          "vertices": 452,
+          "edges": 664,
           "faces": 292,
-          "non_manifold_edges": 444,
-          "boundary_edges": 444,
+          "non_manifold_edges": 452,
+          "boundary_edges": 452,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -16691,7 +16831,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 3.480050324307223e-07
+          "signed_volume_m3": 3.48613951250508e-07
         }
       },
       {
@@ -16699,7 +16839,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 244,
-        "vertices": 372,
+        "vertices": 384,
         "materials": [
           "AZURE_REF | Patinated champagne gold inlay"
         ],
@@ -16711,11 +16851,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 372,
-          "edges": 552,
+          "vertices": 384,
+          "edges": 558,
           "faces": 244,
-          "non_manifold_edges": 372,
-          "boundary_edges": 372,
+          "non_manifold_edges": 384,
+          "boundary_edges": 384,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -16734,7 +16874,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.094652762463781e-08
+          "signed_volume_m3": 9.083861342539825e-08
         }
       },
       {
@@ -16742,7 +16882,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 244,
-        "vertices": 372,
+        "vertices": 384,
         "materials": [
           "AZURE_REF | Patinated champagne gold inlay"
         ],
@@ -16754,11 +16894,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 372,
-          "edges": 552,
+          "vertices": 384,
+          "edges": 558,
           "faces": 244,
-          "non_manifold_edges": 372,
-          "boundary_edges": 372,
+          "non_manifold_edges": 384,
+          "boundary_edges": 384,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -16777,7 +16917,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.094652762463789e-08
+          "signed_volume_m3": 9.083861342539856e-08
         }
       },
       {
@@ -16785,7 +16925,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 244,
-        "vertices": 372,
+        "vertices": 382,
         "materials": [
           "AZURE_REF | Patinated champagne gold inlay"
         ],
@@ -16797,11 +16937,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 372,
-          "edges": 552,
+          "vertices": 382,
+          "edges": 557,
           "faces": 244,
-          "non_manifold_edges": 372,
-          "boundary_edges": 372,
+          "non_manifold_edges": 382,
+          "boundary_edges": 382,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -16820,7 +16960,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.09470369921982e-08
+          "signed_volume_m3": 9.105526084004959e-08
         }
       },
       {
@@ -16828,7 +16968,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 244,
-        "vertices": 372,
+        "vertices": 382,
         "materials": [
           "AZURE_REF | Patinated champagne gold inlay"
         ],
@@ -16840,11 +16980,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 372,
-          "edges": 552,
+          "vertices": 382,
+          "edges": 557,
           "faces": 244,
-          "non_manifold_edges": 372,
-          "boundary_edges": 372,
+          "non_manifold_edges": 382,
+          "boundary_edges": 382,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -16863,7 +17003,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 9.094703699219814e-08
+          "signed_volume_m3": 9.105526084005036e-08
         }
       },
       {
@@ -16871,7 +17011,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 340,
-        "vertices": 516,
+        "vertices": 552,
         "materials": [
           "AZURE_REF | Worn pale gold ridges"
         ],
@@ -16883,11 +17023,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 516,
-          "edges": 768,
+          "vertices": 552,
+          "edges": 786,
           "faces": 340,
-          "non_manifold_edges": 516,
-          "boundary_edges": 516,
+          "non_manifold_edges": 552,
+          "boundary_edges": 552,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -16906,7 +17046,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.849376502596784e-07
+          "signed_volume_m3": 1.899385373459425e-07
         }
       },
       {
@@ -16914,7 +17054,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 340,
-        "vertices": 516,
+        "vertices": 552,
         "materials": [
           "AZURE_REF | Worn pale gold ridges"
         ],
@@ -16926,11 +17066,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 516,
-          "edges": 768,
+          "vertices": 552,
+          "edges": 786,
           "faces": 340,
-          "non_manifold_edges": 516,
-          "boundary_edges": 516,
+          "non_manifold_edges": 552,
+          "boundary_edges": 552,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -16949,7 +17089,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.8493765025967834e-07
+          "signed_volume_m3": 1.8993853734594335e-07
         }
       },
       {
@@ -16957,7 +17097,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 340,
-        "vertices": 516,
+        "vertices": 540,
         "materials": [
           "AZURE_REF | Worn pale gold ridges"
         ],
@@ -16969,11 +17109,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 516,
-          "edges": 768,
+          "vertices": 540,
+          "edges": 780,
           "faces": 340,
-          "non_manifold_edges": 516,
-          "boundary_edges": 516,
+          "non_manifold_edges": 540,
+          "boundary_edges": 540,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -16992,7 +17132,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.8493761956419595e-07
+          "signed_volume_m3": 1.862759210340947e-07
         }
       },
       {
@@ -17000,7 +17140,7 @@
         "category": "metal_inlay_or_relief_decoration",
         "expected_closed_volume": null,
         "triangles": 340,
-        "vertices": 516,
+        "vertices": 540,
         "materials": [
           "AZURE_REF | Worn pale gold ridges"
         ],
@@ -17012,11 +17152,11 @@
         "zero_length_corner_normals": 0,
         "non_unit_corner_normals": 0,
         "as_imported_topology": {
-          "vertices": 516,
-          "edges": 768,
+          "vertices": 540,
+          "edges": 780,
           "faces": 340,
-          "non_manifold_edges": 516,
-          "boundary_edges": 516,
+          "non_manifold_edges": 540,
+          "boundary_edges": 540,
           "wire_edges": 0,
           "edges_with_more_than_two_faces": 0,
           "non_contiguous_manifold_edges": 0,
@@ -17035,7 +17175,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.8493761956419595e-07
+          "signed_volume_m3": 1.86275921034095e-07
         }
       },
       {
@@ -17252,7 +17392,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977942529057503e-09
+          "signed_volume_m3": 1.9977942529045757e-09
         }
       },
       {
@@ -17295,7 +17435,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977942529057834e-09
+          "signed_volume_m3": 1.9977942529045824e-09
         }
       },
       {
@@ -17338,7 +17478,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977946072694764e-09
+          "signed_volume_m3": 1.9977946072692796e-09
         }
       },
       {
@@ -17381,7 +17521,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977946072694615e-09
+          "signed_volume_m3": 1.9977946072692796e-09
         }
       },
       {
@@ -17424,7 +17564,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.997752466743051e-09
+          "signed_volume_m3": 1.9977524667415074e-09
         }
       },
       {
@@ -17467,7 +17607,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977524667430757e-09
+          "signed_volume_m3": 1.997752466741481e-09
         }
       },
       {
@@ -17510,7 +17650,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977584998534797e-09
+          "signed_volume_m3": 1.997758499857265e-09
         }
       },
       {
@@ -17553,7 +17693,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.997758499853473e-09
+          "signed_volume_m3": 1.9977584998572847e-09
         }
       },
       {
@@ -17596,7 +17736,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.997750002902334e-09
+          "signed_volume_m3": 1.9977500029020743e-09
         }
       },
       {
@@ -17639,7 +17779,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977500029023473e-09
+          "signed_volume_m3": 1.9977500029020925e-09
         }
       },
       {
@@ -17682,7 +17822,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977699761123245e-09
+          "signed_volume_m3": 1.9977699761095683e-09
         }
       },
       {
@@ -17725,7 +17865,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977699761122963e-09
+          "signed_volume_m3": 1.997769976109613e-09
         }
       },
       {
@@ -17768,7 +17908,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977322454922054e-09
+          "signed_volume_m3": 1.997732245488518e-09
         }
       },
       {
@@ -17811,7 +17951,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977322454921243e-09
+          "signed_volume_m3": 1.997732245488518e-09
         }
       },
       {
@@ -17854,7 +17994,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.997726532126176e-09
+          "signed_volume_m3": 1.99772653212786e-09
         }
       },
       {
@@ -17897,7 +18037,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.997726532126156e-09
+          "signed_volume_m3": 1.997726532127807e-09
         }
       },
       {
@@ -17940,7 +18080,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.997722987899246e-09
+          "signed_volume_m3": 1.997722987900447e-09
         }
       },
       {
@@ -17983,7 +18123,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977229878992444e-09
+          "signed_volume_m3": 1.9977229879004786e-09
         }
       },
       {
@@ -18026,7 +18166,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.9977439469220206e-09
+          "signed_volume_m3": 1.9977439469209635e-09
         }
       },
       {
@@ -18069,7 +18209,7 @@
           "non_contiguous_manifold_edges": 0,
           "zero_area_faces": 0,
           "closed_manifold": true,
-          "signed_volume_m3": 1.997743946922047e-09
+          "signed_volume_m3": 1.997743946920955e-09
         }
       }
     ]

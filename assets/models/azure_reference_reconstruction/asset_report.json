@@ -1,11 +1,11 @@
 {
-  "objects": 305,
-  "evaluated_triangles": 87844,
-  "evaluated_vertices": 44564,
+  "objects": 307,
+  "evaluated_triangles": 87908,
+  "evaluated_vertices": 44596,
   "dimensions_m": [
     0.47251977026462555,
     0.05818181857466698,
-    1.5996387004852295
+    1.599599838256836
   ],
   "source_pixels": [
     1024,

@@ -79,9 +79,24 @@ def apply_projection(obj, key):
     obj["appearance_method"] = "reference-projected colour; lighting in source is retained"
 
 
+def guard_depth(x,y):
+    edge_distance=min(x-299,721-x)
+    factor=max(.10,min(1,edge_distance/28))
+    return 8.7*factor
+
+
+def crown_depth(x,y):
+    if y<36: return 2.5+8.5*max(0,(y-14)/22)
+    return min(11,4+max(0,min(x-460,557-x))*1.0)
+
+
 def panel(name, outline, depth=7, mat="dark", bevel=.5, project=True):
     n = len(outline)
-    verts = [xyz(x, y, d) for d in (depth, -depth) for x, y in outline]
+    verts=[]
+    for side in (1,-1):
+        for x,y in outline:
+            d=guard_depth(x,y) if name.startswith("20_") else crown_depth(x,y) if name.startswith("50_") else depth
+            verts.append(xyz(x,y,side*d))
     faces = [tuple(range(n - 1, -1, -1)), tuple(range(n, 2*n))]
     faces += [(i, (i+1) % n, (i+1) % n + n, i+n) for i in range(n)]
     obj = mesh_object(name, verts, faces, M[mat], bevel)
@@ -117,7 +132,14 @@ def strip(name, points, width=1.2, depth=9, thickness=.7, mat="gold", curved=Tru
             normal = Vector((-tangent.y, tangent.x))
             for lateral, height in ((-1, 0), (-.60, thickness), (.60, thickness), (1, 0)):
                 pp = Vector((x, y)) + normal * width * .5 * lateral
-                verts.append(xyz(*pp, side*(depth+height)))
+                seated_depth=depth
+                if name[:3] in ("21_","22_","23_","25_"):
+                    seated_depth=min(depth,guard_depth(*pp)-.25)
+                elif name[:3] in ("32_","33_","34_"):
+                    seated_depth=10.35
+                elif name[:3] in ("51_","52_","53_","57_"):
+                    seated_depth=min(depth,crown_depth(*pp)-.20)
+                verts.append(xyz(*pp, side*(seated_depth+height)))
         for i in range(len(pts)-1):
             for j in range(3):
                 a = i*4+j
@@ -134,6 +156,21 @@ def mirror(points):
 def paired_strip(name, points, **kw):
     strip(name+"_L", points, **kw)
     strip(name+"_R", mirror(points), **kw)
+
+
+def setting_ring(name,outer,inner,outer_depth,inner_depth):
+    # Raised sloping bezel with continuous support below both decorative borders.
+    for side in (1,-1):
+        verts=[]
+        for pts,d in ((outer,outer_depth),(inner,inner_depth),(outer,outer_depth-1),(inner,outer_depth-1)):
+            verts.extend(xyz(x,y,side*d) for x,y in pts)
+        faces=[]
+        for i in range(4):
+            j=(i+1)%4
+            faces.extend([(i,j,j+4,i+4),(i+8,i+12,j+12,j+8),
+                          (i,i+8,j+8,j),(i+4,j+4,j+12,i+12)])
+        ob=mesh_object(name+("_F" if side==1 else "_B"),verts,faces,M["gold"])
+        apply_projection(ob,"gold")
 
 
 def gem(name, x, y, rx, ry, base=16, crown=26, project=True):
@@ -247,7 +284,7 @@ def build_guard():
     paired_strip("22_Quillon_inner_gold_edge",inner,width=2.2,depth=9.2,thickness=.65,mat="pale_gold")
     paired_strip("23_Quillon_gilded_spine",[(332,370),(357,379),(389,376),(420,373),(450,365),(477,349)],width=1.6,depth=9.8,thickness=.5)
     # Low relief acanthus leaves: flat leaf plates and rolled stems.
-    leaves=[[(401,361),(418,370),(437,379),(411,380),(397,397),(404,379),(389,375)],
+    leaves=[[(401,365),(418,370),(437,379),(411,380),(403,387),(404,379),(389,375)],
             [(446,350),(458,359),(478,364),(457,369),(438,378),(446,366),(430,362)]]
     for i,outline in enumerate(leaves):
         for tag,poly in (("L",outline),("R",mirror(outline))):
@@ -264,6 +301,8 @@ def build_guard():
     panel("27_Central_recess",[(510,330),(539,378),(510,425),(480,378)],15.2,"recess",.5)
     strip("28_Diamond_bezel_outer",[(510,323),(545,378),(510,431),(476,378),(510,323)],width=1.8,depth=14.9,thickness=.6,mat="pale_gold",curved=False)
     strip("29_Diamond_bezel_inner",[(510,337),(536,378),(510,419),(484,378),(510,337)],width=1.3,depth=16.2,thickness=.6,mat="edge",curved=False)
+    setting_ring("29A_Supported_sloping_bezel",[(510,323),(545,378),(510,431),(476,378)],
+                 [(510,337),(536,378),(510,419),(484,378)],14,16.4)
     gem("30_Principal_cut_sapphire",510,377,25,40,base=16.6,crown=26)
     # Four sweeping structural ribs surround the blade shoulder with real gaps.
     rib=[(478,388),(466,400),(461,416),(472,440),(477,456),(486,481),(494,508),(510,535),
