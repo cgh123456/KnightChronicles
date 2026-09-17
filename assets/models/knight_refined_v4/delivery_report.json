@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-09-17T17:57:58.566335",
+  "source_sha256": "0457d73d7d32222eef5610d35ab09970740e286ce999040d7c7ef17319154153",
+  "glb_sha256": "094a7d8032eb855d780aa77c3feee4b7575dac1c5e2c92845b9def3466c7d388",
+  "source_unchanged_since_geometry_validation": true,
+  "static_images": [
+    {
+      "file": "front.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "sha256": "76abc8551561c5841ad403193849c5254878d0f2c506a68cccb00383215b6e81"
+    },
+    {
+      "file": "side.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "sha256": "8758163f36b39e6458cf0fb0d53daa8da8dcbf48c22632d10f3e3f1a3b78a60d"
+    },
+    {
+      "file": "back.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "sha256": "0e18f0eace83460234bf6b84057f2bfedc3f0cfa63037001772484a347ebb543"
+    },
+    {
+      "file": "hero.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "sha256": "b1c1c1ef5391e0badc5354d42e7909680d9049eef62676f21e0e3751cc02550f"
+    },
+    {
+      "file": "game.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "sha256": "98682efbb8ecf129f0e16d9ad30cecc8b86a738fc1960de350161667fe3db51e"
+    },
+    {
+      "file": "details.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "sha256": "1b9c965576de06fed7ca49dc6d9651c1b88adcfde55c32bb5971aca4330029b8"
+    },
+    {
+      "file": "action.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "sha256": "b42f131695331f95e79a250ac5801fb63308837e7c4c3f8a2a8a6ff14247b586"
+    },
+    {
+      "file": "hand_relaxed.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "sha256": "d4c7980c9b3ca90616fb5f1257b652b03be7f06df18403059307d78b001a7efd"
+    },
+    {
+      "file": "hand_grip.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "sha256": "a8d92ed950ffd4dd01c2711df8f5bd5d153a6a306e0c77c1ee85cfdea28b2ed9"
+    }
+  ],
+  "preview_links_valid": true,
+  "video": {
+    "width": 720,
+    "height": 720,
+    "r_frame_rate": "12/1",
+    "duration": "4.000000",
+    "nb_frames": "48"
+  },
+  "source_validation": "PASS",
+  "drawn_variant_validation": "PASS",
+  "independent_glb_validation": "PASS",
+  "rendered_glb_preview": {
+    "file": "glb_material_preview.png",
+    "size": [
+      1000,
+      1000
+    ]
+  },
+  "visual_acceptance": "pending user; no claim of pixel-identical concept reproduction"
+}

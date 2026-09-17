@@ -1,0 +1,432 @@
+{
+  "task": "ART-008",
+  "status": "PASS",
+  "created_at": "2026-09-17T18:08:54.921515",
+  "planned_removals": [
+    {
+      "path": "assets/models/knight_reference_v3",
+      "kind": "directory",
+      "file_count": 41,
+      "bytes": 104678954
+    },
+    {
+      "path": "assets/models/knight_concept_sample",
+      "kind": "directory",
+      "file_count": 10,
+      "bytes": 20104113
+    },
+    {
+      "path": "assets/models/knight-reference-art006-20260917.zip",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 94367867
+    },
+    {
+      "path": "tools/build_knight_reference_v3.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 16894
+    },
+    {
+      "path": "tools/knight_reference_body.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 17549
+    },
+    {
+      "path": "tools/knight_reference_equipment.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 18802
+    },
+    {
+      "path": "tools/knight_reference_helmet.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 11173
+    },
+    {
+      "path": "tools/export_knight_reference_pbr.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 16769
+    },
+    {
+      "path": "tools/render_knight_reference_views.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 1784
+    },
+    {
+      "path": "tools/render_knight_reference_turntable.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 1523
+    },
+    {
+      "path": "tools/save_knight_drawn_variant.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 1078
+    },
+    {
+      "path": "tools/validate_knight_reference.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 12534
+    },
+    {
+      "path": "tools/build_knight_concept_sample.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 27571
+    },
+    {
+      "path": "tools/knight_sample_equipment.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 15139
+    },
+    {
+      "path": "tools/knight_sample_helmet.py",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 11300
+    },
+    {
+      "path": "tools/__pycache__/knight_reference_body.cpython-313.pyc",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 37201
+    },
+    {
+      "path": "tools/__pycache__/knight_sample_equipment.cpython-313.pyc",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 28051
+    },
+    {
+      "path": "tools/__pycache__/knight_sample_equipment.cpython-312.pyc",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 28074
+    },
+    {
+      "path": "tools/__pycache__/export_knight_reference_pbr.cpython-312.pyc",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 33923
+    },
+    {
+      "path": "tools/__pycache__/export_knight_reference_pbr.cpython-313.pyc",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 34165
+    },
+    {
+      "path": "tools/__pycache__/knight_reference_equipment.cpython-313.pyc",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 39646
+    },
+    {
+      "path": "tools/__pycache__/knight_reference_equipment.cpython-312.pyc",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 39717
+    },
+    {
+      "path": "tools/__pycache__/knight_reference_helmet.cpython-313.pyc",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 17960
+    },
+    {
+      "path": "tools/__pycache__/build_knight_concept_sample.cpython-312.pyc",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 53324
+    },
+    {
+      "path": "tools/__pycache__/knight_sample_helmet.cpython-312.pyc",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 17667
+    },
+    {
+      "path": "tools/__pycache__/knight_sample_helmet.cpython-313.pyc",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 17627
+    },
+    {
+      "path": ".work/knight-reference",
+      "kind": "directory",
+      "file_count": 52,
+      "bytes": 25110368
+    },
+    {
+      "path": "assets/models/knight_refined_v4/knight_refined_v4.blend1",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 12890282
+    },
+    {
+      "path": "assets/models/knight_refined_v4/material_study.png",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 1447976
+    },
+    {
+      "path": ".work/concept-v2-qa/knight-sample-draft.log",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 43370
+    },
+    {
+      "path": ".work/concept-v2-qa/knight-sample-draft2.log",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 43424
+    },
+    {
+      "path": ".work/concept-v2-qa/knight-sample-final.log",
+      "kind": "file",
+      "file_count": 1,
+      "bytes": 43314
+    }
+  ],
+  "planned_removed_file_count": 132,
+  "planned_bytes": 259229139,
+  "retained_file_hashes_before": {
+    "assets/models/knight_refined_v4/hand_grip.png": "a8d92ed950ffd4dd01c2711df8f5bd5d153a6a306e0c77c1ee85cfdea28b2ed9",
+    "assets/models/knight_refined_v4/details.png": "1b9c965576de06fed7ca49dc6d9651c1b88adcfde55c32bb5971aca4330029b8",
+    "assets/models/knight_refined_v4/hero.png": "b1c1c1ef5391e0badc5354d42e7909680d9049eef62676f21e0e3751cc02550f",
+    "assets/models/knight_refined_v4/game.png": "98682efbb8ecf129f0e16d9ad30cecc8b86a738fc1960de350161667fe3db51e",
+    "assets/models/knight_refined_v4/glb_material_preview.png": "8f718f060929d8003e5e3e00dec2dbf45ce28c59572341a64b841780439180c2",
+    "assets/models/knight_refined_v4/review.html": "1c963ea9a5b44c2eb978d2b6971ba64dc8aaa9b1d827ed6adbdc816cbded2956",
+    "assets/models/knight_refined_v4/glb_visual_review.md": "46895c8e164e2248f3d014ea2f118d76d93cd226866adba93e626ea2fef0b5a9",
+    "assets/models/knight_refined_v4/action.png": "b42f131695331f95e79a250ac5801fb63308837e7c4c3f8a2a8a6ff14247b586",
+    "assets/models/knight_refined_v4/knight_refined_v4.glb": "094a7d8032eb855d780aa77c3feee4b7575dac1c5e2c92845b9def3466c7d388",
+    "assets/models/knight_refined_v4/hand_relaxed.png": "d4c7980c9b3ca90616fb5f1257b652b03be7f06df18403059307d78b001a7efd",
+    "assets/models/knight_refined_v4/side.png": "8758163f36b39e6458cf0fb0d53daa8da8dcbf48c22632d10f3e3f1a3b78a60d",
+    "assets/models/knight_refined_v4/hands_validation.json": "f0422ff5132b7d2a903410e0222277b6e0169a817965c34b40211f97a84d5693",
+    "assets/models/knight_refined_v4/reference.png": "4198b3353dcb2f95ec8c074d904f7188a8076fb46e37d217262cfc25506bba8b",
+    "assets/models/knight_refined_v4/delivery_report.json": "18698107be2ceef79fadb840de11c5af604b53224fafb31dbcd395da8e307393",
+    "assets/models/knight_refined_v4/cloth_validation.json": "3fd2dbb80a5c72b2f9be80db684576170497601172d6cc69994f57a0cd637431",
+    "assets/models/knight_refined_v4/pbr_export_report.json": "740035c43d84521087c7c0fd35419cb409a57f3d3d2b17682694ef531ce44a50",
+    "assets/models/knight_refined_v4/knight_refined_v4_drawn.blend": "fe21a0b44a3b73a9625a4d4a53efb41677ac37aa53b4dee9f23fbe8dd0c05eeb",
+    "assets/models/knight_refined_v4/README.md": "2ab213985d34740610a923bb79b43b4004f821a15262b5bfee130b5cff31fb84",
+    "assets/models/knight_refined_v4/turntable.mp4": "17668c95723c81d652f30071fc9afc9573c1a655a48649fdb72b9ea9103d45c4",
+    "assets/models/knight_refined_v4/archive_validation.json": "77e2c8fd74dc58c1f80428e8040a282e31d01bfbc4747fd8885aaeaf53ca2afd",
+    "assets/models/knight_refined_v4/validation.json": "2726124b785caa97c873f33ce13310b7eaee028165aae6c11b9391081c03dab1",
+    "assets/models/knight_refined_v4/manifest.json": "32688d7a5c2d66aece98bbdbf3688498eb6f738903705fa3e20544acc9f973ec",
+    "assets/models/knight_refined_v4/visual_review.md": "eb8dfe62a21c76f276a55050e727346c3676fc9347626fad21adaef01d87effa",
+    "assets/models/knight_refined_v4/knight_refined_v4.blend": "0457d73d7d32222eef5610d35ab09970740e286ce999040d7c7ef17319154153",
+    "assets/models/knight_refined_v4/final_visual_check.md": "3e3d8ac881591fd470418e4c3d2300f9240b64bd2096e0fea31488abef722d3e",
+    "assets/models/knight_refined_v4/drawn_validation.json": "f5767485cc896daf4d65ad331b2e6affd0280711025e73d08022c9eebf1210ec",
+    "assets/models/knight_refined_v4/armor_boots_validation.json": "0c2af39ba285709d8196d96f9610c88d4865312983932a15a8deba6c9c914ee0",
+    "assets/models/knight_refined_v4/glb_verification.json": "308b0a74d86acb0543542eefa2a1e4dde04c2ac09b2c7ec3c757301c8439acad",
+    "assets/models/knight_refined_v4/back.png": "0e18f0eace83460234bf6b84057f2bfedc3f0cfa63037001772484a347ebb543",
+    "assets/models/knight_refined_v4/front.png": "76abc8551561c5841ad403193849c5254878d0f2c506a68cccb00383215b6e81",
+    "assets/models/knight_refined_v4/textures/brass_ORM.png": "69fc5e75cdb0868737b000207fcbdaaae662a4220d6d13dd6181190272b5247b",
+    "assets/models/knight_refined_v4/textures/steel_BaseColor.png": "75de7dd2f12c7be5911031cc5c39fc8d4fb26cd18a707fcd36357f3c4358ab37",
+    "assets/models/knight_refined_v4/textures/leather_Roughness.png": "ce543c91c01e051f9278e8e7b0d702260b211ebc2de228378e4b1b3bf71e5111",
+    "assets/models/knight_refined_v4/textures/fabric_Roughness.png": "9bf2db3db30776d0bc792113070acdf5a81b40e26d11b4669e566ffa2765455b",
+    "assets/models/knight_refined_v4/textures/brass_BaseColor.png": "47af0964fb28ec096b94522d595a8f7b63ab9033043ead9ce3777b1b33a6e7c6",
+    "assets/models/knight_refined_v4/textures/fabric_ORM.png": "b006bf7101c57b06674b423a021fd8e135e390cb4c5381418dd28672615f8454",
+    "assets/models/knight_refined_v4/textures/steel_ORM.png": "407ae414b25050d885e4d8527c7d33ecd46eba9329080081b87cad6201c628a9",
+    "assets/models/knight_refined_v4/textures/fabric_Metallic.png": "c314d4d3abd51ca072da374bd7852e8a3c265e722b08c189f2a83b002eaf5942",
+    "assets/models/knight_refined_v4/textures/brass_Roughness.png": "35d30b0b5b8acb58239b7bcf5549a8054cf684141413eb36ad9d1b78d1c536d7",
+    "assets/models/knight_refined_v4/textures/leather_ORM.png": "5fef0b91e2ea1f7ed5ca456d00acc4f418c0bfa0ac3e84b917d916330b9a4405",
+    "assets/models/knight_refined_v4/textures/steel_Metallic.png": "b16d5dcd3f44ce93a6f36f7393b64fa46b4e0f219ff0ba20e9d7f4e34921fdc0",
+    "assets/models/knight_refined_v4/textures/fabric_BaseColor.png": "1adfa511d9e85cee0122f09bd9784e884b651a0f21eb11a3a6b0aec521e30765",
+    "assets/models/knight_refined_v4/textures/leather_BaseColor.png": "cbee649f1d8bec827de0d37430fb39fb88db38bbb559f97e4816abb5e8eefc11",
+    "assets/models/knight_refined_v4/textures/leather_Normal.png": "aa90d22c5c9c64ef4ac15c66338165299a4dd414248995ceeb9d8a3ee9cc94f0",
+    "assets/models/knight_refined_v4/textures/steel_Roughness.png": "50480109bd4cd84c6f2b5f040fb25f23ce1fafb4ccfc0f9ce86684c964154b77",
+    "assets/models/knight_refined_v4/textures/brass_Normal.png": "c050b544c7cf14cfc9505384763b31d1aa1980405c8bf6cff6d9df4e61ab2461",
+    "assets/models/knight_refined_v4/textures/fabric_Normal.png": "000aea000b0fb413a1032972788044a6df78cf69b9feaa836ec15e016affe4ab",
+    "assets/models/knight_refined_v4/textures/steel_Normal.png": "c4eec9cceefd3f11a98608ebe91bd6f05a480414f633c27be5aa77a522bdb4fe",
+    "assets/models/knight_refined_v4/textures/leather_Metallic.png": "bfd663339018734724abc57c86975cfa95d8db31ede99535106f8a4f50f95117",
+    "assets/models/knight_refined_v4/textures/brass_Metallic.png": "5de30fa85145729aadb20359afd413dca0c70bebcd60d37f6ba873104cb7c267",
+    "assets/models/knight_refined_v4/material_sources/steel_albedo.prompt.md": "8f33dc6306b272fcb30007e82bb96b92a87083e0f60ef60838b6a8e83fa7a923",
+    "assets/models/knight_refined_v4/material_sources/leather_albedo.png": "2c0ca8707f46e2d0507a338ec7ed942b8d5002268aa92ad886854d9f71e39ccf",
+    "assets/models/knight_refined_v4/material_sources/steel_albedo.png": "663f8939320487685e906f061934b621895223cb103af619a41afe3b11391ffd",
+    "assets/models/knight_refined_v4/material_sources/source_image_inspection.json": "49ace8fb6ec4071c22697344c630c2d3c758e2f7d6c246fbbb36c94ced937a84",
+    "assets/models/knight_refined_v4/material_sources/leather_albedo.prompt.md": "5b8025b05bfec5a73d7f05b22d22fc1db20d85d6306e2712b3996b04a1bdf17b"
+  },
+  "old_import_dependencies": [],
+  "archive_sha256_before": "e9625deaac1f51e0b1f3ddc5dd59227e37057ae6e0a914793a1e26a2e305577c",
+  "trash_directory": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342",
+  "moved": [
+    {
+      "source": "assets/models/knight_reference_v3",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/assets/models/knight_reference_v3"
+    },
+    {
+      "source": "assets/models/knight_concept_sample",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/assets/models/knight_concept_sample"
+    },
+    {
+      "source": "assets/models/knight-reference-art006-20260917.zip",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/assets/models/knight-reference-art006-20260917.zip"
+    },
+    {
+      "source": "tools/build_knight_reference_v3.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/build_knight_reference_v3.py"
+    },
+    {
+      "source": "tools/knight_reference_body.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/knight_reference_body.py"
+    },
+    {
+      "source": "tools/knight_reference_equipment.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/knight_reference_equipment.py"
+    },
+    {
+      "source": "tools/knight_reference_helmet.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/knight_reference_helmet.py"
+    },
+    {
+      "source": "tools/export_knight_reference_pbr.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/export_knight_reference_pbr.py"
+    },
+    {
+      "source": "tools/render_knight_reference_views.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/render_knight_reference_views.py"
+    },
+    {
+      "source": "tools/render_knight_reference_turntable.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/render_knight_reference_turntable.py"
+    },
+    {
+      "source": "tools/save_knight_drawn_variant.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/save_knight_drawn_variant.py"
+    },
+    {
+      "source": "tools/validate_knight_reference.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/validate_knight_reference.py"
+    },
+    {
+      "source": "tools/build_knight_concept_sample.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/build_knight_concept_sample.py"
+    },
+    {
+      "source": "tools/knight_sample_equipment.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/knight_sample_equipment.py"
+    },
+    {
+      "source": "tools/knight_sample_helmet.py",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/knight_sample_helmet.py"
+    },
+    {
+      "source": "tools/__pycache__/knight_reference_body.cpython-313.pyc",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/__pycache__/knight_reference_body.cpython-313.pyc"
+    },
+    {
+      "source": "tools/__pycache__/knight_sample_equipment.cpython-313.pyc",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/__pycache__/knight_sample_equipment.cpython-313.pyc"
+    },
+    {
+      "source": "tools/__pycache__/knight_sample_equipment.cpython-312.pyc",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/__pycache__/knight_sample_equipment.cpython-312.pyc"
+    },
+    {
+      "source": "tools/__pycache__/export_knight_reference_pbr.cpython-312.pyc",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/__pycache__/export_knight_reference_pbr.cpython-312.pyc"
+    },
+    {
+      "source": "tools/__pycache__/export_knight_reference_pbr.cpython-313.pyc",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/__pycache__/export_knight_reference_pbr.cpython-313.pyc"
+    },
+    {
+      "source": "tools/__pycache__/knight_reference_equipment.cpython-313.pyc",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/__pycache__/knight_reference_equipment.cpython-313.pyc"
+    },
+    {
+      "source": "tools/__pycache__/knight_reference_equipment.cpython-312.pyc",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/__pycache__/knight_reference_equipment.cpython-312.pyc"
+    },
+    {
+      "source": "tools/__pycache__/knight_reference_helmet.cpython-313.pyc",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/__pycache__/knight_reference_helmet.cpython-313.pyc"
+    },
+    {
+      "source": "tools/__pycache__/build_knight_concept_sample.cpython-312.pyc",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/__pycache__/build_knight_concept_sample.cpython-312.pyc"
+    },
+    {
+      "source": "tools/__pycache__/knight_sample_helmet.cpython-312.pyc",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/__pycache__/knight_sample_helmet.cpython-312.pyc"
+    },
+    {
+      "source": "tools/__pycache__/knight_sample_helmet.cpython-313.pyc",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/tools/__pycache__/knight_sample_helmet.cpython-313.pyc"
+    },
+    {
+      "source": ".work/knight-reference",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/.work/knight-reference"
+    },
+    {
+      "source": "assets/models/knight_refined_v4/knight_refined_v4.blend1",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/assets/models/knight_refined_v4/knight_refined_v4.blend1"
+    },
+    {
+      "source": "assets/models/knight_refined_v4/material_study.png",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/assets/models/knight_refined_v4/material_study.png"
+    },
+    {
+      "source": ".work/concept-v2-qa/knight-sample-draft.log",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/.work/concept-v2-qa/knight-sample-draft.log"
+    },
+    {
+      "source": ".work/concept-v2-qa/knight-sample-draft2.log",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/.work/concept-v2-qa/knight-sample-draft2.log"
+    },
+    {
+      "source": ".work/concept-v2-qa/knight-sample-final.log",
+      "trash_path": "/Users/chenguanhan/.Trash/knight-obsolete-ART008-20260917-181342/.work/concept-v2-qa/knight-sample-final.log"
+    }
+  ],
+  "moved_at": "2026-09-17T18:13:42.182370",
+  "independent_audit": "PASS: current AST imports and ZIP do not depend on old versions; shared concept_art_pipeline retained; two doc references require repair",
+  "completed_at": "2026-09-17T18:14:48.463212",
+  "changed_retained_files": [
+    "assets/models/knight_refined_v4/README.md",
+    "assets/models/knight_refined_v4/archive_validation.json",
+    "assets/models/knight_refined_v4/visual_review.md"
+  ],
+  "unchanged_retained_files": 52,
+  "archive_validation": {
+    "status": "PASS",
+    "archive": "assets/models/knight-refined-art007-20260917.zip",
+    "bytes": 133248373,
+    "entries": 70,
+    "sha256": "325bf099421e985d8d1b6108e0eb50e42e1a79ccafa30566d2bb8bfa0120adfe",
+    "delivery_report_sha256": "18698107be2ceef79fadb840de11c5af604b53224fafb31dbcd395da8e307393",
+    "updated_at": "2026-09-17T18:14:48.322440",
+    "cleanup_task": "ART-008",
+    "changed_archive_entries": [
+      "assets/models/knight_refined_v4/README.md",
+      "assets/models/knight_refined_v4/visual_review.md"
+    ],
+    "unchanged_archive_entries": 68,
+    "crc_integrity": "PASS"
+  },
+  "verification": {
+    "old_paths_absent": true,
+    "trash_contents_count_size_match": true,
+    "models_textures_previews_unchanged": true,
+    "only_two_archive_docs_changed": true,
+    "all_archive_entries_match_workspace": true,
+    "archive_crc": "PASS",
+    "preview_local_links": "PASS",
+    "current_local_module_dependencies": "PASS"
+  },
+  "independent_final_audit": {
+    "status": "PASS",
+    "reviewer": "cleanup_audit",
+    "checked_at": "2026-09-17T18:16:05.967669",
+    "results": "32 old paths absent; 55 retained files present, 52 unchanged SHA256; only two Markdown docs changed inside 70-entry ZIP; CRC and workspace/archive equality PASS"
+  }
+}

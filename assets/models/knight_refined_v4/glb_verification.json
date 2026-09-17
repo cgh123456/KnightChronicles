@@ -1,0 +1,697 @@
+{
+  "task": "ART-007",
+  "status": "PASS",
+  "verifiedAtUtc": "2026-09-17T09:51:09.916604+00:00",
+  "blenderVersion": "5.2.1 LTS",
+  "file": "knight_refined_v4.glb",
+  "sha256": "094a7d8032eb855d780aa77c3feee4b7575dac1c5e2c92845b9def3466c7d388",
+  "source": "assets/models/knight_refined_v4/knight_refined_v4.blend",
+  "sourceBefore": {
+    "bytes": 12888385,
+    "sha256": "0457d73d7d32222eef5610d35ab09970740e286ce999040d7c7ef17319154153",
+    "mtime_ns": 1789637323322764332
+  },
+  "sourceAfter": {
+    "bytes": 12888385,
+    "sha256": "0457d73d7d32222eef5610d35ab09970740e286ce999040d7c7ef17319154153",
+    "mtime_ns": 1789637323322764332
+  },
+  "sourceUnchanged": true,
+  "glbUnchanged": true,
+  "sourceValidation": "assets/models/knight_refined_v4/validation.json",
+  "exportReport": "assets/models/knight_refined_v4/pbr_export_report.json",
+  "auditedGeometryCleanup": {
+    "sourceSha256": "0457d73d7d32222eef5610d35ab09970740e286ce999040d7c7ef17319154153",
+    "beforeTriangles": 715352,
+    "afterTriangles": 715320,
+    "removedTriangles": 32,
+    "areaThreshold": 1e-12,
+    "mergeDistance": 1e-10,
+    "sourceObjects": [
+      {
+        "name": "07 | Curved hip pouch lid",
+        "beforeTriangles": 188,
+        "afterTriangles": 156,
+        "removedTriangles": 32,
+        "mergedVertices": 16,
+        "badTrianglesBefore": 32,
+        "badTrianglesAfter": 0,
+        "maxWorldVertexDisplacement": 0.0,
+        "reason": "Clamped thin pouch-lid bevel creates pairs of locally distinct points which round to identical world FLOAT coordinates; merge only diagnosed zero-edge endpoints before UV/bake."
+      }
+    ]
+  },
+  "binary": {
+    "meshCount": 4,
+    "materialCount": 4,
+    "embeddedImageCount": 12,
+    "triangles": 715320,
+    "sourceTriangles": 715352,
+    "auditedRemovedTriangles": 32,
+    "expectedDeliveryTriangles": 715320,
+    "images": [
+      {
+        "index": 0,
+        "name": "brass_Normal",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 2862985,
+        "sha256": "c050b544c7cf14cfc9505384763b31d1aa1980405c8bf6cff6d9df4e61ab2461"
+      },
+      {
+        "index": 1,
+        "name": "brass_BaseColor",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 1038409,
+        "sha256": "47af0964fb28ec096b94522d595a8f7b63ab9033043ead9ce3777b1b33a6e7c6"
+      },
+      {
+        "index": 2,
+        "name": "brass_ORM",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 1122798,
+        "sha256": "69fc5e75cdb0868737b000207fcbdaaae662a4220d6d13dd6181190272b5247b"
+      },
+      {
+        "index": 3,
+        "name": "fabric_Normal",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 5017236,
+        "sha256": "000aea000b0fb413a1032972788044a6df78cf69b9feaa836ec15e016affe4ab"
+      },
+      {
+        "index": 4,
+        "name": "fabric_BaseColor",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 1888825,
+        "sha256": "1adfa511d9e85cee0122f09bd9784e884b651a0f21eb11a3a6b0aec521e30765"
+      },
+      {
+        "index": 5,
+        "name": "fabric_ORM",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 467282,
+        "sha256": "b006bf7101c57b06674b423a021fd8e135e390cb4c5381418dd28672615f8454"
+      },
+      {
+        "index": 6,
+        "name": "leather_Normal",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 2042516,
+        "sha256": "aa90d22c5c9c64ef4ac15c66338165299a4dd414248995ceeb9d8a3ee9cc94f0"
+      },
+      {
+        "index": 7,
+        "name": "leather_BaseColor",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 2408533,
+        "sha256": "cbee649f1d8bec827de0d37430fb39fb88db38bbb559f97e4816abb5e8eefc11"
+      },
+      {
+        "index": 8,
+        "name": "leather_ORM",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 1484498,
+        "sha256": "5fef0b91e2ea1f7ed5ca456d00acc4f418c0bfa0ac3e84b917d916330b9a4405"
+      },
+      {
+        "index": 9,
+        "name": "steel_Normal",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 1589183,
+        "sha256": "c4eec9cceefd3f11a98608ebe91bd6f05a480414f633c27be5aa77a522bdb4fe"
+      },
+      {
+        "index": 10,
+        "name": "steel_BaseColor",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 2103782,
+        "sha256": "75de7dd2f12c7be5911031cc5c39fc8d4fb26cd18a707fcd36357f3c4358ab37"
+      },
+      {
+        "index": 11,
+        "name": "steel_ORM",
+        "size": [
+          2048,
+          2048
+        ],
+        "bytes": 1689274,
+        "sha256": "407ae414b25050d885e4d8527c7d33ecd46eba9329080081b87cad6201c628a9"
+      }
+    ],
+    "materials": [
+      {
+        "material": "Knight baked PBR | brass",
+        "images": {
+          "BaseColor": 1,
+          "ORM": 2,
+          "Normal": 0
+        }
+      },
+      {
+        "material": "Knight baked PBR | fabric",
+        "images": {
+          "BaseColor": 4,
+          "ORM": 5,
+          "Normal": 3
+        }
+      },
+      {
+        "material": "Knight baked PBR | leather",
+        "images": {
+          "BaseColor": 7,
+          "ORM": 8,
+          "Normal": 6
+        }
+      },
+      {
+        "material": "Knight baked PBR | steel",
+        "images": {
+          "BaseColor": 10,
+          "ORM": 11,
+          "Normal": 9
+        }
+      }
+    ],
+    "primitives": [
+      {
+        "mesh": "03 | Flat woven gold tabard facing left.001",
+        "vertices": 12900,
+        "triangles": 12830,
+        "attributes": [
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "material": 0
+      },
+      {
+        "mesh": "01 | Tunic with underarm tension and belt compression folds.001",
+        "vertices": 104297,
+        "triangles": 180744,
+        "attributes": [
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "material": 1
+      },
+      {
+        "mesh": "07 | Full leather belt.001",
+        "vertices": 222850,
+        "triangles": 267002,
+        "attributes": [
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "material": 2
+      },
+      {
+        "mesh": "02 | Hand fitted overlapping mail row 00.001",
+        "vertices": 179641,
+        "triangles": 254744,
+        "attributes": [
+          "NORMAL",
+          "POSITION",
+          "TANGENT",
+          "TEXCOORD_0"
+        ],
+        "material": 3
+      }
+    ]
+  },
+  "imported": {
+    "importedMeshes": 4,
+    "vertices": 519688,
+    "triangles": 715320,
+    "bounds": {
+      "min": [
+        -1.0982835292816162,
+        -0.5504805445671082,
+        0.012000000104308128
+      ],
+      "max": [
+        1.0982835292816162,
+        0.7087885737419128,
+        3.1959786415100098
+      ]
+    },
+    "height": 3.1839786414057016,
+    "meshes": [
+      {
+        "mesh": "KNIGHT PBR | brass",
+        "vertices": 12900,
+        "triangles": 12830,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "uvLayers": [
+          "UVMap"
+        ]
+      },
+      {
+        "mesh": "KNIGHT PBR | fabric",
+        "vertices": 104297,
+        "triangles": 180744,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "uvLayers": [
+          "UVMap"
+        ]
+      },
+      {
+        "mesh": "KNIGHT PBR | leather",
+        "vertices": 222850,
+        "triangles": 267002,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "uvLayers": [
+          "UVMap"
+        ]
+      },
+      {
+        "mesh": "KNIGHT PBR | steel",
+        "vertices": 179641,
+        "triangles": 254744,
+        "finite": true,
+        "zeroAreaTriangles": 0,
+        "uvLayers": [
+          "UVMap"
+        ]
+      }
+    ],
+    "materialConnections": [
+      {
+        "material": "Knight baked PBR | brass",
+        "connectedImages": {
+          "Base Color": [
+            "brass_BaseColor"
+          ],
+          "Roughness": [
+            "brass_ORM"
+          ],
+          "Metallic": [
+            "brass_ORM"
+          ],
+          "Normal": [
+            "brass_Normal"
+          ]
+        }
+      },
+      {
+        "material": "Knight baked PBR | fabric",
+        "connectedImages": {
+          "Base Color": [
+            "fabric_BaseColor"
+          ],
+          "Roughness": [
+            "fabric_ORM"
+          ],
+          "Metallic": [
+            "fabric_ORM"
+          ],
+          "Normal": [
+            "fabric_Normal"
+          ]
+        }
+      },
+      {
+        "material": "Knight baked PBR | leather",
+        "connectedImages": {
+          "Base Color": [
+            "leather_BaseColor"
+          ],
+          "Roughness": [
+            "leather_ORM"
+          ],
+          "Metallic": [
+            "leather_ORM"
+          ],
+          "Normal": [
+            "leather_Normal"
+          ]
+        }
+      },
+      {
+        "material": "Knight baked PBR | steel",
+        "connectedImages": {
+          "Base Color": [
+            "steel_BaseColor"
+          ],
+          "Roughness": [
+            "steel_ORM"
+          ],
+          "Metallic": [
+            "steel_ORM"
+          ],
+          "Normal": [
+            "steel_Normal"
+          ]
+        }
+      }
+    ],
+    "materialTextures": [
+      {
+        "name": "brass_BaseColor",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "sRGB",
+        "packed": true,
+        "sampledRgbMin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sampledRgbMax": [
+          0.7647059559822083,
+          0.6000000238418579,
+          0.3176470696926117
+        ],
+        "sampledRgbStd": [
+          0.3493848741054535,
+          0.27443423867225647,
+          0.14867660403251648
+        ]
+      },
+      {
+        "name": "brass_ORM",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "Non-Color",
+        "packed": true,
+        "sampledRgbMin": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "sampledRgbMax": [
+          1.0,
+          0.658823549747467,
+          0.7803922295570374
+        ],
+        "sampledRgbStd": [
+          0.0,
+          0.2816441059112549,
+          0.32120636105537415
+        ]
+      },
+      {
+        "name": "brass_Normal",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "Non-Color",
+        "packed": true,
+        "sampledRgbMin": [
+          0.3921568989753723,
+          0.40392160415649414,
+          0.9803922176361084
+        ],
+        "sampledRgbMax": [
+          0.6313725709915161,
+          0.6078431606292725,
+          1.0
+        ],
+        "sampledRgbStd": [
+          0.01986689120531082,
+          0.011782962828874588,
+          0.0017447322607040405
+        ]
+      },
+      {
+        "name": "fabric_BaseColor",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "sRGB",
+        "packed": true,
+        "sampledRgbMin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sampledRgbMax": [
+          0.6274510025978088,
+          0.5490196347236633,
+          0.4235294461250305
+        ],
+        "sampledRgbStd": [
+          0.18938663601875305,
+          0.16629627346992493,
+          0.1455112248659134
+        ]
+      },
+      {
+        "name": "fabric_Normal",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "Non-Color",
+        "packed": true,
+        "sampledRgbMin": [
+          0.32156863808631897,
+          0.41960787773132324,
+          0.9686275124549866
+        ],
+        "sampledRgbMax": [
+          0.6509804129600525,
+          0.5686274766921997,
+          1.0
+        ],
+        "sampledRgbStd": [
+          0.017028972506523132,
+          0.013025154359638691,
+          0.0014788073021918535
+        ]
+      },
+      {
+        "name": "fabric_ORM",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "Non-Color",
+        "packed": true,
+        "sampledRgbMin": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "sampledRgbMax": [
+          1.0,
+          0.9294118285179138,
+          0.0
+        ],
+        "sampledRgbStd": [
+          0.0,
+          0.42721471190452576,
+          0.0
+        ]
+      },
+      {
+        "name": "leather_BaseColor",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "sRGB",
+        "packed": true,
+        "sampledRgbMin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sampledRgbMax": [
+          0.46274513006210327,
+          0.3176470696926117,
+          0.2196078598499298
+        ],
+        "sampledRgbStd": [
+          0.1286371499300003,
+          0.08817507326602936,
+          0.059944409877061844
+        ]
+      },
+      {
+        "name": "leather_ORM",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "Non-Color",
+        "packed": true,
+        "sampledRgbMin": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "sampledRgbMax": [
+          1.0,
+          0.9490196704864502,
+          0.0
+        ],
+        "sampledRgbStd": [
+          0.0,
+          0.3742511570453644,
+          0.0
+        ]
+      },
+      {
+        "name": "leather_Normal",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "Non-Color",
+        "packed": true,
+        "sampledRgbMin": [
+          0.29019609093666077,
+          0.3803921937942505,
+          0.9529412388801575
+        ],
+        "sampledRgbMax": [
+          0.6784313917160034,
+          0.5843137502670288,
+          1.0
+        ],
+        "sampledRgbStd": [
+          0.020829781889915466,
+          0.008115346543490887,
+          0.003599869552999735
+        ]
+      },
+      {
+        "name": "steel_BaseColor",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "sRGB",
+        "packed": true,
+        "sampledRgbMin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "sampledRgbMax": [
+          0.6509804129600525,
+          0.6509804129600525,
+          0.6470588445663452
+        ],
+        "sampledRgbStd": [
+          0.21251021325588226,
+          0.21345023810863495,
+          0.21903832256793976
+        ]
+      },
+      {
+        "name": "steel_Normal",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "Non-Color",
+        "packed": true,
+        "sampledRgbMin": [
+          0.3607843220233917,
+          0.2666666805744171,
+          0.9411765336990356
+        ],
+        "sampledRgbMax": [
+          0.6941176652908325,
+          0.7137255072593689,
+          1.0
+        ],
+        "sampledRgbStd": [
+          0.014120062813162804,
+          0.01528135221451521,
+          0.00364992069080472
+        ]
+      },
+      {
+        "name": "steel_ORM",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorSpace": "Non-Color",
+        "packed": true,
+        "sampledRgbMin": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "sampledRgbMax": [
+          1.0,
+          0.5921568870544434,
+          0.9098039865493774
+        ],
+        "sampledRgbStd": [
+          0.0,
+          0.22219038009643555,
+          0.40982627868652344
+        ]
+      }
+    ]
+  },
+  "render": {
+    "requested": true,
+    "device": "GPU",
+    "sourceStudioObjects": [
+      "Approval camera",
+      "Large softbox key",
+      "Neutral fill",
+      "Soft edge light",
+      "STUDIO | ground"
+    ],
+    "containsSourceKnightGeometry": false,
+    "output": "glb_material_preview.png"
+  },
+  "errors": [],
+  "limits": [
+    "Passing structural checks does not certify visual parity; inspect the imported GLB preview.",
+    "A preview is rendered only when explicitly requested; CPU is the default device."
+  ]
+}

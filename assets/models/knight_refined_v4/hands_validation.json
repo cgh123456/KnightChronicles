@@ -1,0 +1,11 @@
+{
+  "objects": 6,
+  "vertices": 44844,
+  "triangles": 89668,
+  "degenerate_triangles": 0,
+  "nonfinite": 0,
+  "zero_area_polygons": 0,
+  "issues": [],
+  "relaxed_glove_min_z": 0.9765630960464478,
+  "handle_penetrating_vertices": 0
+}

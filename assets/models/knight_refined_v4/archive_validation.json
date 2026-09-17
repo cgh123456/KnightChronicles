@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "archive": "assets/models/knight-refined-art007-20260917.zip",
+  "bytes": 133248373,
+  "entries": 70,
+  "sha256": "325bf099421e985d8d1b6108e0eb50e42e1a79ccafa30566d2bb8bfa0120adfe",
+  "delivery_report_sha256": "18698107be2ceef79fadb840de11c5af604b53224fafb31dbcd395da8e307393",
+  "updated_at": "2026-09-17T18:14:48.322440",
+  "cleanup_task": "ART-008",
+  "changed_archive_entries": [
+    "assets/models/knight_refined_v4/README.md",
+    "assets/models/knight_refined_v4/visual_review.md"
+  ],
+  "unchanged_archive_entries": 68,
+  "crc_integrity": "PASS"
+}

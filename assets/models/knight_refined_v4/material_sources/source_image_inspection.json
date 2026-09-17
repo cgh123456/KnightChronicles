@@ -1,0 +1,42 @@
+{
+  "leather": {
+    "size": [
+      1254,
+      1254
+    ],
+    "sRGBMean": [
+      101.40277555204526,
+      66.27086147295162,
+      44.78438057228035
+    ],
+    "meanHex": "#65422d",
+    "channelStd": [
+      13.621867432343345,
+      11.518551347954755,
+      8.053579410849233
+    ],
+    "seamMeanDifferenceLeftRight_255": 8.858054226475279,
+    "seamMeanDifferenceTopBottom_255": 8.190324295587454,
+    "postprocessed": false
+  },
+  "steel": {
+    "size": [
+      1254,
+      1254
+    ],
+    "sRGBMean": [
+      121.48350859387122,
+      122.62392687896339,
+      126.83442902965693
+    ],
+    "meanHex": "#797b7f",
+    "channelStd": [
+      6.996756552900714,
+      7.1710885577419505,
+      6.92975823457144
+    ],
+    "seamMeanDifferenceLeftRight_255": 4.625465178096757,
+    "seamMeanDifferenceTopBottom_255": 6.619351408825093,
+    "postprocessed": false
+  }
+}

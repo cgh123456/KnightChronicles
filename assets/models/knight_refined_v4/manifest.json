@@ -1,0 +1,53 @@
+{
+  "meshObjects": 472,
+  "trianglesEvaluated": 715352,
+  "bones": 0,
+  "actions": [],
+  "task": "ART-007",
+  "stage": "static modeling sample",
+  "heightTarget": 3.2,
+  "reference": "assets/concepts/art-direction-v2/02-character-model-sheet.png",
+  "renderEngine": "CYCLES",
+  "samples": 128,
+  "rigged": false,
+  "animationClips": 0,
+  "meshProjectionTextureUsed": false,
+  "views": [
+    "hero",
+    "front",
+    "side",
+    "back",
+    "game",
+    "details",
+    "action",
+    "hand_relaxed",
+    "hand_grip"
+  ],
+  "coordinateSystem": "Z up / -Y front",
+  "createdFrom": "ART-006 independent concept reconstruction refined with new ART-007 component surfaces",
+  "neutralEquipment": "sheathed sword and relaxed hands",
+  "alternatePresentation": "ALTERNATE | drawn sword presentation collection",
+  "proceduralMaterialsInBlend": true,
+  "paintedAlbedoSourceImages": [
+    "material_sources/steel_albedo.png",
+    "material_sources/leather_albedo.png"
+  ],
+  "pbrExportStatus": "2K bake and independent GLB import/render validated",
+  "deliveryStatus": "delivered for user visual acceptance",
+  "materialSourceResolution": [
+    1254,
+    1254
+  ],
+  "pbrAtlasResolution": [
+    2048,
+    2048
+  ],
+  "staticRenderResolution": [
+    1600,
+    1600
+  ],
+  "sourceSHA256": "0457d73d7d32222eef5610d35ab09970740e286ce999040d7c7ef17319154153",
+  "glbSHA256": "094a7d8032eb855d780aa77c3feee4b7575dac1c5e2c92845b9def3466c7d388",
+  "glbTriangles": 715320,
+  "auditedExportDegenerateCleanup": 32
+}

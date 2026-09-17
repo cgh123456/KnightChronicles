@@ -1,0 +1,180 @@
+{
+  "module": "ART-007B",
+  "objects": 25,
+  "vertices": 70848,
+  "triangles": 140712,
+  "degenerate_triangles": 0,
+  "nonfinite_vertices": 0,
+  "materials": {
+    "cloth": true,
+    "cloth_dark": true,
+    "mail": true,
+    "trim": true,
+    "cloth_light": true
+  },
+  "bounds": {
+    "min": [
+      -0.5980648994445801,
+      -0.41893771290779114,
+      0.6058784127235413
+    ],
+    "max": [
+      0.5980648994445801,
+      0.452400267124176,
+      2.400695323944092
+    ]
+  },
+  "objects_detail": [
+    {
+      "name": "01 | Tunic with underarm tension and belt compression folds",
+      "vertices": 8320,
+      "triangles": 16636,
+      "degenerate": 0
+    },
+    {
+      "name": "01 | Tunic side construction seam",
+      "vertices": 330,
+      "triangles": 656,
+      "degenerate": 0
+    },
+    {
+      "name": "01 | Tunic side construction seam.001",
+      "vertices": 330,
+      "triangles": 656,
+      "degenerate": 0
+    },
+    {
+      "name": "02 | Fitted dark mail underlay",
+      "vertices": 320,
+      "triangles": 636,
+      "degenerate": 0
+    },
+    {
+      "name": "02 | Hand fitted overlapping mail row 00",
+      "vertices": 4940,
+      "triangles": 9728,
+      "degenerate": 0
+    },
+    {
+      "name": "02 | Hand fitted overlapping mail row 01",
+      "vertices": 4940,
+      "triangles": 9728,
+      "degenerate": 0
+    },
+    {
+      "name": "02 | Hand fitted overlapping mail row 02",
+      "vertices": 4940,
+      "triangles": 9728,
+      "degenerate": 0
+    },
+    {
+      "name": "02 | Hand fitted overlapping mail row 03",
+      "vertices": 4940,
+      "triangles": 9728,
+      "degenerate": 0
+    },
+    {
+      "name": "02 | Hand fitted overlapping mail row 04",
+      "vertices": 4940,
+      "triangles": 9728,
+      "degenerate": 0
+    },
+    {
+      "name": "02 | Hand fitted overlapping mail row 05",
+      "vertices": 4940,
+      "triangles": 9728,
+      "degenerate": 0
+    },
+    {
+      "name": "03 | Tabard with broad hanging folds",
+      "vertices": 5390,
+      "triangles": 10776,
+      "degenerate": 0
+    },
+    {
+      "name": "03 | Flat woven gold tabard facing left",
+      "vertices": 392,
+      "triangles": 780,
+      "degenerate": 0
+    },
+    {
+      "name": "03 | Flat woven gold tabard facing right",
+      "vertices": 392,
+      "triangles": 780,
+      "degenerate": 0
+    },
+    {
+      "name": "03 | Flat woven gold tabard facing bottom",
+      "vertices": 328,
+      "triangles": 652,
+      "degenerate": 0
+    },
+    {
+      "name": "04 | Weighted split cloak -1",
+      "vertices": 6278,
+      "triangles": 12552,
+      "degenerate": 0
+    },
+    {
+      "name": "04 | Flat cloak facing -1 left",
+      "vertices": 392,
+      "triangles": 780,
+      "degenerate": 0
+    },
+    {
+      "name": "04 | Flat cloak facing -1 bottom",
+      "vertices": 328,
+      "triangles": 652,
+      "degenerate": 0
+    },
+    {
+      "name": "04 | Cloak turned outer hem -1",
+      "vertices": 438,
+      "triangles": 872,
+      "degenerate": 0
+    },
+    {
+      "name": "04 | Weighted split cloak 1",
+      "vertices": 6278,
+      "triangles": 12552,
+      "degenerate": 0
+    },
+    {
+      "name": "04 | Flat cloak facing 1 left",
+      "vertices": 392,
+      "triangles": 780,
+      "degenerate": 0
+    },
+    {
+      "name": "04 | Flat cloak facing 1 bottom",
+      "vertices": 328,
+      "triangles": 652,
+      "degenerate": 0
+    },
+    {
+      "name": "04 | Cloak turned outer hem 1",
+      "vertices": 438,
+      "triangles": 872,
+      "degenerate": 0
+    },
+    {
+      "name": "05 | Continuous fabric nape under helmet",
+      "vertices": 352,
+      "triangles": 700,
+      "degenerate": 0
+    },
+    {
+      "name": "05 | Draped V scarf with compressed cloth ridge",
+      "vertices": 8400,
+      "triangles": 16800,
+      "degenerate": 0
+    },
+    {
+      "name": "05 | Scarf diagonal flat overfold",
+      "vertices": 1782,
+      "triangles": 3560,
+      "degenerate": 0
+    }
+  ],
+  "pass": true
+}

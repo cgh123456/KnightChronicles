@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": {
+    "alternate_visible": true,
+    "neutral_right_hand_hidden": true,
+    "sheathed_hilt_hidden": true,
+    "action_transforms_match": true,
+    "two_color_images_packed": true,
+    "source_unchanged": true
+  },
+  "max_transform_difference": 1.1920928955078125e-07,
+  "sha256": "fe21a0b44a3b73a9625a4d4a53efb41677ac37aa53b4dee9f23fbe8dd0c05eeb"
+}
