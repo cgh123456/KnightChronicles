@@ -1,0 +1,25 @@
+{
+  "character": "Skeleton_Rogue",
+  "action": "1H_Melee_Attack_Chop",
+  "frameWidth": 192,
+  "frameHeight": 192,
+  "columns": 6,
+  "fps": 12,
+  "cameraElevation": 51.34,
+  "orthoScale": 3.3148674964904785,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "directions": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "source": "KayKit Skeletons CC0"
+}

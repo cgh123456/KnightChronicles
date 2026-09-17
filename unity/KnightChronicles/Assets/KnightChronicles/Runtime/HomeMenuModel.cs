@@ -47,13 +47,13 @@ namespace KnightChronicles.Runtime
             {
                 Id = "start",
                 Title = service.FirstRun ? "开始新游戏" : "开始远征",
-                Subtitle = "选择角色与出战武器",
+                Subtitle = "回到小镇，整备装备与补给",
             });
             entries.Add(new Entry
             {
                 Id = "meta",
                 Title = "局外成长",
-                Subtitle = "解锁角色、武器与概率成长",
+                Subtitle = "小屋技能、属性与区域升级",
                 ShowRedDot = service.HasAffordableMetaUnlock,
             });
             entries.Add(new Entry

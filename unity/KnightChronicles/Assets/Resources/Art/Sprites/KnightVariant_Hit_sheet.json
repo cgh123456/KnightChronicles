@@ -1,0 +1,25 @@
+{
+  "character": "KnightVariant",
+  "action": "Hit_A",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "columns": 8,
+  "fps": 12,
+  "cameraElevation": 51.34,
+  "orthoScale": 4.970274448394775,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "directions": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "source": "Approved knight variant"
+}

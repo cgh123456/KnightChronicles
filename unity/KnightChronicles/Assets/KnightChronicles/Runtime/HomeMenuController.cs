@@ -13,19 +13,6 @@ namespace KnightChronicles.Runtime
     /// </summary>
     public sealed class HomeMenuController : MonoBehaviour
     {
-        // 序列化字段由 Inspector 赋值，编译器视为未赋值（CS0649）。
-#pragma warning disable 0649
-        [Header("预览状态（Inspector 控制；正式接入 FR-901 存档后移除）")]
-        [SerializeField] private bool hasActiveRun;
-        [SerializeField] private string activeRunSummary = "灰烬圣堂 · 第 2 层 · 最近安全点";
-        [SerializeField] private int gems = 1240;
-        [SerializeField] private bool previewNoHistory;
-        [SerializeField] private bool previewFirstRun;
-        [SerializeField] private bool previewAffordableMetaUnlock = true;
-        [SerializeField] private bool previewUnseenArchive;
-        [SerializeField] private bool simulateSaveFailure;
-#pragma warning restore 0649
-
         private static readonly Color Ink = new Color32(244, 247, 251, 255);
         private static readonly Color Muted = new Color32(185, 199, 216, 255);
         private static readonly Color Gold = new Color32(214, 162, 74, 255);
@@ -79,10 +66,6 @@ namespace KnightChronicles.Runtime
             yield return new WaitForSeconds(0.6f);
             _loading = false;
             RefreshRecordCard();
-            if (simulateSaveFailure)
-            {
-                _service.MarkSaveFailed();  // TC-1102-10 的演示入口
-            }
             RefreshSaveWarning();
         }
 
@@ -99,22 +82,18 @@ namespace KnightChronicles.Runtime
 
         private void BuildService()
         {
-            _service = new HomeProfileService(
-                gems,
-                hasActiveRun ? new HomeProfileService.RunSnapshot { Summary = activeRunSummary } : null,
-                previewNoHistory
-                    ? null
-                    : new HomeProfileService.RecordSnapshot
-                    {
-                        Victory = true,
-                        ThemeLabel = "第 3 主题",
-                        Kills = 184,
-                        Duration = "28:41",
-                        GemsEarned = 156,
-                    });
-            _service.FirstRun = previewFirstRun;
-            _service.HasAffordableMetaUnlock = previewAffordableMetaUnlock;
-            _service.HasUnseenArchiveEntries = previewUnseenArchive;
+            var state = GameSession.State;
+            var report = state.LastReport;
+            _service = new HomeProfileService(state.Coins,
+                state.ActiveRun == null ? null : new HomeProfileService.RunSnapshot { Summary = "地下城 L" + state.ActiveRun.Floor + " · 最近安全点" },
+                report == null ? null : new HomeProfileService.RecordSnapshot { Victory = report.Extracted, ThemeLabel = "L" + report.Floor,
+                    Kills = report.Kills, Duration = "", GemsEarned = report.Coins });
+            _service.FirstRun = state.Runs == 0;
+            _service.ExpeditionCount = state.Runs;
+            _service.PlaytimeText = Core.GameRules.TierName(state.Rank) + " / 职业者 Lv." + state.CareerLevel;
+            _service.HasAffordableMetaUnlock = state.SkillPoints > 0 || state.AttributePoints > 0;
+            _service.HasUnseenArchiveEntries = state.ReportPending;
+            if (GameSession.SaveError != null) _service.MarkSaveFailed();
             _service.GemsChanged += OnGemsChanged;
             _service.StateChanged += OnStateChanged;
             _service.RunInvalidated += reason => ShowToast(reason);
@@ -247,13 +226,14 @@ namespace KnightChronicles.Runtime
             Stretch(pedestal.rectTransform, new Vector2(0.18f, 0.08f), new Vector2(0.82f, 0.29f), Vector2.zero, Vector2.zero);
 
             // R-1102-4：角色展示由当前出战配置决定，任何按钮悬停都不联动本区域。
-            var placeholder = CreateText("CharacterDisplayLabel", frame.transform, "骑士 · 均衡型\n晨星长剑", 28, Ink, TextAnchor.LowerCenter);
+            var weapon = GameSession.State.Equipped[0];
+            var placeholder = CreateText("CharacterDisplayLabel", frame.transform, "骑士 · 秘银蓝\n" + (weapon == null ? "空手" : GameSession.Rules.Catalog.Get(weapon.Id).Name), 28, Ink, TextAnchor.LowerCenter);
             Stretch(placeholder.rectTransform, new Vector2(0.15f, 0.26f), new Vector2(0.85f, 0.4f), Vector2.zero, Vector2.zero);
 
             var copy = CreateText("CharacterDescription", parent, "持盾而行，于黯夜中守望最后的火种。", 19, Muted, TextAnchor.MiddleLeft);
             Stretch(copy.rectTransform, new Vector2(0.07f, 0.10f), new Vector2(0.43f, 0.155f), Vector2.zero, Vector2.zero);
 
-            _switchCharacterButton = CreateSimpleButton(parent, "更换角色 →", new Vector2(0.07f, 0.165f), new Vector2(0.21f, 0.215f), new Color(0.15f, 0.23f, 0.31f, 0.98f));
+            _switchCharacterButton = CreateSimpleButton(parent, "前往小镇 →", new Vector2(0.07f, 0.165f), new Vector2(0.21f, 0.215f), new Color(0.15f, 0.23f, 0.31f, 0.98f));
             _switchCharacterButton.onClick.AddListener(SwitchCharacter);
         }
 
@@ -299,7 +279,7 @@ namespace KnightChronicles.Runtime
             recordText = CreateText("RecordText", recordDataRoot.transform, string.Empty, 17, Ink, TextAnchor.MiddleLeft);
             Stretch(recordText.rectTransform, new Vector2(0.06f, 0.12f), new Vector2(0.72f, 0.88f), Vector2.zero, Vector2.zero);
             var detail = CreateSimpleButton(recordDataRoot.transform, "查看详情 →", new Vector2(0.74f, 0.2f), new Vector2(0.95f, 0.8f), new Color(0.15f, 0.23f, 0.31f, 1f));
-            detail.onClick.AddListener(delegate { StartCoroutine(Transition("上一局结算回放（FR-803 只读视图）将在下一迭代接入。")); });
+            detail.onClick.AddListener(delegate { GameSession.EntryPage = "report"; StartCoroutine(EnterTown()); });
         }
 
         private void CreateFooterHints(Transform parent)
@@ -439,22 +419,22 @@ namespace KnightChronicles.Runtime
             switch (entry.Id)
             {
                 case "continue":
-                    StartCoroutine(Transition("正在从最近安全点恢复未完成远征…"));
+                    StartCoroutine(EnterTown());
                     break;
                 case "start":
                     StartExpedition();
                     break;
                 case "meta":
-                    StartCoroutine(Transition("「局外成长中心」将在下一页面迭代接入（FR-1104）。"));
+                    GameSession.EntryPage = "hut"; StartCoroutine(EnterTown());
                     break;
                 case "archive":
-                    StartCoroutine(Transition("「图鉴与档案」将在下一页面迭代接入（FR-1106）。"));
+                    GameSession.EntryPage = "report"; StartCoroutine(EnterTown());
                     break;
                 case "settings":
-                    StartCoroutine(Transition("「设置」将在下一页面迭代接入（FR-1105）。"));
+                    GameSession.EntryPage = "settings"; StartCoroutine(EnterTown());
                     break;
                 case "help":
-                    StartCoroutine(Transition("「帮助与教程」将在下一页面迭代接入（FR-1107）。"));
+                    GameSession.EntryPage = "help"; StartCoroutine(EnterTown());
                     break;
                 case "exit":
                     OpenExitConfirm();
@@ -464,22 +444,7 @@ namespace KnightChronicles.Runtime
 
         private void StartExpedition()
         {
-            if (_service.ActiveRun == null)
-            {
-                StartCoroutine(EnterTown());
-                return;
-            }
-
-            // R-1102-10：必须明确后果，默认焦点落在「取消」；确认后原子删除快照再进入选角页。
-            ShowConfirm(
-                "放弃未完成远征？",
-                "开始新远征将放弃当前未完成远征，且无法继续。局外宝石与解锁进度不会受影响。",
-                "放弃并开始",
-                delegate
-                {
-                    _service.AbandonActiveRun();
-                    StartCoroutine(EnterTown());
-                });
+            StartCoroutine(EnterTown());
         }
 
         /// <summary>进入冒险者小镇（FR-1103 选角页接入前的占位流程）。</summary>
@@ -496,7 +461,8 @@ namespace KnightChronicles.Runtime
                 "确定退出《骑士异闻录》？",
                 "确认后将先写入局外进度再退出；未完成远征会保留在最近的安全点，供下次继续。",
                 "确认退出",
-                delegate { StartCoroutine(Transition("局外进度已保存。编辑器模式下不会真正关闭窗口。")); });
+                delegate { if (GameSession.State.ActiveRun == null && !GameSession.Save()) { ShowToast(GameSession.SaveError); return; }
+                    if (Application.isEditor) ShowToast("进度已保存；编辑器中请停止播放。"); else Application.Quit(); });
         }
 
         private void SwitchCharacter()
@@ -511,8 +477,7 @@ namespace KnightChronicles.Runtime
 
         private void RetrySave()
         {
-            _service.RetrySave();
-            ShowToast("已成功写入局外档案。");
+            if (GameSession.Save()) { _service.RetrySave(); ShowToast("已成功写入进度。"); } else ShowToast(GameSession.SaveError);
         }
 
         // ---------- 弹窗 / 提示 ----------
@@ -559,7 +524,7 @@ namespace KnightChronicles.Runtime
         {
             profileText.text = string.Format("旅者档案\n{0}  ·  {1} / {2} 次远征", _service.PlayerName, _service.PlaytimeText, _service.ExpeditionCount);
             _displayedGems = _service.Gems;
-            gemsText.text = string.Format("◆  {0:N0}\n v0.1.0-dev", _displayedGems);
+            gemsText.text = string.Format("金币  {0:N0}\n骑士异闻录", _displayedGems);
             RefreshSaveWarning();
         }
 
@@ -602,8 +567,8 @@ namespace KnightChronicles.Runtime
             if (record != null)
             {
                 recordText.text = string.Format(
-                    "最近一局战绩  ·  {0}\n{1}（最远推进）     {2} 击杀     {3}     +{4} ◆",
-                    record.Victory ? "通关" : "未通关",
+                    "最近一局战绩  ·  {0}\n{1}（最远推进）     {2} 击杀     {3}     {4} 金币",
+                    record.Victory ? "撤离成功" : "死亡 / 放弃",
                     record.ThemeLabel,
                     record.Kills,
                     record.Duration,
@@ -649,12 +614,12 @@ namespace KnightChronicles.Runtime
             {
                 t += Time.unscaledDeltaTime / GemRollSeconds;
                 _displayedGems = Mathf.RoundToInt(Mathf.Lerp(start, target, Mathf.SmoothStep(0f, 1f, Mathf.Clamp01(t))));
-                gemsText.text = string.Format("◆  {0:N0}\n v0.1.0-dev", _displayedGems);
+                gemsText.text = string.Format("金币  {0:N0}\n骑士异闻录", _displayedGems);
                 yield return null;
             }
 
             _displayedGems = target;
-            gemsText.text = string.Format("◆  {0:N0}\n v0.1.0-dev", _displayedGems);
+            gemsText.text = string.Format("金币  {0:N0}\n骑士异闻录", _displayedGems);
         }
 
         private IEnumerator PulseSkeleton()
@@ -713,7 +678,7 @@ namespace KnightChronicles.Runtime
             var node = new GameObject(name, typeof(RectTransform), typeof(Text));
             node.transform.SetParent(parent, false);
             var text = node.GetComponent<Text>();
-            text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            text.font = GameFont.World;
             text.text = value;
             text.fontSize = size;
             text.color = color;

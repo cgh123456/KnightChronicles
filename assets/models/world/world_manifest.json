@@ -1,0 +1,400 @@
+[
+  {
+    "key": "stone_floor",
+    "sourceCollection": "ASSET_stone_floor",
+    "meshes": 17,
+    "png": "stone_floor.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 90
+  },
+  {
+    "key": "stone_wall",
+    "sourceCollection": "ASSET_stone_wall",
+    "meshes": 31,
+    "png": "stone_wall.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "wood_floor",
+    "sourceCollection": "ASSET_wood_floor",
+    "meshes": 24,
+    "png": "wood_floor.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 90
+  },
+  {
+    "key": "grass_tile",
+    "sourceCollection": "ASSET_grass_tile",
+    "meshes": 141,
+    "png": "grass_tile.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 90
+  },
+  {
+    "key": "cobble_tile",
+    "sourceCollection": "ASSET_cobble_tile",
+    "meshes": 50,
+    "png": "cobble_tile.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 90
+  },
+  {
+    "key": "crate",
+    "sourceCollection": "ASSET_crate",
+    "meshes": 22,
+    "png": "crate.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "chest",
+    "sourceCollection": "ASSET_chest",
+    "meshes": 19,
+    "png": "chest.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "bookshelf",
+    "sourceCollection": "ASSET_bookshelf",
+    "meshes": 28,
+    "png": "bookshelf.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "bones",
+    "sourceCollection": "ASSET_bones",
+    "meshes": 10,
+    "png": "bones.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "supplies",
+    "sourceCollection": "ASSET_supplies",
+    "meshes": 37,
+    "png": "supplies.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "urn",
+    "sourceCollection": "ASSET_urn",
+    "meshes": 5,
+    "png": "urn.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "stair_up",
+    "sourceCollection": "ASSET_stair_up",
+    "meshes": 10,
+    "png": "stair_up.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "stair_down",
+    "sourceCollection": "ASSET_stair_down",
+    "meshes": 11,
+    "png": "stair_down.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "portal",
+    "sourceCollection": "ASSET_portal",
+    "meshes": 16,
+    "png": "portal.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "door",
+    "sourceCollection": "ASSET_door",
+    "meshes": 14,
+    "png": "door.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "pillar",
+    "sourceCollection": "ASSET_pillar",
+    "meshes": 8,
+    "png": "pillar.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "torch",
+    "sourceCollection": "ASSET_torch",
+    "meshes": 4,
+    "png": "torch.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "barrel",
+    "sourceCollection": "ASSET_barrel",
+    "meshes": 15,
+    "png": "barrel.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "tree",
+    "sourceCollection": "ASSET_tree",
+    "meshes": 12,
+    "png": "tree.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "bush",
+    "sourceCollection": "ASSET_bush",
+    "meshes": 6,
+    "png": "bush.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "rocks",
+    "sourceCollection": "ASSET_rocks",
+    "meshes": 6,
+    "png": "rocks.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "fountain",
+    "sourceCollection": "ASSET_fountain",
+    "meshes": 29,
+    "png": "fountain.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "smith",
+    "sourceCollection": "ASSET_smith",
+    "meshes": 186,
+    "png": "smith.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "armor_shop",
+    "sourceCollection": "ASSET_armor_shop",
+    "meshes": 180,
+    "png": "armor_shop.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "alchemy",
+    "sourceCollection": "ASSET_alchemy",
+    "meshes": 186,
+    "png": "alchemy.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "scroll_shop",
+    "sourceCollection": "ASSET_scroll_shop",
+    "meshes": 184,
+    "png": "scroll_shop.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "general_shop",
+    "sourceCollection": "ASSET_general_shop",
+    "meshes": 217,
+    "png": "general_shop.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "guild",
+    "sourceCollection": "ASSET_guild",
+    "meshes": 183,
+    "png": "guild.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "hut",
+    "sourceCollection": "ASSET_hut",
+    "meshes": 213,
+    "png": "hut.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "gate",
+    "sourceCollection": "ASSET_gate",
+    "meshes": 36,
+    "png": "gate.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "fence",
+    "sourceCollection": "ASSET_fence",
+    "meshes": 6,
+    "png": "fence.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "signpost",
+    "sourceCollection": "ASSET_signpost",
+    "meshes": 3,
+    "png": "signpost.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "lantern",
+    "sourceCollection": "ASSET_lantern",
+    "meshes": 8,
+    "png": "lantern.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "cart",
+    "sourceCollection": "ASSET_cart",
+    "meshes": 49,
+    "png": "cart.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "bench",
+    "sourceCollection": "ASSET_bench",
+    "meshes": 8,
+    "png": "bench.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34
+  },
+  {
+    "key": "stone_wall_side",
+    "sourceCollection": "ASSET_stone_wall",
+    "meshes": 31,
+    "png": "stone_wall_side.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "cameraElevation": 51.34,
+    "modelYaw": 90,
+    "source": "world_collection.blend"
+  }
+]

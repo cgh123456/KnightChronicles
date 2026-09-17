@@ -17,6 +17,7 @@ namespace KnightChronicles.Runtime
             public Texture2D Sheet;
             public int Columns = 12;
             public float Fps = 12f;
+            public float PixelsPerUnit = 100f;
         }
 
         public const int Rows = 8;
@@ -30,6 +31,7 @@ namespace KnightChronicles.Runtime
         private int row;
         private int column;
         private float timer;
+        private float oneShotUntil;
 
         /// <summary>方向行号：0=S，顺时针每 45° 一行（与图集烘焙行序一致）。</summary>
         public int Row
@@ -50,10 +52,19 @@ namespace KnightChronicles.Runtime
         }
 
         public string CurrentAction => currentAction;
+        public int Direction => row;
+        public bool HasAction(string name) { return framesByAction.ContainsKey(name); }
+        public void PlayOneShot(string name, float duration)
+        {
+            if (!HasAction(name)) return;
+            oneShotUntil = 0; Play(name); column = 0; timer = 0; oneShotUntil = Time.time + duration;
+        }
 
         /// <summary>由环境层注入动作清单并预切帧（8 方向 × N 列）。</summary>
         public void Configure(params ActionSet[] sets)
         {
+            ReleaseFrames();
+            currentAction = null;
             spriteRenderer = GetComponent<SpriteRenderer>();
             foreach (var set in sets)
             {
@@ -73,7 +84,7 @@ namespace KnightChronicles.Runtime
                     for (var c = 0; c < set.Columns; c++)
                     {
                         var rect = new Rect(c * cellW, set.Sheet.height - (r + 1) * cellH, cellW, cellH);
-                        grid[r][c] = Sprite.Create(set.Sheet, rect, new Vector2(0.5f, 0.5f), 100f);
+                        grid[r][c] = Sprite.Create(set.Sheet, rect, new Vector2(0.5f, 0.5f), set.PixelsPerUnit, 0, SpriteMeshType.FullRect);
                         grid[r][c].name = $"{set.Sheet.name}_{r}_{c:00}";
                     }
                 }
@@ -82,10 +93,17 @@ namespace KnightChronicles.Runtime
                 fpsByAction[set.Name] = set.Fps;
             }
         }
+        private void OnDestroy() { ReleaseFrames(); }
+        private void ReleaseFrames()
+        {
+            foreach (var grid in framesByAction.Values) foreach (var rowFrames in grid) foreach (var sprite in rowFrames) if (sprite != null) Destroy(sprite);
+            framesByAction.Clear(); fpsByAction.Clear(); actions.Clear();
+        }
 
         /// <summary>切换动作；同名调用为幂等。动作缺失时保持原动作并告警一次。</summary>
         public void Play(string actionName)
         {
+            if (Time.time < oneShotUntil && actionName != currentAction) return;
             if (currentAction == actionName)
             {
                 return;
@@ -115,7 +133,8 @@ namespace KnightChronicles.Runtime
 
             timer += Time.deltaTime;
             var columns = framesByAction[currentAction][row].Length;
-            var frame = Mathf.FloorToInt(timer * fpsByAction[currentAction]) % columns;
+            var frame = Time.time < oneShotUntil ? Mathf.Min(columns - 1, Mathf.FloorToInt(timer * fpsByAction[currentAction]))
+                : Mathf.FloorToInt(timer * fpsByAction[currentAction]) % columns;
             if (frame != column)
             {
                 column = frame;

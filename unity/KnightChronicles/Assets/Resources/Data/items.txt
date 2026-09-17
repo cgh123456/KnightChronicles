@@ -1,0 +1,655 @@
+id	name	kind	branch	slot	tier	power	price	weight	durability	range	interval	set	effect	capacity	carryBonus	stack	speed
+eq_0001	粗制朴刀	Weapon	blade	Weapon	0	12	51	8	100	3.5	1.2			0	0	1	0
+eq_0002	粗制弯刀	Weapon	blade	Weapon	0	12	51	8	100	3.5	1.2			0	0	1	0
+eq_0003	粗制柳叶刀	Weapon	blade	Weapon	0	12	51	8	100	3.5	1.2			0	0	1	0
+eq_0004	粗制雁翎刀	Weapon	blade	Weapon	0	13	54	8	100	3.5	1.2			0	0	1	0
+eq_0005	粗制鬼头刀	Weapon	blade	Weapon	0	11	48	8	100	3.5	1.2			0	0	1	0
+eq_0006	粗制九环刀	Weapon	blade	Weapon	0	11	48	8	100	3.5	1.2			0	0	1	0
+eq_0007	粗制斩马刀	Weapon	blade	Weapon	0	12	51	8	100	3.5	1.2			0	0	1	0
+eq_0008	粗制苗刀	Weapon	blade	Weapon	0	12	51	8	100	3.5	1.2			0	0	1	0
+eq_0009	粗制环首刀	Weapon	blade	Weapon	0	12	51	8	100	3.5	1.2			0	0	1	0
+eq_0010	粗制破风刀	Weapon	blade	Weapon	0	13	54	8	100	3.5	1.2			0	0	1	0
+eq_0011	精钢朴刀	Weapon	blade	Weapon	1	15	60	8	130	3.5	1.2			0	0	1	0
+eq_0012	精钢弯刀	Weapon	blade	Weapon	1	16	63	8	130	3.5	1.2			0	0	1	0
+eq_0013	精钢柳叶刀	Weapon	blade	Weapon	1	16	63	8	130	3.5	1.2			0	0	1	0
+eq_0014	精钢雁翎刀	Weapon	blade	Weapon	1	17	66	8	130	3.5	1.2			0	0	1	0
+eq_0015	精钢鬼头刀	Weapon	blade	Weapon	1	14	57	8	130	3.5	1.2			0	0	1	0
+eq_0016	精钢九环刀	Weapon	blade	Weapon	1	15	60	8	130	3.5	1.2			0	0	1	0
+eq_0017	精钢斩马刀	Weapon	blade	Weapon	1	15	60	8	130	3.5	1.2			0	0	1	0
+eq_0018	精钢苗刀	Weapon	blade	Weapon	1	16	63	8	130	3.5	1.2			0	0	1	0
+eq_0019	精钢环首刀	Weapon	blade	Weapon	1	16	63	8	130	3.5	1.2			0	0	1	0
+eq_0020	精钢破风刀	Weapon	blade	Weapon	1	17	66	8	130	3.5	1.2			0	0	1	0
+eq_0021	鎏金朴刀	Weapon	blade	Weapon	2	20	75	8	170	3.5	1.2			0	0	1	0
+eq_0022	鎏金弯刀	Weapon	blade	Weapon	2	20	75	8	170	3.5	1.2			0	0	1	0
+eq_0023	鎏金柳叶刀	Weapon	blade	Weapon	2	21	78	8	170	3.5	1.2			0	0	1	0
+eq_0024	鎏金雁翎刀	Weapon	blade	Weapon	2	22	81	8	170	3.5	1.2			0	0	1	0
+eq_0025	鎏金鬼头刀	Weapon	blade	Weapon	2	19	72	8	170	3.5	1.2			0	0	1	0
+eq_0026	鎏金九环刀	Weapon	blade	Weapon	2	19	72	8	170	3.5	1.2			0	0	1	0
+eq_0027	鎏金斩马刀	Weapon	blade	Weapon	2	20	75	8	170	3.5	1.2			0	0	1	0
+eq_0028	鎏金苗刀	Weapon	blade	Weapon	2	21	78	8	170	3.5	1.2			0	0	1	0
+eq_0029	鎏金环首刀	Weapon	blade	Weapon	2	21	78	8	170	3.5	1.2			0	0	1	0
+eq_0030	鎏金破风刀	Weapon	blade	Weapon	2	22	81	8	170	3.5	1.2			0	0	1	0
+eq_0031	秘银朴刀	Weapon	blade	Weapon	3	26	93	8	220	3.5	1.2			0	0	1	0
+eq_0032	秘银弯刀	Weapon	blade	Weapon	3	26	93	8	220	3.5	1.2			0	0	1	0
+eq_0033	秘银柳叶刀	Weapon	blade	Weapon	3	27	96	8	220	3.5	1.2			0	0	1	0
+eq_0034	秘银雁翎刀	Weapon	blade	Weapon	3	28	99	8	220	3.5	1.2			0	0	1	0
+eq_0035	秘银鬼头刀	Weapon	blade	Weapon	3	24	87	8	220	3.5	1.2			0	0	1	0
+eq_0036	秘银九环刀	Weapon	blade	Weapon	3	25	90	8	220	3.5	1.2			0	0	1	0
+eq_0037	秘银斩马刀	Weapon	blade	Weapon	3	26	93	8	220	3.5	1.2			0	0	1	0
+eq_0038	秘银苗刀	Weapon	blade	Weapon	3	27	96	8	220	3.5	1.2			0	0	1	0
+eq_0039	秘银环首刀	Weapon	blade	Weapon	3	27	96	8	220	3.5	1.2			0	0	1	0
+eq_0040	秘银破风刀	Weapon	blade	Weapon	3	28	99	8	220	3.5	1.2			0	0	1	0
+eq_0041	龙裔朴刀	Weapon	blade	Weapon	4	35	120	8	300	3.5	1.2			0	0	1	0
+eq_0042	龙裔弯刀	Weapon	blade	Weapon	4	36	123	8	300	3.5	1.2			0	0	1	0
+eq_0043	龙裔柳叶刀	Weapon	blade	Weapon	4	37	126	8	300	3.5	1.2			0	0	1	0
+eq_0044	龙裔雁翎刀	Weapon	blade	Weapon	4	38	129	8	300	3.5	1.2			0	0	1	0
+eq_0045	龙裔鬼头刀	Weapon	blade	Weapon	4	33	114	8	300	3.5	1.2			0	0	1	0
+eq_0046	龙裔九环刀	Weapon	blade	Weapon	4	34	117	8	300	3.5	1.2			0	0	1	0
+eq_0047	龙裔斩马刀	Weapon	blade	Weapon	4	35	120	8	300	3.5	1.2			0	0	1	0
+eq_0048	龙裔苗刀	Weapon	blade	Weapon	4	36	123	8	300	3.5	1.2			0	0	1	0
+eq_0049	龙裔环首刀	Weapon	blade	Weapon	4	37	126	8	300	3.5	1.2			0	0	1	0
+eq_0050	龙裔破风刀	Weapon	blade	Weapon	4	39	132	8	300	3.5	1.2			0	0	1	0
+eq_0051	粗制十字剑	Weapon	sword	Weapon	0	9	42	7	100	2.5	0.5			0	0	1	0
+eq_0052	粗制阔剑	Weapon	sword	Weapon	0	9	42	7	100	2.5	0.5			0	0	1	0
+eq_0053	粗制直刃剑	Weapon	sword	Weapon	0	9	42	7	100	2.5	0.5			0	0	1	0
+eq_0054	粗制猎剑	Weapon	sword	Weapon	0	10	45	7	100	2.5	0.5			0	0	1	0
+eq_0055	粗制仪仗剑	Weapon	sword	Weapon	0	8	39	7	100	2.5	0.5			0	0	1	0
+eq_0056	粗制细身剑	Weapon	sword	Weapon	0	9	42	7	100	2.5	0.5			0	0	1	0
+eq_0057	粗制双环剑	Weapon	sword	Weapon	0	9	42	7	100	2.5	0.5			0	0	1	0
+eq_0058	粗制狮纹剑	Weapon	sword	Weapon	0	9	42	7	100	2.5	0.5			0	0	1	0
+eq_0059	粗制鸢尾剑	Weapon	sword	Weapon	0	9	42	7	100	2.5	0.5			0	0	1	0
+eq_0060	粗制王庭剑	Weapon	sword	Weapon	0	10	45	7	100	2.5	0.5			0	0	1	0
+eq_0061	精钢十字剑	Weapon	sword	Weapon	1	11	48	7	130	2.5	0.5			0	0	1	0
+eq_0062	精钢阔剑	Weapon	sword	Weapon	1	12	51	7	130	2.5	0.5			0	0	1	0
+eq_0063	精钢直刃剑	Weapon	sword	Weapon	1	12	51	7	130	2.5	0.5			0	0	1	0
+eq_0064	精钢猎剑	Weapon	sword	Weapon	1	12	51	7	130	2.5	0.5			0	0	1	0
+eq_0065	精钢仪仗剑	Weapon	sword	Weapon	1	11	48	7	130	2.5	0.5			0	0	1	0
+eq_0066	精钢细身剑	Weapon	sword	Weapon	1	11	48	7	130	2.5	0.5			0	0	1	0
+eq_0067	精钢双环剑	Weapon	sword	Weapon	1	11	48	7	130	2.5	0.5			0	0	1	0
+eq_0068	精钢狮纹剑	Weapon	sword	Weapon	1	12	51	7	130	2.5	0.5			0	0	1	0
+eq_0069	精钢鸢尾剑	Weapon	sword	Weapon	1	12	51	7	130	2.5	0.5			0	0	1	0
+eq_0070	精钢王庭剑	Weapon	sword	Weapon	1	13	54	7	130	2.5	0.5			0	0	1	0
+eq_0071	鎏金十字剑	Weapon	sword	Weapon	2	15	60	7	170	2.5	0.5			0	0	1	0
+eq_0072	鎏金阔剑	Weapon	sword	Weapon	2	15	60	7	170	2.5	0.5			0	0	1	0
+eq_0073	鎏金直刃剑	Weapon	sword	Weapon	2	16	63	7	170	2.5	0.5			0	0	1	0
+eq_0074	鎏金猎剑	Weapon	sword	Weapon	2	16	63	7	170	2.5	0.5			0	0	1	0
+eq_0075	鎏金仪仗剑	Weapon	sword	Weapon	2	14	57	7	170	2.5	0.5			0	0	1	0
+eq_0076	鎏金细身剑	Weapon	sword	Weapon	2	15	60	7	170	2.5	0.5			0	0	1	0
+eq_0077	鎏金双环剑	Weapon	sword	Weapon	2	15	60	7	170	2.5	0.5			0	0	1	0
+eq_0078	鎏金狮纹剑	Weapon	sword	Weapon	2	15	60	7	170	2.5	0.5			0	0	1	0
+eq_0079	鎏金鸢尾剑	Weapon	sword	Weapon	2	16	63	7	170	2.5	0.5			0	0	1	0
+eq_0080	鎏金王庭剑	Weapon	sword	Weapon	2	16	63	7	170	2.5	0.5			0	0	1	0
+eq_0081	秘银十字剑	Weapon	sword	Weapon	3	19	72	7	220	2.5	0.5			0	0	1	0
+eq_0082	秘银阔剑	Weapon	sword	Weapon	3	20	75	7	220	2.5	0.5			0	0	1	0
+eq_0083	秘银直刃剑	Weapon	sword	Weapon	3	20	75	7	220	2.5	0.5			0	0	1	0
+eq_0084	秘银猎剑	Weapon	sword	Weapon	3	21	78	7	220	2.5	0.5			0	0	1	0
+eq_0085	秘银仪仗剑	Weapon	sword	Weapon	3	18	69	7	220	2.5	0.5			0	0	1	0
+eq_0086	秘银细身剑	Weapon	sword	Weapon	3	19	72	7	220	2.5	0.5			0	0	1	0
+eq_0087	秘银双环剑	Weapon	sword	Weapon	3	19	72	7	220	2.5	0.5			0	0	1	0
+eq_0088	秘银狮纹剑	Weapon	sword	Weapon	3	20	75	7	220	2.5	0.5			0	0	1	0
+eq_0089	秘银鸢尾剑	Weapon	sword	Weapon	3	21	78	7	220	2.5	0.5			0	0	1	0
+eq_0090	秘银王庭剑	Weapon	sword	Weapon	3	21	78	7	220	2.5	0.5			0	0	1	0
+eq_0091	龙裔十字剑	Weapon	sword	Weapon	4	26	93	7	300	2.5	0.5			0	0	1	0
+eq_0092	龙裔阔剑	Weapon	sword	Weapon	4	27	96	7	300	2.5	0.5			0	0	1	0
+eq_0093	龙裔直刃剑	Weapon	sword	Weapon	4	28	99	7	300	2.5	0.5			0	0	1	0
+eq_0094	龙裔猎剑	Weapon	sword	Weapon	4	29	102	7	300	2.5	0.5			0	0	1	0
+eq_0095	龙裔仪仗剑	Weapon	sword	Weapon	4	25	90	7	300	2.5	0.5			0	0	1	0
+eq_0096	龙裔细身剑	Weapon	sword	Weapon	4	26	93	7	300	2.5	0.5			0	0	1	0
+eq_0097	龙裔双环剑	Weapon	sword	Weapon	4	26	93	7	300	2.5	0.5			0	0	1	0
+eq_0098	龙裔狮纹剑	Weapon	sword	Weapon	4	27	96	7	300	2.5	0.5			0	0	1	0
+eq_0099	龙裔鸢尾剑	Weapon	sword	Weapon	4	28	99	7	300	2.5	0.5			0	0	1	0
+eq_0100	龙裔王庭剑	Weapon	sword	Weapon	4	29	102	7	300	2.5	0.5			0	0	1	0
+eq_0101	粗制素木枪	Weapon	spear	Weapon	0	10	45	9	100	5	0.8			0	0	1	0
+eq_0102	粗制铁枪	Weapon	spear	Weapon	0	10	45	9	100	5	0.8			0	0	1	0
+eq_0103	粗制红缨枪	Weapon	spear	Weapon	0	10	45	9	100	5	0.8			0	0	1	0
+eq_0104	粗制锥枪	Weapon	spear	Weapon	0	11	48	9	100	5	0.8			0	0	1	0
+eq_0105	粗制蛇矛	Weapon	spear	Weapon	0	9	42	9	100	5	0.8			0	0	1	0
+eq_0106	粗制钩镰枪	Weapon	spear	Weapon	0	10	45	9	100	5	0.8			0	0	1	0
+eq_0107	粗制骑枪	Weapon	spear	Weapon	0	10	45	9	100	5	0.8			0	0	1	0
+eq_0108	粗制透甲枪	Weapon	spear	Weapon	0	10	45	9	100	5	0.8			0	0	1	0
+eq_0109	粗制龙胆枪	Weapon	spear	Weapon	0	10	45	9	100	5	0.8			0	0	1	0
+eq_0110	粗制破军枪	Weapon	spear	Weapon	0	11	48	9	100	5	0.8			0	0	1	0
+eq_0111	精钢素木枪	Weapon	spear	Weapon	1	13	54	9	130	5	0.8			0	0	1	0
+eq_0112	精钢铁枪	Weapon	spear	Weapon	1	13	54	9	130	5	0.8			0	0	1	0
+eq_0113	精钢红缨枪	Weapon	spear	Weapon	1	13	54	9	130	5	0.8			0	0	1	0
+eq_0114	精钢锥枪	Weapon	spear	Weapon	1	14	57	9	130	5	0.8			0	0	1	0
+eq_0115	精钢蛇矛	Weapon	spear	Weapon	1	12	51	9	130	5	0.8			0	0	1	0
+eq_0116	精钢钩镰枪	Weapon	spear	Weapon	1	12	51	9	130	5	0.8			0	0	1	0
+eq_0117	精钢骑枪	Weapon	spear	Weapon	1	13	54	9	130	5	0.8			0	0	1	0
+eq_0118	精钢透甲枪	Weapon	spear	Weapon	1	13	54	9	130	5	0.8			0	0	1	0
+eq_0119	精钢龙胆枪	Weapon	spear	Weapon	1	14	57	9	130	5	0.8			0	0	1	0
+eq_0120	精钢破军枪	Weapon	spear	Weapon	1	14	57	9	130	5	0.8			0	0	1	0
+eq_0121	鎏金素木枪	Weapon	spear	Weapon	2	16	63	9	170	5	0.8			0	0	1	0
+eq_0122	鎏金铁枪	Weapon	spear	Weapon	2	17	66	9	170	5	0.8			0	0	1	0
+eq_0123	鎏金红缨枪	Weapon	spear	Weapon	2	18	69	9	170	5	0.8			0	0	1	0
+eq_0124	鎏金锥枪	Weapon	spear	Weapon	2	18	69	9	170	5	0.8			0	0	1	0
+eq_0125	鎏金蛇矛	Weapon	spear	Weapon	2	16	63	9	170	5	0.8			0	0	1	0
+eq_0126	鎏金钩镰枪	Weapon	spear	Weapon	2	16	63	9	170	5	0.8			0	0	1	0
+eq_0127	鎏金骑枪	Weapon	spear	Weapon	2	17	66	9	170	5	0.8			0	0	1	0
+eq_0128	鎏金透甲枪	Weapon	spear	Weapon	2	17	66	9	170	5	0.8			0	0	1	0
+eq_0129	鎏金龙胆枪	Weapon	spear	Weapon	2	18	69	9	170	5	0.8			0	0	1	0
+eq_0130	鎏金破军枪	Weapon	spear	Weapon	2	18	69	9	170	5	0.8			0	0	1	0
+eq_0131	秘银素木枪	Weapon	spear	Weapon	3	21	78	9	220	5	0.8			0	0	1	0
+eq_0132	秘银铁枪	Weapon	spear	Weapon	3	22	81	9	220	5	0.8			0	0	1	0
+eq_0133	秘银红缨枪	Weapon	spear	Weapon	3	23	84	9	220	5	0.8			0	0	1	0
+eq_0134	秘银锥枪	Weapon	spear	Weapon	3	23	84	9	220	5	0.8			0	0	1	0
+eq_0135	秘银蛇矛	Weapon	spear	Weapon	3	20	75	9	220	5	0.8			0	0	1	0
+eq_0136	秘银钩镰枪	Weapon	spear	Weapon	3	21	78	9	220	5	0.8			0	0	1	0
+eq_0137	秘银骑枪	Weapon	spear	Weapon	3	22	81	9	220	5	0.8			0	0	1	0
+eq_0138	秘银透甲枪	Weapon	spear	Weapon	3	22	81	9	220	5	0.8			0	0	1	0
+eq_0139	秘银龙胆枪	Weapon	spear	Weapon	3	23	84	9	220	5	0.8			0	0	1	0
+eq_0140	秘银破军枪	Weapon	spear	Weapon	3	24	87	9	220	5	0.8			0	0	1	0
+eq_0141	龙裔素木枪	Weapon	spear	Weapon	4	29	102	9	300	5	0.8			0	0	1	0
+eq_0142	龙裔铁枪	Weapon	spear	Weapon	4	30	105	9	300	5	0.8			0	0	1	0
+eq_0143	龙裔红缨枪	Weapon	spear	Weapon	4	31	108	9	300	5	0.8			0	0	1	0
+eq_0144	龙裔锥枪	Weapon	spear	Weapon	4	32	111	9	300	5	0.8			0	0	1	0
+eq_0145	龙裔蛇矛	Weapon	spear	Weapon	4	28	99	9	300	5	0.8			0	0	1	0
+eq_0146	龙裔钩镰枪	Weapon	spear	Weapon	4	29	102	9	300	5	0.8			0	0	1	0
+eq_0147	龙裔骑枪	Weapon	spear	Weapon	4	29	102	9	300	5	0.8			0	0	1	0
+eq_0148	龙裔透甲枪	Weapon	spear	Weapon	4	30	105	9	300	5	0.8			0	0	1	0
+eq_0149	龙裔龙胆枪	Weapon	spear	Weapon	4	31	108	9	300	5	0.8			0	0	1	0
+eq_0150	龙裔破军枪	Weapon	spear	Weapon	4	32	111	9	300	5	0.8			0	0	1	0
+eq_0151	粗制短刃	Weapon	dagger	Weapon	0	6	33	3	100	1.5	0.35			0	0	1	0
+eq_0152	粗制袖刃	Weapon	dagger	Weapon	0	6	33	3	100	1.5	0.35			0	0	1	0
+eq_0153	粗制刺匕	Weapon	dagger	Weapon	0	6	33	3	100	1.5	0.35			0	0	1	0
+eq_0154	粗制弯月匕	Weapon	dagger	Weapon	0	6	33	3	100	1.5	0.35			0	0	1	0
+eq_0155	粗制双刃匕	Weapon	dagger	Weapon	0	6	33	3	100	1.5	0.35			0	0	1	0
+eq_0156	粗制影刃	Weapon	dagger	Weapon	0	6	33	3	100	1.5	0.35			0	0	1	0
+eq_0157	粗制骨刺匕	Weapon	dagger	Weapon	0	6	33	3	100	1.5	0.35			0	0	1	0
+eq_0158	粗制毒牙	Weapon	dagger	Weapon	0	6	33	3	100	1.5	0.35			0	0	1	0
+eq_0159	粗制燕尾匕	Weapon	dagger	Weapon	0	6	33	3	100	1.5	0.35			0	0	1	0
+eq_0160	粗制疾风刺	Weapon	dagger	Weapon	0	6	33	3	100	1.5	0.35			0	0	1	0
+eq_0161	精钢短刃	Weapon	dagger	Weapon	1	8	39	3	130	1.5	0.35			0	0	1	0
+eq_0162	精钢袖刃	Weapon	dagger	Weapon	1	8	39	3	130	1.5	0.35			0	0	1	0
+eq_0163	精钢刺匕	Weapon	dagger	Weapon	1	8	39	3	130	1.5	0.35			0	0	1	0
+eq_0164	精钢弯月匕	Weapon	dagger	Weapon	1	8	39	3	130	1.5	0.35			0	0	1	0
+eq_0165	精钢双刃匕	Weapon	dagger	Weapon	1	7	36	3	130	1.5	0.35			0	0	1	0
+eq_0166	精钢影刃	Weapon	dagger	Weapon	1	7	36	3	130	1.5	0.35			0	0	1	0
+eq_0167	精钢骨刺匕	Weapon	dagger	Weapon	1	8	39	3	130	1.5	0.35			0	0	1	0
+eq_0168	精钢毒牙	Weapon	dagger	Weapon	1	8	39	3	130	1.5	0.35			0	0	1	0
+eq_0169	精钢燕尾匕	Weapon	dagger	Weapon	1	8	39	3	130	1.5	0.35			0	0	1	0
+eq_0170	精钢疾风刺	Weapon	dagger	Weapon	1	8	39	3	130	1.5	0.35			0	0	1	0
+eq_0171	鎏金短刃	Weapon	dagger	Weapon	2	10	45	3	170	1.5	0.35			0	0	1	0
+eq_0172	鎏金袖刃	Weapon	dagger	Weapon	2	10	45	3	170	1.5	0.35			0	0	1	0
+eq_0173	鎏金刺匕	Weapon	dagger	Weapon	2	11	48	3	170	1.5	0.35			0	0	1	0
+eq_0174	鎏金弯月匕	Weapon	dagger	Weapon	2	11	48	3	170	1.5	0.35			0	0	1	0
+eq_0175	鎏金双刃匕	Weapon	dagger	Weapon	2	9	42	3	170	1.5	0.35			0	0	1	0
+eq_0176	鎏金影刃	Weapon	dagger	Weapon	2	10	45	3	170	1.5	0.35			0	0	1	0
+eq_0177	鎏金骨刺匕	Weapon	dagger	Weapon	2	10	45	3	170	1.5	0.35			0	0	1	0
+eq_0178	鎏金毒牙	Weapon	dagger	Weapon	2	10	45	3	170	1.5	0.35			0	0	1	0
+eq_0179	鎏金燕尾匕	Weapon	dagger	Weapon	2	11	48	3	170	1.5	0.35			0	0	1	0
+eq_0180	鎏金疾风刺	Weapon	dagger	Weapon	2	11	48	3	170	1.5	0.35			0	0	1	0
+eq_0181	秘银短刃	Weapon	dagger	Weapon	3	13	54	3	220	1.5	0.35			0	0	1	0
+eq_0182	秘银袖刃	Weapon	dagger	Weapon	3	13	54	3	220	1.5	0.35			0	0	1	0
+eq_0183	秘银刺匕	Weapon	dagger	Weapon	3	14	57	3	220	1.5	0.35			0	0	1	0
+eq_0184	秘银弯月匕	Weapon	dagger	Weapon	3	14	57	3	220	1.5	0.35			0	0	1	0
+eq_0185	秘银双刃匕	Weapon	dagger	Weapon	3	12	51	3	220	1.5	0.35			0	0	1	0
+eq_0186	秘银影刃	Weapon	dagger	Weapon	3	13	54	3	220	1.5	0.35			0	0	1	0
+eq_0187	秘银骨刺匕	Weapon	dagger	Weapon	3	13	54	3	220	1.5	0.35			0	0	1	0
+eq_0188	秘银毒牙	Weapon	dagger	Weapon	3	13	54	3	220	1.5	0.35			0	0	1	0
+eq_0189	秘银燕尾匕	Weapon	dagger	Weapon	3	14	57	3	220	1.5	0.35			0	0	1	0
+eq_0190	秘银疾风刺	Weapon	dagger	Weapon	3	14	57	3	220	1.5	0.35			0	0	1	0
+eq_0191	龙裔短刃	Weapon	dagger	Weapon	4	17	66	3	300	1.5	0.35			0	0	1	0
+eq_0192	龙裔袖刃	Weapon	dagger	Weapon	4	18	69	3	300	1.5	0.35			0	0	1	0
+eq_0193	龙裔刺匕	Weapon	dagger	Weapon	4	19	72	3	300	1.5	0.35			0	0	1	0
+eq_0194	龙裔弯月匕	Weapon	dagger	Weapon	4	19	72	3	300	1.5	0.35			0	0	1	0
+eq_0195	龙裔双刃匕	Weapon	dagger	Weapon	4	17	66	3	300	1.5	0.35			0	0	1	0
+eq_0196	龙裔影刃	Weapon	dagger	Weapon	4	17	66	3	300	1.5	0.35			0	0	1	0
+eq_0197	龙裔骨刺匕	Weapon	dagger	Weapon	4	18	69	3	300	1.5	0.35			0	0	1	0
+eq_0198	龙裔毒牙	Weapon	dagger	Weapon	4	18	69	3	300	1.5	0.35			0	0	1	0
+eq_0199	龙裔燕尾匕	Weapon	dagger	Weapon	4	19	72	3	300	1.5	0.35			0	0	1	0
+eq_0200	龙裔疾风刺	Weapon	dagger	Weapon	4	19	72	3	300	1.5	0.35			0	0	1	0
+eq_0201	粗制橡木杖	Weapon	staff	Weapon	0	8	39	5	100	8	0.8		6,10	0	0	1	0
+eq_0202	粗制星辉杖	Weapon	staff	Weapon	0	8	39	5	100	8	0.8		6,10	0	0	1	0
+eq_0203	粗制符文杖	Weapon	staff	Weapon	0	8	39	5	100	8	0.8		7,11	0	0	1	0
+eq_0204	粗制水晶杖	Weapon	staff	Weapon	0	8	39	5	100	8	0.8		7,11	0	0	1	0
+eq_0205	粗制雷杖	Weapon	staff	Weapon	0	7	36	5	100	8	0.8		6,10	0	0	1	0
+eq_0206	粗制烈焰杖	Weapon	staff	Weapon	0	8	39	5	100	8	0.8		6,10	0	0	1	0
+eq_0207	粗制寒冰杖	Weapon	staff	Weapon	0	8	39	5	100	8	0.8		6,10	0	0	1	0
+eq_0208	粗制骨杖	Weapon	staff	Weapon	0	8	39	5	100	8	0.8		6,11	0	0	1	0
+eq_0209	粗制贤者杖	Weapon	staff	Weapon	0	8	39	5	100	8	0.8		7,11	0	0	1	0
+eq_0210	粗制晨星杖	Weapon	staff	Weapon	0	9	42	5	100	8	0.8		7,11	0	0	1	0
+eq_0211	精钢橡木杖	Weapon	staff	Weapon	1	10	45	5	130	8	0.8		8,13	0	0	1	0
+eq_0212	精钢星辉杖	Weapon	staff	Weapon	1	10	45	5	130	8	0.8		8,14	0	0	1	0
+eq_0213	精钢符文杖	Weapon	staff	Weapon	1	11	48	5	130	8	0.8		9,14	0	0	1	0
+eq_0214	精钢水晶杖	Weapon	staff	Weapon	1	11	48	5	130	8	0.8		9,14	0	0	1	0
+eq_0215	精钢雷杖	Weapon	staff	Weapon	1	10	45	5	130	8	0.8		8,12	0	0	1	0
+eq_0216	精钢烈焰杖	Weapon	staff	Weapon	1	10	45	5	130	8	0.8		8,13	0	0	1	0
+eq_0217	精钢寒冰杖	Weapon	staff	Weapon	1	10	45	5	130	8	0.8		8,13	0	0	1	0
+eq_0218	精钢骨杖	Weapon	staff	Weapon	1	11	48	5	130	8	0.8		8,14	0	0	1	0
+eq_0219	精钢贤者杖	Weapon	staff	Weapon	1	11	48	5	130	8	0.8		9,14	0	0	1	0
+eq_0220	精钢晨星杖	Weapon	staff	Weapon	1	11	48	5	130	8	0.8		9,14	0	0	1	0
+eq_0221	鎏金橡木杖	Weapon	staff	Weapon	2	13	54	5	170	8	0.8		11,17	0	0	1	0
+eq_0222	鎏金星辉杖	Weapon	staff	Weapon	2	14	57	5	170	8	0.8		11,18	0	0	1	0
+eq_0223	鎏金符文杖	Weapon	staff	Weapon	2	14	57	5	170	8	0.8		11,18	0	0	1	0
+eq_0224	鎏金水晶杖	Weapon	staff	Weapon	2	14	57	5	170	8	0.8		12,19	0	0	1	0
+eq_0225	鎏金雷杖	Weapon	staff	Weapon	2	13	54	5	170	8	0.8		10,16	0	0	1	0
+eq_0226	鎏金烈焰杖	Weapon	staff	Weapon	2	13	54	5	170	8	0.8		10,17	0	0	1	0
+eq_0227	鎏金寒冰杖	Weapon	staff	Weapon	2	13	54	5	170	8	0.8		11,17	0	0	1	0
+eq_0228	鎏金骨杖	Weapon	staff	Weapon	2	14	57	5	170	8	0.8		11,18	0	0	1	0
+eq_0229	鎏金贤者杖	Weapon	staff	Weapon	2	14	57	5	170	8	0.8		11,18	0	0	1	0
+eq_0230	鎏金晨星杖	Weapon	staff	Weapon	2	15	60	5	170	8	0.8		12,19	0	0	1	0
+eq_0231	秘银橡木杖	Weapon	staff	Weapon	3	17	66	5	220	8	0.8		14,22	0	0	1	0
+eq_0232	秘银星辉杖	Weapon	staff	Weapon	3	18	69	5	220	8	0.8		14,23	0	0	1	0
+eq_0233	秘银符文杖	Weapon	staff	Weapon	3	18	69	5	220	8	0.8		15,24	0	0	1	0
+eq_0234	秘银水晶杖	Weapon	staff	Weapon	3	19	72	5	220	8	0.8		15,24	0	0	1	0
+eq_0235	秘银雷杖	Weapon	staff	Weapon	3	16	63	5	220	8	0.8		13,21	0	0	1	0
+eq_0236	秘银烈焰杖	Weapon	staff	Weapon	3	17	66	5	220	8	0.8		13,22	0	0	1	0
+eq_0237	秘银寒冰杖	Weapon	staff	Weapon	3	17	66	5	220	8	0.8		14,22	0	0	1	0
+eq_0238	秘银骨杖	Weapon	staff	Weapon	3	18	69	5	220	8	0.8		14,23	0	0	1	0
+eq_0239	秘银贤者杖	Weapon	staff	Weapon	3	18	69	5	220	8	0.8		15,24	0	0	1	0
+eq_0240	秘银晨星杖	Weapon	staff	Weapon	3	19	72	5	220	8	0.8		15,24	0	0	1	0
+eq_0241	龙裔橡木杖	Weapon	staff	Weapon	4	23	84	5	300	8	0.8		19,30	0	0	1	0
+eq_0242	龙裔星辉杖	Weapon	staff	Weapon	4	24	87	5	300	8	0.8		19,31	0	0	1	0
+eq_0243	龙裔符文杖	Weapon	staff	Weapon	4	25	90	5	300	8	0.8		20,32	0	0	1	0
+eq_0244	龙裔水晶杖	Weapon	staff	Weapon	4	25	90	5	300	8	0.8		20,33	0	0	1	0
+eq_0245	龙裔雷杖	Weapon	staff	Weapon	4	22	81	5	300	8	0.8		18,29	0	0	1	0
+eq_0246	龙裔烈焰杖	Weapon	staff	Weapon	4	23	84	5	300	8	0.8		18,30	0	0	1	0
+eq_0247	龙裔寒冰杖	Weapon	staff	Weapon	4	24	87	5	300	8	0.8		19,31	0	0	1	0
+eq_0248	龙裔骨杖	Weapon	staff	Weapon	4	24	87	5	300	8	0.8		19,32	0	0	1	0
+eq_0249	龙裔贤者杖	Weapon	staff	Weapon	4	25	90	5	300	8	0.8		20,32	0	0	1	0
+eq_0250	龙裔晨星杖	Weapon	staff	Weapon	4	26	93	5	300	8	0.8		21,33	0	0	1	0
+eq_0251	粗制·铁壁重盔	Armor	heavy	Head	0	6	39	6	100	0	0	铁壁套		0	0	1	0.75
+eq_0252	粗制·铁壁重铠	Armor	heavy	Chest	0	12	63	15	100	0	0	铁壁套		0	0	1	0.75
+eq_0253	粗制·铁壁胫甲	Armor	heavy	Legs	0	9	51	9	100	0	0	铁壁套		0	0	1	0.75
+eq_0254	粗制·兽面重盔	Armor	heavy	Head	0	6	39	6	100	0	0	兽面套		0	0	1	0.75
+eq_0255	粗制·兽面重铠	Armor	heavy	Chest	0	12	63	15	100	0	0	兽面套		0	0	1	0.75
+eq_0256	粗制·兽面胫甲	Armor	heavy	Legs	0	9	51	9	100	0	0	兽面套		0	0	1	0.75
+eq_0257	粗制·塔楼重盔	Armor	heavy	Head	0	6	39	6	100	0	0	塔楼套		0	0	1	0.75
+eq_0258	粗制·塔楼重铠	Armor	heavy	Chest	0	12	63	15	100	0	0	塔楼套		0	0	1	0.75
+eq_0259	粗制·塔楼胫甲	Armor	heavy	Legs	0	9	51	9	100	0	0	塔楼套		0	0	1	0.75
+eq_0260	粗制·碎岳重盔	Armor	heavy	Head	0	6	39	6	100	0	0	碎岳套		0	0	1	0.75
+eq_0261	粗制·碎岳重铠	Armor	heavy	Chest	0	12	63	15	100	0	0	碎岳套		0	0	1	0.75
+eq_0262	粗制·碎岳胫甲	Armor	heavy	Legs	0	9	51	9	100	0	0	碎岳套		0	0	1	0.75
+eq_0263	粗制·犀鳞重盔	Armor	heavy	Head	0	6	39	6	100	0	0	犀鳞套		0	0	1	0.75
+eq_0264	粗制·犀鳞重铠	Armor	heavy	Chest	0	12	63	15	100	0	0	犀鳞套		0	0	1	0.75
+eq_0265	粗制·犀鳞胫甲	Armor	heavy	Legs	0	9	51	9	100	0	0	犀鳞套		0	0	1	0.75
+eq_0266	精钢·铁壁重盔	Armor	heavy	Head	1	8	47	6	130	0	0	铁壁套		0	0	1	0.75
+eq_0267	精钢·铁壁重铠	Armor	heavy	Chest	1	16	79	15	130	0	0	铁壁套		0	0	1	0.75
+eq_0268	精钢·铁壁胫甲	Armor	heavy	Legs	1	12	63	9	130	0	0	铁壁套		0	0	1	0.75
+eq_0269	精钢·兽面重盔	Armor	heavy	Head	1	8	47	6	130	0	0	兽面套		0	0	1	0.75
+eq_0270	精钢·兽面重铠	Armor	heavy	Chest	1	16	79	15	130	0	0	兽面套		0	0	1	0.75
+eq_0271	精钢·兽面胫甲	Armor	heavy	Legs	1	12	63	9	130	0	0	兽面套		0	0	1	0.75
+eq_0272	精钢·塔楼重盔	Armor	heavy	Head	1	8	47	6	130	0	0	塔楼套		0	0	1	0.75
+eq_0273	精钢·塔楼重铠	Armor	heavy	Chest	1	16	79	15	130	0	0	塔楼套		0	0	1	0.75
+eq_0274	精钢·塔楼胫甲	Armor	heavy	Legs	1	12	63	9	130	0	0	塔楼套		0	0	1	0.75
+eq_0275	精钢·碎岳重盔	Armor	heavy	Head	1	8	47	6	130	0	0	碎岳套		0	0	1	0.75
+eq_0276	精钢·碎岳重铠	Armor	heavy	Chest	1	16	79	15	130	0	0	碎岳套		0	0	1	0.75
+eq_0277	精钢·碎岳胫甲	Armor	heavy	Legs	1	12	63	9	130	0	0	碎岳套		0	0	1	0.75
+eq_0278	精钢·犀鳞重盔	Armor	heavy	Head	1	8	47	6	130	0	0	犀鳞套		0	0	1	0.75
+eq_0279	精钢·犀鳞重铠	Armor	heavy	Chest	1	16	79	15	130	0	0	犀鳞套		0	0	1	0.75
+eq_0280	精钢·犀鳞胫甲	Armor	heavy	Legs	1	11	59	9	130	0	0	犀鳞套		0	0	1	0.75
+eq_0281	鎏金·铁壁重盔	Armor	heavy	Head	2	11	59	6	170	0	0	铁壁套		0	0	1	0.75
+eq_0282	鎏金·铁壁重铠	Armor	heavy	Chest	2	21	99	15	170	0	0	铁壁套		0	0	1	0.75
+eq_0283	鎏金·铁壁胫甲	Armor	heavy	Legs	2	16	79	9	170	0	0	铁壁套		0	0	1	0.75
+eq_0284	鎏金·兽面重盔	Armor	heavy	Head	2	11	59	6	170	0	0	兽面套		0	0	1	0.75
+eq_0285	鎏金·兽面重铠	Armor	heavy	Chest	2	21	99	15	170	0	0	兽面套		0	0	1	0.75
+eq_0286	鎏金·兽面胫甲	Armor	heavy	Legs	2	15	75	9	170	0	0	兽面套		0	0	1	0.75
+eq_0287	鎏金·塔楼重盔	Armor	heavy	Head	2	11	59	6	170	0	0	塔楼套		0	0	1	0.75
+eq_0288	鎏金·塔楼重铠	Armor	heavy	Chest	2	21	99	15	170	0	0	塔楼套		0	0	1	0.75
+eq_0289	鎏金·塔楼胫甲	Armor	heavy	Legs	2	15	75	9	170	0	0	塔楼套		0	0	1	0.75
+eq_0290	鎏金·碎岳重盔	Armor	heavy	Head	2	11	59	6	170	0	0	碎岳套		0	0	1	0.75
+eq_0291	鎏金·碎岳重铠	Armor	heavy	Chest	2	21	99	15	170	0	0	碎岳套		0	0	1	0.75
+eq_0292	鎏金·碎岳胫甲	Armor	heavy	Legs	2	15	75	9	170	0	0	碎岳套		0	0	1	0.75
+eq_0293	鎏金·犀鳞重盔	Armor	heavy	Head	2	10	55	6	170	0	0	犀鳞套		0	0	1	0.75
+eq_0294	鎏金·犀鳞重铠	Armor	heavy	Chest	2	20	95	15	170	0	0	犀鳞套		0	0	1	0.75
+eq_0295	鎏金·犀鳞胫甲	Armor	heavy	Legs	2	15	75	9	170	0	0	犀鳞套		0	0	1	0.75
+eq_0296	秘银·铁壁重盔	Armor	heavy	Head	3	14	71	6	220	0	0	铁壁套		0	0	1	0.75
+eq_0297	秘银·铁壁重铠	Armor	heavy	Chest	3	27	123	15	220	0	0	铁壁套		0	0	1	0.75
+eq_0298	秘银·铁壁胫甲	Armor	heavy	Legs	3	20	95	9	220	0	0	铁壁套		0	0	1	0.75
+eq_0299	秘银·兽面重盔	Armor	heavy	Head	3	14	71	6	220	0	0	兽面套		0	0	1	0.75
+eq_0300	秘银·兽面重铠	Armor	heavy	Chest	3	27	123	15	220	0	0	兽面套		0	0	1	0.75
+eq_0301	秘银·兽面胫甲	Armor	heavy	Legs	3	20	95	9	220	0	0	兽面套		0	0	1	0.75
+eq_0302	秘银·塔楼重盔	Armor	heavy	Head	3	14	71	6	220	0	0	塔楼套		0	0	1	0.75
+eq_0303	秘银·塔楼重铠	Armor	heavy	Chest	3	27	123	15	220	0	0	塔楼套		0	0	1	0.75
+eq_0304	秘银·塔楼胫甲	Armor	heavy	Legs	3	20	95	9	220	0	0	塔楼套		0	0	1	0.75
+eq_0305	秘银·碎岳重盔	Armor	heavy	Head	3	14	71	6	220	0	0	碎岳套		0	0	1	0.75
+eq_0306	秘银·碎岳重铠	Armor	heavy	Chest	3	27	123	15	220	0	0	碎岳套		0	0	1	0.75
+eq_0307	秘银·碎岳胫甲	Armor	heavy	Legs	3	20	95	9	220	0	0	碎岳套		0	0	1	0.75
+eq_0308	秘银·犀鳞重盔	Armor	heavy	Head	3	13	67	6	220	0	0	犀鳞套		0	0	1	0.75
+eq_0309	秘银·犀鳞重铠	Armor	heavy	Chest	3	26	119	15	220	0	0	犀鳞套		0	0	1	0.75
+eq_0310	秘银·犀鳞胫甲	Armor	heavy	Legs	3	19	91	9	220	0	0	犀鳞套		0	0	1	0.75
+eq_0311	龙裔·铁壁重盔	Armor	heavy	Head	4	19	91	6	300	0	0	铁壁套		0	0	1	0.75
+eq_0312	龙裔·铁壁重铠	Armor	heavy	Chest	4	37	163	15	300	0	0	铁壁套		0	0	1	0.75
+eq_0313	龙裔·铁壁胫甲	Armor	heavy	Legs	4	28	127	9	300	0	0	铁壁套		0	0	1	0.75
+eq_0314	龙裔·兽面重盔	Armor	heavy	Head	4	19	91	6	300	0	0	兽面套		0	0	1	0.75
+eq_0315	龙裔·兽面重铠	Armor	heavy	Chest	4	37	163	15	300	0	0	兽面套		0	0	1	0.75
+eq_0316	龙裔·兽面胫甲	Armor	heavy	Legs	4	27	123	9	300	0	0	兽面套		0	0	1	0.75
+eq_0317	龙裔·塔楼重盔	Armor	heavy	Head	4	19	91	6	300	0	0	塔楼套		0	0	1	0.75
+eq_0318	龙裔·塔楼重铠	Armor	heavy	Chest	4	37	163	15	300	0	0	塔楼套		0	0	1	0.75
+eq_0319	龙裔·塔楼胫甲	Armor	heavy	Legs	4	27	123	9	300	0	0	塔楼套		0	0	1	0.75
+eq_0320	龙裔·碎岳重盔	Armor	heavy	Head	4	19	91	6	300	0	0	碎岳套		0	0	1	0.75
+eq_0321	龙裔·碎岳重铠	Armor	heavy	Chest	4	36	159	15	300	0	0	碎岳套		0	0	1	0.75
+eq_0322	龙裔·碎岳胫甲	Armor	heavy	Legs	4	27	123	9	300	0	0	碎岳套		0	0	1	0.75
+eq_0323	龙裔·犀鳞重盔	Armor	heavy	Head	4	18	87	6	300	0	0	犀鳞套		0	0	1	0.75
+eq_0324	龙裔·犀鳞重铠	Armor	heavy	Chest	4	36	159	15	300	0	0	犀鳞套		0	0	1	0.75
+eq_0325	龙裔·犀鳞胫甲	Armor	heavy	Legs	4	26	119	9	300	0	0	犀鳞套		0	0	1	0.75
+eq_0326	粗制·骑士板盔	Armor	plate	Head	0	5	35	5	100	0	0	骑士套		0	0	1	0.4
+eq_0327	粗制·骑士板甲	Armor	plate	Chest	0	10	55	12	100	0	0	骑士套		0	0	1	0.4
+eq_0328	粗制·骑士板胫	Armor	plate	Legs	0	8	47	7	100	0	0	骑士套		0	0	1	0.4
+eq_0329	粗制·鹰旗板盔	Armor	plate	Head	0	5	35	5	100	0	0	鹰旗套		0	0	1	0.4
+eq_0330	粗制·鹰旗板甲	Armor	plate	Chest	0	10	55	12	100	0	0	鹰旗套		0	0	1	0.4
+eq_0331	粗制·鹰旗板胫	Armor	plate	Legs	0	8	47	7	100	0	0	鹰旗套		0	0	1	0.4
+eq_0332	粗制·圣辉板盔	Armor	plate	Head	0	5	35	5	100	0	0	圣辉套		0	0	1	0.4
+eq_0333	粗制·圣辉板甲	Armor	plate	Chest	0	10	55	12	100	0	0	圣辉套		0	0	1	0.4
+eq_0334	粗制·圣辉板胫	Armor	plate	Legs	0	8	47	7	100	0	0	圣辉套		0	0	1	0.4
+eq_0335	粗制·壁垒板盔	Armor	plate	Head	0	5	35	5	100	0	0	壁垒套		0	0	1	0.4
+eq_0336	粗制·壁垒板甲	Armor	plate	Chest	0	10	55	12	100	0	0	壁垒套		0	0	1	0.4
+eq_0337	粗制·壁垒板胫	Armor	plate	Legs	0	7	43	7	100	0	0	壁垒套		0	0	1	0.4
+eq_0338	粗制·霜狼板盔	Armor	plate	Head	0	5	35	5	100	0	0	霜狼套		0	0	1	0.4
+eq_0339	粗制·霜狼板甲	Armor	plate	Chest	0	10	55	12	100	0	0	霜狼套		0	0	1	0.4
+eq_0340	粗制·霜狼板胫	Armor	plate	Legs	0	7	43	7	100	0	0	霜狼套		0	0	1	0.4
+eq_0341	精钢·骑士板盔	Armor	plate	Head	1	7	43	5	130	0	0	骑士套		0	0	1	0.4
+eq_0342	精钢·骑士板甲	Armor	plate	Chest	1	14	71	12	130	0	0	骑士套		0	0	1	0.4
+eq_0343	精钢·骑士板胫	Armor	plate	Legs	1	10	55	7	130	0	0	骑士套		0	0	1	0.4
+eq_0344	精钢·鹰旗板盔	Armor	plate	Head	1	7	43	5	130	0	0	鹰旗套		0	0	1	0.4
+eq_0345	精钢·鹰旗板甲	Armor	plate	Chest	1	13	67	12	130	0	0	鹰旗套		0	0	1	0.4
+eq_0346	精钢·鹰旗板胫	Armor	plate	Legs	1	10	55	7	130	0	0	鹰旗套		0	0	1	0.4
+eq_0347	精钢·圣辉板盔	Armor	plate	Head	1	7	43	5	130	0	0	圣辉套		0	0	1	0.4
+eq_0348	精钢·圣辉板甲	Armor	plate	Chest	1	13	67	12	130	0	0	圣辉套		0	0	1	0.4
+eq_0349	精钢·圣辉板胫	Armor	plate	Legs	1	10	55	7	130	0	0	圣辉套		0	0	1	0.4
+eq_0350	精钢·壁垒板盔	Armor	plate	Head	1	7	43	5	130	0	0	壁垒套		0	0	1	0.4
+eq_0351	精钢·壁垒板甲	Armor	plate	Chest	1	13	67	12	130	0	0	壁垒套		0	0	1	0.4
+eq_0352	精钢·壁垒板胫	Armor	plate	Legs	1	10	55	7	130	0	0	壁垒套		0	0	1	0.4
+eq_0353	精钢·霜狼板盔	Armor	plate	Head	1	7	43	5	130	0	0	霜狼套		0	0	1	0.4
+eq_0354	精钢·霜狼板甲	Armor	plate	Chest	1	13	67	12	130	0	0	霜狼套		0	0	1	0.4
+eq_0355	精钢·霜狼板胫	Armor	plate	Legs	1	10	55	7	130	0	0	霜狼套		0	0	1	0.4
+eq_0356	鎏金·骑士板盔	Armor	plate	Head	2	9	51	5	170	0	0	骑士套		0	0	1	0.4
+eq_0357	鎏金·骑士板甲	Armor	plate	Chest	2	18	87	12	170	0	0	骑士套		0	0	1	0.4
+eq_0358	鎏金·骑士板胫	Armor	plate	Legs	2	13	67	7	170	0	0	骑士套		0	0	1	0.4
+eq_0359	鎏金·鹰旗板盔	Armor	plate	Head	2	9	51	5	170	0	0	鹰旗套		0	0	1	0.4
+eq_0360	鎏金·鹰旗板甲	Armor	plate	Chest	2	18	87	12	170	0	0	鹰旗套		0	0	1	0.4
+eq_0361	鎏金·鹰旗板胫	Armor	plate	Legs	2	13	67	7	170	0	0	鹰旗套		0	0	1	0.4
+eq_0362	鎏金·圣辉板盔	Armor	plate	Head	2	9	51	5	170	0	0	圣辉套		0	0	1	0.4
+eq_0363	鎏金·圣辉板甲	Armor	plate	Chest	2	17	83	12	170	0	0	圣辉套		0	0	1	0.4
+eq_0364	鎏金·圣辉板胫	Armor	plate	Legs	2	13	67	7	170	0	0	圣辉套		0	0	1	0.4
+eq_0365	鎏金·壁垒板盔	Armor	plate	Head	2	9	51	5	170	0	0	壁垒套		0	0	1	0.4
+eq_0366	鎏金·壁垒板甲	Armor	plate	Chest	2	17	83	12	170	0	0	壁垒套		0	0	1	0.4
+eq_0367	鎏金·壁垒板胫	Armor	plate	Legs	2	13	67	7	170	0	0	壁垒套		0	0	1	0.4
+eq_0368	鎏金·霜狼板盔	Armor	plate	Head	2	9	51	5	170	0	0	霜狼套		0	0	1	0.4
+eq_0369	鎏金·霜狼板甲	Armor	plate	Chest	2	17	83	12	170	0	0	霜狼套		0	0	1	0.4
+eq_0370	鎏金·霜狼板胫	Armor	plate	Legs	2	12	63	7	170	0	0	霜狼套		0	0	1	0.4
+eq_0371	秘银·骑士板盔	Armor	plate	Head	3	12	63	5	220	0	0	骑士套		0	0	1	0.4
+eq_0372	秘银·骑士板甲	Armor	plate	Chest	3	23	107	12	220	0	0	骑士套		0	0	1	0.4
+eq_0373	秘银·骑士板胫	Armor	plate	Legs	3	17	83	7	220	0	0	骑士套		0	0	1	0.4
+eq_0374	秘银·鹰旗板盔	Armor	plate	Head	3	12	63	5	220	0	0	鹰旗套		0	0	1	0.4
+eq_0375	秘银·鹰旗板甲	Armor	plate	Chest	3	23	107	12	220	0	0	鹰旗套		0	0	1	0.4
+eq_0376	秘银·鹰旗板胫	Armor	plate	Legs	3	17	83	7	220	0	0	鹰旗套		0	0	1	0.4
+eq_0377	秘银·圣辉板盔	Armor	plate	Head	3	11	59	5	220	0	0	圣辉套		0	0	1	0.4
+eq_0378	秘银·圣辉板甲	Armor	plate	Chest	3	22	103	12	220	0	0	圣辉套		0	0	1	0.4
+eq_0379	秘银·圣辉板胫	Armor	plate	Legs	3	16	79	7	220	0	0	圣辉套		0	0	1	0.4
+eq_0380	秘银·壁垒板盔	Armor	plate	Head	3	11	59	5	220	0	0	壁垒套		0	0	1	0.4
+eq_0381	秘银·壁垒板甲	Armor	plate	Chest	3	22	103	12	220	0	0	壁垒套		0	0	1	0.4
+eq_0382	秘银·壁垒板胫	Armor	plate	Legs	3	16	79	7	220	0	0	壁垒套		0	0	1	0.4
+eq_0383	秘银·霜狼板盔	Armor	plate	Head	3	11	59	5	220	0	0	霜狼套		0	0	1	0.4
+eq_0384	秘银·霜狼板甲	Armor	plate	Chest	3	22	103	12	220	0	0	霜狼套		0	0	1	0.4
+eq_0385	秘银·霜狼板胫	Armor	plate	Legs	3	16	79	7	220	0	0	霜狼套		0	0	1	0.4
+eq_0386	龙裔·骑士板盔	Armor	plate	Head	4	16	79	5	300	0	0	骑士套		0	0	1	0.4
+eq_0387	龙裔·骑士板甲	Armor	plate	Chest	4	31	139	12	300	0	0	骑士套		0	0	1	0.4
+eq_0388	龙裔·骑士板胫	Armor	plate	Legs	4	23	107	7	300	0	0	骑士套		0	0	1	0.4
+eq_0389	龙裔·鹰旗板盔	Armor	plate	Head	4	16	79	5	300	0	0	鹰旗套		0	0	1	0.4
+eq_0390	龙裔·鹰旗板甲	Armor	plate	Chest	4	31	139	12	300	0	0	鹰旗套		0	0	1	0.4
+eq_0391	龙裔·鹰旗板胫	Armor	plate	Legs	4	23	107	7	300	0	0	鹰旗套		0	0	1	0.4
+eq_0392	龙裔·圣辉板盔	Armor	plate	Head	4	16	79	5	300	0	0	圣辉套		0	0	1	0.4
+eq_0393	龙裔·圣辉板甲	Armor	plate	Chest	4	31	139	12	300	0	0	圣辉套		0	0	1	0.4
+eq_0394	龙裔·圣辉板胫	Armor	plate	Legs	4	22	103	7	300	0	0	圣辉套		0	0	1	0.4
+eq_0395	龙裔·壁垒板盔	Armor	plate	Head	4	15	75	5	300	0	0	壁垒套		0	0	1	0.4
+eq_0396	龙裔·壁垒板甲	Armor	plate	Chest	4	30	135	12	300	0	0	壁垒套		0	0	1	0.4
+eq_0397	龙裔·壁垒板胫	Armor	plate	Legs	4	22	103	7	300	0	0	壁垒套		0	0	1	0.4
+eq_0398	龙裔·霜狼板盔	Armor	plate	Head	4	15	75	5	300	0	0	霜狼套		0	0	1	0.4
+eq_0399	龙裔·霜狼板甲	Armor	plate	Chest	4	30	135	12	300	0	0	霜狼套		0	0	1	0.4
+eq_0400	龙裔·霜狼板胫	Armor	plate	Legs	4	22	103	7	300	0	0	霜狼套		0	0	1	0.4
+eq_0401	粗制·游侠轻盔	Armor	light	Head	0	4	31	4	100	0	0	游侠套		0	0	1	0
+eq_0402	粗制·游侠轻甲	Armor	light	Chest	0	8	47	9	100	0	0	游侠套		0	0	1	0
+eq_0403	粗制·游侠轻胫	Armor	light	Legs	0	6	39	5	100	0	0	游侠套		0	0	1	0
+eq_0404	粗制·疾风轻盔	Armor	light	Head	0	4	31	4	100	0	0	疾风套		0	0	1	0
+eq_0405	粗制·疾风轻甲	Armor	light	Chest	0	8	47	9	100	0	0	疾风套		0	0	1	0
+eq_0406	粗制·疾风轻胫	Armor	light	Legs	0	6	39	5	100	0	0	疾风套		0	0	1	0
+eq_0407	粗制·藤纹轻盔	Armor	light	Head	0	4	31	4	100	0	0	藤纹套		0	0	1	0
+eq_0408	粗制·藤纹轻甲	Armor	light	Chest	0	8	47	9	100	0	0	藤纹套		0	0	1	0
+eq_0409	粗制·藤纹轻胫	Armor	light	Legs	0	6	39	5	100	0	0	藤纹套		0	0	1	0
+eq_0410	粗制·卫兵轻盔	Armor	light	Head	0	4	31	4	100	0	0	卫兵套		0	0	1	0
+eq_0411	粗制·卫兵轻甲	Armor	light	Chest	0	8	47	9	100	0	0	卫兵套		0	0	1	0
+eq_0412	粗制·卫兵轻胫	Armor	light	Legs	0	6	39	5	100	0	0	卫兵套		0	0	1	0
+eq_0413	粗制·游龙轻盔	Armor	light	Head	0	4	31	4	100	0	0	游龙套		0	0	1	0
+eq_0414	粗制·游龙轻甲	Armor	light	Chest	0	8	47	9	100	0	0	游龙套		0	0	1	0
+eq_0415	粗制·游龙轻胫	Armor	light	Legs	0	6	39	5	100	0	0	游龙套		0	0	1	0
+eq_0416	精钢·游侠轻盔	Armor	light	Head	1	6	39	4	130	0	0	游侠套		0	0	1	0
+eq_0417	精钢·游侠轻甲	Armor	light	Chest	1	11	59	9	130	0	0	游侠套		0	0	1	0
+eq_0418	精钢·游侠轻胫	Armor	light	Legs	1	8	47	5	130	0	0	游侠套		0	0	1	0
+eq_0419	精钢·疾风轻盔	Armor	light	Head	1	5	35	4	130	0	0	疾风套		0	0	1	0
+eq_0420	精钢·疾风轻甲	Armor	light	Chest	1	11	59	9	130	0	0	疾风套		0	0	1	0
+eq_0421	精钢·疾风轻胫	Armor	light	Legs	1	8	47	5	130	0	0	疾风套		0	0	1	0
+eq_0422	精钢·藤纹轻盔	Armor	light	Head	1	5	35	4	130	0	0	藤纹套		0	0	1	0
+eq_0423	精钢·藤纹轻甲	Armor	light	Chest	1	11	59	9	130	0	0	藤纹套		0	0	1	0
+eq_0424	精钢·藤纹轻胫	Armor	light	Legs	1	8	47	5	130	0	0	藤纹套		0	0	1	0
+eq_0425	精钢·卫兵轻盔	Armor	light	Head	1	5	35	4	130	0	0	卫兵套		0	0	1	0
+eq_0426	精钢·卫兵轻甲	Armor	light	Chest	1	11	59	9	130	0	0	卫兵套		0	0	1	0
+eq_0427	精钢·卫兵轻胫	Armor	light	Legs	1	8	47	5	130	0	0	卫兵套		0	0	1	0
+eq_0428	精钢·游龙轻盔	Armor	light	Head	1	5	35	4	130	0	0	游龙套		0	0	1	0
+eq_0429	精钢·游龙轻甲	Armor	light	Chest	1	10	55	9	130	0	0	游龙套		0	0	1	0
+eq_0430	精钢·游龙轻胫	Armor	light	Legs	1	8	47	5	130	0	0	游龙套		0	0	1	0
+eq_0431	鎏金·游侠轻盔	Armor	light	Head	2	7	43	4	170	0	0	游侠套		0	0	1	0
+eq_0432	鎏金·游侠轻甲	Armor	light	Chest	2	14	71	9	170	0	0	游侠套		0	0	1	0
+eq_0433	鎏金·游侠轻胫	Armor	light	Legs	2	10	55	5	170	0	0	游侠套		0	0	1	0
+eq_0434	鎏金·疾风轻盔	Armor	light	Head	2	7	43	4	170	0	0	疾风套		0	0	1	0
+eq_0435	鎏金·疾风轻甲	Armor	light	Chest	2	14	71	9	170	0	0	疾风套		0	0	1	0
+eq_0436	鎏金·疾风轻胫	Armor	light	Legs	2	10	55	5	170	0	0	疾风套		0	0	1	0
+eq_0437	鎏金·藤纹轻盔	Armor	light	Head	2	7	43	4	170	0	0	藤纹套		0	0	1	0
+eq_0438	鎏金·藤纹轻甲	Armor	light	Chest	2	14	71	9	170	0	0	藤纹套		0	0	1	0
+eq_0439	鎏金·藤纹轻胫	Armor	light	Legs	2	10	55	5	170	0	0	藤纹套		0	0	1	0
+eq_0440	鎏金·卫兵轻盔	Armor	light	Head	2	7	43	4	170	0	0	卫兵套		0	0	1	0
+eq_0441	鎏金·卫兵轻甲	Armor	light	Chest	2	14	71	9	170	0	0	卫兵套		0	0	1	0
+eq_0442	鎏金·卫兵轻胫	Armor	light	Legs	2	10	55	5	170	0	0	卫兵套		0	0	1	0
+eq_0443	鎏金·游龙轻盔	Armor	light	Head	2	7	43	4	170	0	0	游龙套		0	0	1	0
+eq_0444	鎏金·游龙轻甲	Armor	light	Chest	2	14	71	9	170	0	0	游龙套		0	0	1	0
+eq_0445	鎏金·游龙轻胫	Armor	light	Legs	2	10	55	5	170	0	0	游龙套		0	0	1	0
+eq_0446	秘银·游侠轻盔	Armor	light	Head	3	9	51	4	220	0	0	游侠套		0	0	1	0
+eq_0447	秘银·游侠轻甲	Armor	light	Chest	3	18	87	9	220	0	0	游侠套		0	0	1	0
+eq_0448	秘银·游侠轻胫	Armor	light	Legs	3	13	67	5	220	0	0	游侠套		0	0	1	0
+eq_0449	秘银·疾风轻盔	Armor	light	Head	3	9	51	4	220	0	0	疾风套		0	0	1	0
+eq_0450	秘银·疾风轻甲	Armor	light	Chest	3	18	87	9	220	0	0	疾风套		0	0	1	0
+eq_0451	秘银·疾风轻胫	Armor	light	Legs	3	13	67	5	220	0	0	疾风套		0	0	1	0
+eq_0452	秘银·藤纹轻盔	Armor	light	Head	3	9	51	4	220	0	0	藤纹套		0	0	1	0
+eq_0453	秘银·藤纹轻甲	Armor	light	Chest	3	18	87	9	220	0	0	藤纹套		0	0	1	0
+eq_0454	秘银·藤纹轻胫	Armor	light	Legs	3	13	67	5	220	0	0	藤纹套		0	0	1	0
+eq_0455	秘银·卫兵轻盔	Armor	light	Head	3	9	51	4	220	0	0	卫兵套		0	0	1	0
+eq_0456	秘银·卫兵轻甲	Armor	light	Chest	3	18	87	9	220	0	0	卫兵套		0	0	1	0
+eq_0457	秘银·卫兵轻胫	Armor	light	Legs	3	13	67	5	220	0	0	卫兵套		0	0	1	0
+eq_0458	秘银·游龙轻盔	Armor	light	Head	3	9	51	4	220	0	0	游龙套		0	0	1	0
+eq_0459	秘银·游龙轻甲	Armor	light	Chest	3	18	87	9	220	0	0	游龙套		0	0	1	0
+eq_0460	秘银·游龙轻胫	Armor	light	Legs	3	13	67	5	220	0	0	游龙套		0	0	1	0
+eq_0461	龙裔·游侠轻盔	Armor	light	Head	4	13	67	4	300	0	0	游侠套		0	0	1	0
+eq_0462	龙裔·游侠轻甲	Armor	light	Chest	4	25	115	9	300	0	0	游侠套		0	0	1	0
+eq_0463	龙裔·游侠轻胫	Armor	light	Legs	4	18	87	5	300	0	0	游侠套		0	0	1	0
+eq_0464	龙裔·疾风轻盔	Armor	light	Head	4	13	67	4	300	0	0	疾风套		0	0	1	0
+eq_0465	龙裔·疾风轻甲	Armor	light	Chest	4	25	115	9	300	0	0	疾风套		0	0	1	0
+eq_0466	龙裔·疾风轻胫	Armor	light	Legs	4	18	87	5	300	0	0	疾风套		0	0	1	0
+eq_0467	龙裔·藤纹轻盔	Armor	light	Head	4	12	63	4	300	0	0	藤纹套		0	0	1	0
+eq_0468	龙裔·藤纹轻甲	Armor	light	Chest	4	24	111	9	300	0	0	藤纹套		0	0	1	0
+eq_0469	龙裔·藤纹轻胫	Armor	light	Legs	4	18	87	5	300	0	0	藤纹套		0	0	1	0
+eq_0470	龙裔·卫兵轻盔	Armor	light	Head	4	12	63	4	300	0	0	卫兵套		0	0	1	0
+eq_0471	龙裔·卫兵轻甲	Armor	light	Chest	4	24	111	9	300	0	0	卫兵套		0	0	1	0
+eq_0472	龙裔·卫兵轻胫	Armor	light	Legs	4	18	87	5	300	0	0	卫兵套		0	0	1	0
+eq_0473	龙裔·游龙轻盔	Armor	light	Head	4	12	63	4	300	0	0	游龙套		0	0	1	0
+eq_0474	龙裔·游龙轻甲	Armor	light	Chest	4	24	111	9	300	0	0	游龙套		0	0	1	0
+eq_0475	龙裔·游龙轻胫	Armor	light	Legs	4	18	87	5	300	0	0	游龙套		0	0	1	0
+eq_0476	粗制·猎手皮帽	Armor	leather	Head	0	3	27	3	100	0	0	猎手套		0	0	1	0.4
+eq_0477	粗制·猎手皮甲	Armor	leather	Chest	0	6	39	7	100	0	0	猎手套		0	0	1	0.4
+eq_0478	粗制·猎手皮裹腿	Armor	leather	Legs	0	5	35	4	100	0	0	猎手套		0	0	1	0.4
+eq_0479	粗制·夜行皮帽	Armor	leather	Head	0	3	27	3	100	0	0	夜行套		0	0	1	0.4
+eq_0480	粗制·夜行皮甲	Armor	leather	Chest	0	6	39	7	100	0	0	夜行套		0	0	1	0.4
+eq_0481	粗制·夜行皮裹腿	Armor	leather	Legs	0	5	35	4	100	0	0	夜行套		0	0	1	0.4
+eq_0482	粗制·荒野皮帽	Armor	leather	Head	0	3	27	3	100	0	0	荒野套		0	0	1	0.4
+eq_0483	粗制·荒野皮甲	Armor	leather	Chest	0	6	39	7	100	0	0	荒野套		0	0	1	0.4
+eq_0484	粗制·荒野皮裹腿	Armor	leather	Legs	0	4	31	4	100	0	0	荒野套		0	0	1	0.4
+eq_0485	粗制·狡狐皮帽	Armor	leather	Head	0	3	27	3	100	0	0	狡狐套		0	0	1	0.4
+eq_0486	粗制·狡狐皮甲	Armor	leather	Chest	0	6	39	7	100	0	0	狡狐套		0	0	1	0.4
+eq_0487	粗制·狡狐皮裹腿	Armor	leather	Legs	0	4	31	4	100	0	0	狡狐套		0	0	1	0.4
+eq_0488	粗制·苍狼皮帽	Armor	leather	Head	0	3	27	3	100	0	0	苍狼套		0	0	1	0.4
+eq_0489	粗制·苍狼皮甲	Armor	leather	Chest	0	6	39	7	100	0	0	苍狼套		0	0	1	0.4
+eq_0490	粗制·苍狼皮裹腿	Armor	leather	Legs	0	4	31	4	100	0	0	苍狼套		0	0	1	0.4
+eq_0491	精钢·猎手皮帽	Armor	leather	Head	1	4	31	3	130	0	0	猎手套		0	0	1	0.4
+eq_0492	精钢·猎手皮甲	Armor	leather	Chest	1	8	47	7	130	0	0	猎手套		0	0	1	0.4
+eq_0493	精钢·猎手皮裹腿	Armor	leather	Legs	1	6	39	4	130	0	0	猎手套		0	0	1	0.4
+eq_0494	精钢·夜行皮帽	Armor	leather	Head	1	4	31	3	130	0	0	夜行套		0	0	1	0.4
+eq_0495	精钢·夜行皮甲	Armor	leather	Chest	1	8	47	7	130	0	0	夜行套		0	0	1	0.4
+eq_0496	精钢·夜行皮裹腿	Armor	leather	Legs	1	6	39	4	130	0	0	夜行套		0	0	1	0.4
+eq_0497	精钢·荒野皮帽	Armor	leather	Head	1	4	31	3	130	0	0	荒野套		0	0	1	0.4
+eq_0498	精钢·荒野皮甲	Armor	leather	Chest	1	8	47	7	130	0	0	荒野套		0	0	1	0.4
+eq_0499	精钢·荒野皮裹腿	Armor	leather	Legs	1	6	39	4	130	0	0	荒野套		0	0	1	0.4
+eq_0500	精钢·狡狐皮帽	Armor	leather	Head	1	4	31	3	130	0	0	狡狐套		0	0	1	0.4
+eq_0501	精钢·狡狐皮甲	Armor	leather	Chest	1	8	47	7	130	0	0	狡狐套		0	0	1	0.4
+eq_0502	精钢·狡狐皮裹腿	Armor	leather	Legs	1	6	39	4	130	0	0	狡狐套		0	0	1	0.4
+eq_0503	精钢·苍狼皮帽	Armor	leather	Head	1	4	31	3	130	0	0	苍狼套		0	0	1	0.4
+eq_0504	精钢·苍狼皮甲	Armor	leather	Chest	1	8	47	7	130	0	0	苍狼套		0	0	1	0.4
+eq_0505	精钢·苍狼皮裹腿	Armor	leather	Legs	1	6	39	4	130	0	0	苍狼套		0	0	1	0.4
+eq_0506	鎏金·猎手皮帽	Armor	leather	Head	2	5	35	3	170	0	0	猎手套		0	0	1	0.4
+eq_0507	鎏金·猎手皮甲	Armor	leather	Chest	2	11	59	7	170	0	0	猎手套		0	0	1	0.4
+eq_0508	鎏金·猎手皮裹腿	Armor	leather	Legs	2	8	47	4	170	0	0	猎手套		0	0	1	0.4
+eq_0509	鎏金·夜行皮帽	Armor	leather	Head	2	5	35	3	170	0	0	夜行套		0	0	1	0.4
+eq_0510	鎏金·夜行皮甲	Armor	leather	Chest	2	11	59	7	170	0	0	夜行套		0	0	1	0.4
+eq_0511	鎏金·夜行皮裹腿	Armor	leather	Legs	2	8	47	4	170	0	0	夜行套		0	0	1	0.4
+eq_0512	鎏金·荒野皮帽	Armor	leather	Head	2	5	35	3	170	0	0	荒野套		0	0	1	0.4
+eq_0513	鎏金·荒野皮甲	Armor	leather	Chest	2	10	55	7	170	0	0	荒野套		0	0	1	0.4
+eq_0514	鎏金·荒野皮裹腿	Armor	leather	Legs	2	8	47	4	170	0	0	荒野套		0	0	1	0.4
+eq_0515	鎏金·狡狐皮帽	Armor	leather	Head	2	5	35	3	170	0	0	狡狐套		0	0	1	0.4
+eq_0516	鎏金·狡狐皮甲	Armor	leather	Chest	2	10	55	7	170	0	0	狡狐套		0	0	1	0.4
+eq_0517	鎏金·狡狐皮裹腿	Armor	leather	Legs	2	8	47	4	170	0	0	狡狐套		0	0	1	0.4
+eq_0518	鎏金·苍狼皮帽	Armor	leather	Head	2	5	35	3	170	0	0	苍狼套		0	0	1	0.4
+eq_0519	鎏金·苍狼皮甲	Armor	leather	Chest	2	10	55	7	170	0	0	苍狼套		0	0	1	0.4
+eq_0520	鎏金·苍狼皮裹腿	Armor	leather	Legs	2	7	43	4	170	0	0	苍狼套		0	0	1	0.4
+eq_0521	秘银·猎手皮帽	Armor	leather	Head	3	7	43	3	220	0	0	猎手套		0	0	1	0.4
+eq_0522	秘银·猎手皮甲	Armor	leather	Chest	3	14	71	7	220	0	0	猎手套		0	0	1	0.4
+eq_0523	秘银·猎手皮裹腿	Armor	leather	Legs	3	10	55	4	220	0	0	猎手套		0	0	1	0.4
+eq_0524	秘银·夜行皮帽	Armor	leather	Head	3	7	43	3	220	0	0	夜行套		0	0	1	0.4
+eq_0525	秘银·夜行皮甲	Armor	leather	Chest	3	14	71	7	220	0	0	夜行套		0	0	1	0.4
+eq_0526	秘银·夜行皮裹腿	Armor	leather	Legs	3	10	55	4	220	0	0	夜行套		0	0	1	0.4
+eq_0527	秘银·荒野皮帽	Armor	leather	Head	3	7	43	3	220	0	0	荒野套		0	0	1	0.4
+eq_0528	秘银·荒野皮甲	Armor	leather	Chest	3	13	67	7	220	0	0	荒野套		0	0	1	0.4
+eq_0529	秘银·荒野皮裹腿	Armor	leather	Legs	3	10	55	4	220	0	0	荒野套		0	0	1	0.4
+eq_0530	秘银·狡狐皮帽	Armor	leather	Head	3	7	43	3	220	0	0	狡狐套		0	0	1	0.4
+eq_0531	秘银·狡狐皮甲	Armor	leather	Chest	3	13	67	7	220	0	0	狡狐套		0	0	1	0.4
+eq_0532	秘银·狡狐皮裹腿	Armor	leather	Legs	3	10	55	4	220	0	0	狡狐套		0	0	1	0.4
+eq_0533	秘银·苍狼皮帽	Armor	leather	Head	3	7	43	3	220	0	0	苍狼套		0	0	1	0.4
+eq_0534	秘银·苍狼皮甲	Armor	leather	Chest	3	13	67	7	220	0	0	苍狼套		0	0	1	0.4
+eq_0535	秘银·苍狼皮裹腿	Armor	leather	Legs	3	10	55	4	220	0	0	苍狼套		0	0	1	0.4
+eq_0536	龙裔·猎手皮帽	Armor	leather	Head	4	10	55	3	300	0	0	猎手套		0	0	1	0.4
+eq_0537	龙裔·猎手皮甲	Armor	leather	Chest	4	19	91	7	300	0	0	猎手套		0	0	1	0.4
+eq_0538	龙裔·猎手皮裹腿	Armor	leather	Legs	4	14	71	4	300	0	0	猎手套		0	0	1	0.4
+eq_0539	龙裔·夜行皮帽	Armor	leather	Head	4	9	51	3	300	0	0	夜行套		0	0	1	0.4
+eq_0540	龙裔·夜行皮甲	Armor	leather	Chest	4	19	91	7	300	0	0	夜行套		0	0	1	0.4
+eq_0541	龙裔·夜行皮裹腿	Armor	leather	Legs	4	14	71	4	300	0	0	夜行套		0	0	1	0.4
+eq_0542	龙裔·荒野皮帽	Armor	leather	Head	4	9	51	3	300	0	0	荒野套		0	0	1	0.4
+eq_0543	龙裔·荒野皮甲	Armor	leather	Chest	4	18	87	7	300	0	0	荒野套		0	0	1	0.4
+eq_0544	龙裔·荒野皮裹腿	Armor	leather	Legs	4	14	71	4	300	0	0	荒野套		0	0	1	0.4
+eq_0545	龙裔·狡狐皮帽	Armor	leather	Head	4	9	51	3	300	0	0	狡狐套		0	0	1	0.4
+eq_0546	龙裔·狡狐皮甲	Armor	leather	Chest	4	18	87	7	300	0	0	狡狐套		0	0	1	0.4
+eq_0547	龙裔·狡狐皮裹腿	Armor	leather	Legs	4	13	67	4	300	0	0	狡狐套		0	0	1	0.4
+eq_0548	龙裔·苍狼皮帽	Armor	leather	Head	4	9	51	3	300	0	0	苍狼套		0	0	1	0.4
+eq_0549	龙裔·苍狼皮甲	Armor	leather	Chest	4	18	87	7	300	0	0	苍狼套		0	0	1	0.4
+eq_0550	龙裔·苍狼皮裹腿	Armor	leather	Legs	4	13	67	4	300	0	0	苍狼套		0	0	1	0.4
+eq_0551	粗制·学徒法帽	Armor	robe	Head	0	2	23	2	100	0	0	学徒套		0	0	1	0
+eq_0552	粗制·学徒法袍	Armor	robe	Chest	0	4	31	4	100	0	0	学徒套		0	0	1	0
+eq_0553	粗制·学徒秘纹护腿	Armor	robe	Legs	0	3	27	2	100	0	0	学徒套		0	0	1	0
+eq_0554	粗制·星辰法帽	Armor	robe	Head	0	2	23	2	100	0	0	星辰套		0	0	1	0
+eq_0555	粗制·星辰法袍	Armor	robe	Chest	0	4	31	4	100	0	0	星辰套		0	0	1	0
+eq_0556	粗制·星辰秘纹护腿	Armor	robe	Legs	0	3	27	2	100	0	0	星辰套		0	0	1	0
+eq_0557	粗制·秘法法帽	Armor	robe	Head	0	2	23	2	100	0	0	秘法套		0	0	1	0
+eq_0558	粗制·秘法法袍	Armor	robe	Chest	0	4	31	4	100	0	0	秘法套		0	0	1	0
+eq_0559	粗制·秘法秘纹护腿	Armor	robe	Legs	0	3	27	2	100	0	0	秘法套		0	0	1	0
+eq_0560	粗制·贤者法帽	Armor	robe	Head	0	2	23	2	100	0	0	贤者套		0	0	1	0
+eq_0561	粗制·贤者法袍	Armor	robe	Chest	0	4	31	4	100	0	0	贤者套		0	0	1	0
+eq_0562	粗制·贤者秘纹护腿	Armor	robe	Legs	0	3	27	2	100	0	0	贤者套		0	0	1	0
+eq_0563	粗制·黄昏法帽	Armor	robe	Head	0	2	23	2	100	0	0	黄昏套		0	0	1	0
+eq_0564	粗制·黄昏法袍	Armor	robe	Chest	0	4	31	4	100	0	0	黄昏套		0	0	1	0
+eq_0565	粗制·黄昏秘纹护腿	Armor	robe	Legs	0	3	27	2	100	0	0	黄昏套		0	0	1	0
+eq_0566	精钢·学徒法帽	Armor	robe	Head	1	3	27	2	130	0	0	学徒套		0	0	1	0
+eq_0567	精钢·学徒法袍	Armor	robe	Chest	1	5	35	4	130	0	0	学徒套		0	0	1	0
+eq_0568	精钢·学徒秘纹护腿	Armor	robe	Legs	1	4	31	2	130	0	0	学徒套		0	0	1	0
+eq_0569	精钢·星辰法帽	Armor	robe	Head	1	3	27	2	130	0	0	星辰套		0	0	1	0
+eq_0570	精钢·星辰法袍	Armor	robe	Chest	1	5	35	4	130	0	0	星辰套		0	0	1	0
+eq_0571	精钢·星辰秘纹护腿	Armor	robe	Legs	1	4	31	2	130	0	0	星辰套		0	0	1	0
+eq_0572	精钢·秘法法帽	Armor	robe	Head	1	3	27	2	130	0	0	秘法套		0	0	1	0
+eq_0573	精钢·秘法法袍	Armor	robe	Chest	1	5	35	4	130	0	0	秘法套		0	0	1	0
+eq_0574	精钢·秘法秘纹护腿	Armor	robe	Legs	1	4	31	2	130	0	0	秘法套		0	0	1	0
+eq_0575	精钢·贤者法帽	Armor	robe	Head	1	3	27	2	130	0	0	贤者套		0	0	1	0
+eq_0576	精钢·贤者法袍	Armor	robe	Chest	1	5	35	4	130	0	0	贤者套		0	0	1	0
+eq_0577	精钢·贤者秘纹护腿	Armor	robe	Legs	1	4	31	2	130	0	0	贤者套		0	0	1	0
+eq_0578	精钢·黄昏法帽	Armor	robe	Head	1	3	27	2	130	0	0	黄昏套		0	0	1	0
+eq_0579	精钢·黄昏法袍	Armor	robe	Chest	1	5	35	4	130	0	0	黄昏套		0	0	1	0
+eq_0580	精钢·黄昏秘纹护腿	Armor	robe	Legs	1	4	31	2	130	0	0	黄昏套		0	0	1	0
+eq_0581	鎏金·学徒法帽	Armor	robe	Head	2	4	31	2	170	0	0	学徒套		0	0	1	0
+eq_0582	鎏金·学徒法袍	Armor	robe	Chest	2	7	43	4	170	0	0	学徒套		0	0	1	0
+eq_0583	鎏金·学徒秘纹护腿	Armor	robe	Legs	2	5	35	2	170	0	0	学徒套		0	0	1	0
+eq_0584	鎏金·星辰法帽	Armor	robe	Head	2	4	31	2	170	0	0	星辰套		0	0	1	0
+eq_0585	鎏金·星辰法袍	Armor	robe	Chest	2	7	43	4	170	0	0	星辰套		0	0	1	0
+eq_0586	鎏金·星辰秘纹护腿	Armor	robe	Legs	2	5	35	2	170	0	0	星辰套		0	0	1	0
+eq_0587	鎏金·秘法法帽	Armor	robe	Head	2	4	31	2	170	0	0	秘法套		0	0	1	0
+eq_0588	鎏金·秘法法袍	Armor	robe	Chest	2	7	43	4	170	0	0	秘法套		0	0	1	0
+eq_0589	鎏金·秘法秘纹护腿	Armor	robe	Legs	2	5	35	2	170	0	0	秘法套		0	0	1	0
+eq_0590	鎏金·贤者法帽	Armor	robe	Head	2	4	31	2	170	0	0	贤者套		0	0	1	0
+eq_0591	鎏金·贤者法袍	Armor	robe	Chest	2	7	43	4	170	0	0	贤者套		0	0	1	0
+eq_0592	鎏金·贤者秘纹护腿	Armor	robe	Legs	2	5	35	2	170	0	0	贤者套		0	0	1	0
+eq_0593	鎏金·黄昏法帽	Armor	robe	Head	2	3	27	2	170	0	0	黄昏套		0	0	1	0
+eq_0594	鎏金·黄昏法袍	Armor	robe	Chest	2	7	43	4	170	0	0	黄昏套		0	0	1	0
+eq_0595	鎏金·黄昏秘纹护腿	Armor	robe	Legs	2	5	35	2	170	0	0	黄昏套		0	0	1	0
+eq_0596	秘银·学徒法帽	Armor	robe	Head	3	5	35	2	220	0	0	学徒套		0	0	1	0
+eq_0597	秘银·学徒法袍	Armor	robe	Chest	3	9	51	4	220	0	0	学徒套		0	0	1	0
+eq_0598	秘银·学徒秘纹护腿	Armor	robe	Legs	3	7	43	2	220	0	0	学徒套		0	0	1	0
+eq_0599	秘银·星辰法帽	Armor	robe	Head	3	5	35	2	220	0	0	星辰套		0	0	1	0
+eq_0600	秘银·星辰法袍	Armor	robe	Chest	3	9	51	4	220	0	0	星辰套		0	0	1	0
+eq_0601	秘银·星辰秘纹护腿	Armor	robe	Legs	3	7	43	2	220	0	0	星辰套		0	0	1	0
+eq_0602	秘银·秘法法帽	Armor	robe	Head	3	5	35	2	220	0	0	秘法套		0	0	1	0
+eq_0603	秘银·秘法法袍	Armor	robe	Chest	3	9	51	4	220	0	0	秘法套		0	0	1	0
+eq_0604	秘银·秘法秘纹护腿	Armor	robe	Legs	3	7	43	2	220	0	0	秘法套		0	0	1	0
+eq_0605	秘银·贤者法帽	Armor	robe	Head	3	5	35	2	220	0	0	贤者套		0	0	1	0
+eq_0606	秘银·贤者法袍	Armor	robe	Chest	3	9	51	4	220	0	0	贤者套		0	0	1	0
+eq_0607	秘银·贤者秘纹护腿	Armor	robe	Legs	3	7	43	2	220	0	0	贤者套		0	0	1	0
+eq_0608	秘银·黄昏法帽	Armor	robe	Head	3	4	31	2	220	0	0	黄昏套		0	0	1	0
+eq_0609	秘银·黄昏法袍	Armor	robe	Chest	3	9	51	4	220	0	0	黄昏套		0	0	1	0
+eq_0610	秘银·黄昏秘纹护腿	Armor	robe	Legs	3	6	39	2	220	0	0	黄昏套		0	0	1	0
+eq_0611	龙裔·学徒法帽	Armor	robe	Head	4	6	39	2	300	0	0	学徒套		0	0	1	0
+eq_0612	龙裔·学徒法袍	Armor	robe	Chest	4	12	63	4	300	0	0	学徒套		0	0	1	0
+eq_0613	龙裔·学徒秘纹护腿	Armor	robe	Legs	4	9	51	2	300	0	0	学徒套		0	0	1	0
+eq_0614	龙裔·星辰法帽	Armor	robe	Head	4	6	39	2	300	0	0	星辰套		0	0	1	0
+eq_0615	龙裔·星辰法袍	Armor	robe	Chest	4	12	63	4	300	0	0	星辰套		0	0	1	0
+eq_0616	龙裔·星辰秘纹护腿	Armor	robe	Legs	4	9	51	2	300	0	0	星辰套		0	0	1	0
+eq_0617	龙裔·秘法法帽	Armor	robe	Head	4	6	39	2	300	0	0	秘法套		0	0	1	0
+eq_0618	龙裔·秘法法袍	Armor	robe	Chest	4	12	63	4	300	0	0	秘法套		0	0	1	0
+eq_0619	龙裔·秘法秘纹护腿	Armor	robe	Legs	4	9	51	2	300	0	0	秘法套		0	0	1	0
+eq_0620	龙裔·贤者法帽	Armor	robe	Head	4	6	39	2	300	0	0	贤者套		0	0	1	0
+eq_0621	龙裔·贤者法袍	Armor	robe	Chest	4	12	63	4	300	0	0	贤者套		0	0	1	0
+eq_0622	龙裔·贤者秘纹护腿	Armor	robe	Legs	4	9	51	2	300	0	0	贤者套		0	0	1	0
+eq_0623	龙裔·黄昏法帽	Armor	robe	Head	4	6	39	2	300	0	0	黄昏套		0	0	1	0
+eq_0624	龙裔·黄昏法袍	Armor	robe	Chest	4	12	63	4	300	0	0	黄昏套		0	0	1	0
+eq_0625	龙裔·黄昏秘纹护腿	Armor	robe	Legs	4	9	51	2	300	0	0	黄昏套		0	0	1	0
+rig_canvas	帆布胸挂	Rig		Rig	0	0	80	1	0	0	0			6	0	1	0
+rig_tactical	战术胸挂	Rig		Rig	0	0	260	1	0	0	0			8	0	1	0
+pack_canvas	帆布背包	Pack		Pack	0	0	120	1	0	0	0			16	0	1	0
+pack_explorer	探险背包	Pack		Pack	0	0	420	1	0	0	0			20	15	1	0
+potion_hp	小生命药剂	Potion		Weapon	0	40	35	0.5	0	0	0		hp	0	0	99	0
+potion_hp_large	大生命药剂	Potion		Weapon	1	100	80	0.5	0	0	0		hp	0	0	99	0
+potion_mp	蓝量药剂	Potion		Weapon	0	30	40	0.5	0	0	0		mp	0	0	99	0
+potion_attack	狂怒药剂	Potion		Weapon	1	20	90	0.5	0	0	0		attack	0	0	99	0
+potion_speed	轻步药剂	Potion		Weapon	1	20	90	0.5	0	0	0		speed	0	0	99	0
+potion_defense	铁骨药剂	Potion		Weapon	1	20	90	0.5	0	0	0		defense	0	0	99	0
+potion_hp_super	浓缩生命药剂	Potion		Weapon	2	100	100	0.5	0	0	0		hp	0	0	99	0
+potion_mp_super	浓缩蓝量药剂	Potion		Weapon	2	50	100	0.5	0	0	0		mp	0	0	99	0
+key	地下城钥匙	Key		Weapon	0	0	150	0.2	0	0	0			0	0	99	0
+scroll_return	回城卷轴	Scroll		Weapon	1	0	160	0.5	0	0	0		return	0	0	99	0
+scroll_fireball	火球卷轴	Scroll		Weapon	1	0	160	0.5	0	0	0		fireball	0	0	99	0
+scroll_detect	探测卷轴	Scroll		Weapon	1	0	160	0.5	0	0	0		detect	0	0	99	0
+scroll_shield	护盾卷轴	Scroll		Weapon	1	0	160	0.5	0	0	0		shield	0	0	99	0
+scroll_strength	力量卷轴	Scroll		Weapon	1	0	160	0.5	0	0	0		strength	0	0	99	0
+scroll_cleanse	净化卷轴	Scroll		Weapon	1	0	160	0.5	0	0	0		cleanse	0	0	99	0
+ore_0	青铜矿石	Material		Weapon	0	0	20	2	0	0	0			0	0	99	0
+relic_0	青铜遗物	Treasure		Weapon	0	0	120	3	0	0	0			0	0	99	0
+ore_1	白银矿石	Material		Weapon	1	0	50	2	0	0	0			0	0	99	0
+relic_1	白银遗物	Treasure		Weapon	1	0	300	3	0	0	0			0	0	99	0
+ore_2	黄金矿石	Material		Weapon	2	0	80	2	0	0	0			0	0	99	0
+relic_2	黄金遗物	Treasure		Weapon	2	0	480	3	0	0	0			0	0	99	0
+ore_3	钻石矿石	Material		Weapon	3	0	110	2	0	0	0			0	0	99	0
+relic_3	钻石遗物	Treasure		Weapon	3	0	660	3	0	0	0			0	0	99	0
+ore_4	传说矿石	Material		Weapon	4	0	140	2	0	0	0			0	0	99	0
+relic_4	传说遗物	Treasure		Weapon	4	0	840	3	0	0	0			0	0	99	0

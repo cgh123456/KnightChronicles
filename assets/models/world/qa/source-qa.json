@@ -1,0 +1,339 @@
+[
+  {
+    "file": "world_collection.blend",
+    "meshes": 1974,
+    "collections": 35,
+    "collectionMeshes": {
+      "ASSET_alchemy": 186,
+      "ASSET_armor_shop": 180,
+      "ASSET_barrel": 15,
+      "ASSET_bench": 8,
+      "ASSET_bones": 10,
+      "ASSET_bookshelf": 28,
+      "ASSET_bush": 6,
+      "ASSET_cart": 49,
+      "ASSET_chest": 19,
+      "ASSET_cobble_tile": 50,
+      "ASSET_crate": 22,
+      "ASSET_door": 14,
+      "ASSET_fence": 6,
+      "ASSET_fountain": 29,
+      "ASSET_gate": 36,
+      "ASSET_general_shop": 217,
+      "ASSET_grass_tile": 141,
+      "ASSET_guild": 183,
+      "ASSET_hut": 213,
+      "ASSET_lantern": 8,
+      "ASSET_pillar": 8,
+      "ASSET_portal": 16,
+      "ASSET_rocks": 6,
+      "ASSET_scroll_shop": 184,
+      "ASSET_signpost": 3,
+      "ASSET_smith": 186,
+      "ASSET_stair_down": 11,
+      "ASSET_stair_up": 10,
+      "ASSET_stone_floor": 17,
+      "ASSET_stone_wall": 31,
+      "ASSET_supplies": 37,
+      "ASSET_torch": 4,
+      "ASSET_tree": 12,
+      "ASSET_urn": 5,
+      "ASSET_wood_floor": 24
+    },
+    "actions": 0,
+    "fileImages": []
+  },
+  {
+    "file": "KnightVariant_animation_source.blend",
+    "meshes": 16,
+    "collections": 0,
+    "collectionMeshes": {},
+    "actions": 76,
+    "fileImages": [
+      {
+        "name": "knight_texture",
+        "packed": true,
+        "path": ""
+      },
+      {
+        "name": "TEX-knight_body_silverblue.png",
+        "packed": true,
+        "path": "D:\\游戏\\KnightChronicles\\assets\\char\\knight_variant\\TEX-knight_body_silverblue.png"
+      },
+      {
+        "name": "TEX-knight_cape_blue.png",
+        "packed": true,
+        "path": "D:\\游戏\\KnightChronicles\\assets\\char\\knight_variant\\TEX-knight_cape_blue.png"
+      }
+    ],
+    "footYByDirection": [
+      -0.693080872297287,
+      -0.6613250374794006,
+      -0.6171684116125107,
+      -0.5864773541688919,
+      -0.5872302949428558,
+      -0.6189861297607422,
+      -0.663142740726471,
+      -0.6938337981700897
+    ],
+    "averageFootY": -0.6401555798947811,
+    "suggestedFootPivotY": 0.3712031726735877,
+    "faceXYByDirection": [],
+    "yawParent": "DirectionRoot"
+  },
+  {
+    "file": "Skeleton_Minion_animation_source.blend",
+    "meshes": 12,
+    "collections": 0,
+    "collectionMeshes": {},
+    "actions": 95,
+    "fileImages": [
+      {
+        "name": "skeleton_texture",
+        "packed": true,
+        "path": "//..\\..\\..\\unity\\KnightChronicles\\Assets\\Art\\ThirdParty\\KayKit\\Characters-Skeletons\\Characters\\gltf\\skeleton_texture.png"
+      }
+    ],
+    "footYByDirection": [
+      -0.6562514007091522,
+      -0.6244955658912659,
+      -0.5803389251232147,
+      -0.549647867679596,
+      -0.5504007637500763,
+      -0.5821566134691238,
+      -0.6263132244348526,
+      -0.657004326581955
+    ],
+    "averageFootY": -0.6033260859549046,
+    "suggestedFootPivotY": 0.31079122588002805,
+    "faceXYByDirection": [
+      [
+        0.008,
+        -0.26
+      ],
+      [
+        0.189,
+        -0.178
+      ],
+      [
+        0.26,
+        0.008
+      ],
+      [
+        0.178,
+        0.189
+      ],
+      [
+        -0.008,
+        0.26
+      ],
+      [
+        -0.189,
+        0.178
+      ],
+      [
+        -0.26,
+        -0.008
+      ],
+      [
+        -0.178,
+        -0.189
+      ]
+    ],
+    "yawParent": "DirectionRoot"
+  },
+  {
+    "file": "Skeleton_Rogue_animation_source.blend",
+    "meshes": 13,
+    "collections": 0,
+    "collectionMeshes": {},
+    "actions": 95,
+    "fileImages": [
+      {
+        "name": "skeleton_texture",
+        "packed": true,
+        "path": "//..\\..\\..\\unity\\KnightChronicles\\Assets\\Art\\ThirdParty\\KayKit\\Characters-Skeletons\\Characters\\gltf\\skeleton_texture.png"
+      }
+    ],
+    "footYByDirection": [
+      -0.7414602935314178,
+      -0.7097044587135315,
+      -0.6655478179454803,
+      -0.6348567605018616,
+      -0.6356096565723419,
+      -0.6673654913902283,
+      -0.7115221321582794,
+      -0.7422132194042206
+    ],
+    "averageFootY": -0.6885349787771702,
+    "suggestedFootPivotY": 0.29228883823979784,
+    "faceXYByDirection": [
+      [
+        0.008,
+        -0.261
+      ],
+      [
+        0.19,
+        -0.179
+      ],
+      [
+        0.261,
+        0.008
+      ],
+      [
+        0.179,
+        0.19
+      ],
+      [
+        -0.008,
+        0.261
+      ],
+      [
+        -0.19,
+        0.179
+      ],
+      [
+        -0.261,
+        -0.008
+      ],
+      [
+        -0.179,
+        -0.19
+      ]
+    ],
+    "yawParent": "DirectionRoot"
+  },
+  {
+    "file": "Skeleton_Mage_animation_source.blend",
+    "meshes": 12,
+    "collections": 0,
+    "collectionMeshes": {},
+    "actions": 95,
+    "fileImages": [
+      {
+        "name": "skeleton_texture",
+        "packed": true,
+        "path": "//..\\..\\..\\unity\\KnightChronicles\\Assets\\Art\\ThirdParty\\KayKit\\Characters-Skeletons\\Characters\\gltf\\skeleton_texture.png"
+      }
+    ],
+    "footYByDirection": [
+      -0.8447994887828827,
+      -0.8130436539649963,
+      -0.7688870131969452,
+      -0.7381959557533264,
+      -0.7389488518238068,
+      -0.7707046866416931,
+      -0.8148613274097443,
+      -0.8455524146556854
+    ],
+    "averageFootY": -0.791874174028635,
+    "suggestedFootPivotY": 0.32235564846431625,
+    "faceXYByDirection": [],
+    "yawParent": "DirectionRoot"
+  },
+  {
+    "file": "Skeleton_Warrior_animation_source.blend",
+    "meshes": 13,
+    "collections": 0,
+    "collectionMeshes": {},
+    "actions": 95,
+    "fileImages": [
+      {
+        "name": "skeleton_texture",
+        "packed": true,
+        "path": "//..\\..\\..\\unity\\KnightChronicles\\Assets\\Art\\ThirdParty\\KayKit\\Characters-Skeletons\\Characters\\gltf\\skeleton_texture.png"
+      }
+    ],
+    "footYByDirection": [
+      -0.8111033141613007,
+      -0.7793474793434143,
+      -0.7351908385753632,
+      -0.7044997811317444,
+      -0.7052526772022247,
+      -0.7370085120201111,
+      -0.7811651527881622,
+      -0.8118562400341034
+    ],
+    "averageFootY": -0.758177999407053,
+    "suggestedFootPivotY": 0.3102076544688199,
+    "faceXYByDirection": [
+      [
+        0.006,
+        -0.26
+      ],
+      [
+        0.188,
+        -0.18
+      ],
+      [
+        0.26,
+        0.006
+      ],
+      [
+        0.18,
+        0.188
+      ],
+      [
+        -0.006,
+        0.26
+      ],
+      [
+        -0.188,
+        0.18
+      ],
+      [
+        -0.26,
+        -0.006
+      ],
+      [
+        -0.18,
+        -0.188
+      ]
+    ],
+    "yawParent": "DirectionRoot"
+  },
+  {
+    "file": "stone_wall_side.blend",
+    "meshes": 1974,
+    "collections": 35,
+    "collectionMeshes": {
+      "ASSET_alchemy": 186,
+      "ASSET_armor_shop": 180,
+      "ASSET_barrel": 15,
+      "ASSET_bench": 8,
+      "ASSET_bones": 10,
+      "ASSET_bookshelf": 28,
+      "ASSET_bush": 6,
+      "ASSET_cart": 49,
+      "ASSET_chest": 19,
+      "ASSET_cobble_tile": 50,
+      "ASSET_crate": 22,
+      "ASSET_door": 14,
+      "ASSET_fence": 6,
+      "ASSET_fountain": 29,
+      "ASSET_gate": 36,
+      "ASSET_general_shop": 217,
+      "ASSET_grass_tile": 141,
+      "ASSET_guild": 183,
+      "ASSET_hut": 213,
+      "ASSET_lantern": 8,
+      "ASSET_pillar": 8,
+      "ASSET_portal": 16,
+      "ASSET_rocks": 6,
+      "ASSET_scroll_shop": 184,
+      "ASSET_signpost": 3,
+      "ASSET_smith": 186,
+      "ASSET_stair_down": 11,
+      "ASSET_stair_up": 10,
+      "ASSET_stone_floor": 17,
+      "ASSET_stone_wall": 31,
+      "ASSET_supplies": 37,
+      "ASSET_torch": 4,
+      "ASSET_tree": 12,
+      "ASSET_urn": 5,
+      "ASSET_wood_floor": 24
+    },
+    "actions": 0,
+    "fileImages": []
+  }
+]

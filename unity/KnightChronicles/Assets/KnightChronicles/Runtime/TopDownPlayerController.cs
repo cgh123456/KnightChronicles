@@ -3,89 +3,68 @@ using UnityEngine;
 
 namespace KnightChronicles.Runtime
 {
-    /// <summary>
-    /// 俯视角人物控制：WASD / 方向键移动，输入方向会驱动角色朝向；
-    /// 新的完整四方向角色使用 DirectionalKnightAnimator，旧八方向图集仍兼容 SpriteAnimator。
-    /// 物理碰撞由 Rigidbody2D 承担。
-    /// </summary>
+    /// <summary>Eight-direction animated town movement with foot collisions and short rolls.</summary>
     [RequireComponent(typeof(Rigidbody2D), typeof(BoxCollider2D))]
     public sealed class TopDownPlayerController : MonoBehaviour
     {
-        [SerializeField] private float moveSpeed = 3.2f;
-
-        private SpriteAnimator spriteAnimator;
-        private DirectionalKnightAnimator directionalAnimator;
+        private SpriteAnimator animator;
+        private SpriteRenderer spriteView;
         private Rigidbody2D body;
-        private Vector2 input;
-
-        /// <summary>测试/脚本注入输入的钩子；非空时替代真实键盘中读数。</summary>
+        private Vector2 input, facing = Vector2.down, rollDirection;
+        private float rollTime, rollCooldown, stepTimer;
+        private bool running;
         public Func<Vector2> InputProvider;
-
+        public bool ControlsBlocked;
+        public bool IsMoving { get { return input.sqrMagnitude > .001f || rollTime > 0; } }
+        public Vector2 Facing { get { return facing; } }
         private void Awake()
         {
-            spriteAnimator = GetComponent<SpriteAnimator>();
-            directionalAnimator = GetComponent<DirectionalKnightAnimator>();
-            body = GetComponent<Rigidbody2D>();
-            body.gravityScale = 0f;
-            body.freezeRotation = true;
-            body.interpolation = RigidbodyInterpolation2D.Interpolate;
-            if (spriteAnimator != null)
-            {
-                spriteAnimator.Play("idle");
-            }
+            animator = GetComponent<SpriteAnimator>(); spriteView = GetComponent<SpriteRenderer>(); body = GetComponent<Rigidbody2D>();
+            body.gravityScale = 0; body.freezeRotation = true; body.interpolation = RigidbodyInterpolation2D.Interpolate;
+            body.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+            if (animator != null) animator.Play("idle");
         }
-
         private void Update()
         {
-            input = InputProvider != null ? InputProvider() : ReadKeyboardInput();
-            var moving = input.sqrMagnitude > 0.001f;
-            if (moving)
+            var blocked = ControlsBlocked || GamePanel.Blocked;
+            input = blocked ? Vector2.zero : InputProvider != null ? InputProvider() : ReadKeyboardInput();
+            running = !blocked && (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift));
+            rollCooldown = Mathf.Max(0, rollCooldown - Time.deltaTime);
+            rollTime = blocked ? 0 : Mathf.Max(0, rollTime - Time.deltaTime);
+            if (input.sqrMagnitude > .001f) facing = input.normalized;
+            if (!blocked && GameInput.Down("dodge") && rollCooldown <= 0)
             {
-                if (spriteAnimator != null)
-                {
-                    spriteAnimator.Row = DirectionRow(input);
-                }
+                rollDirection = facing; rollTime = .34f; rollCooldown = 1.3f; AudioDirector.Cue(15);
+                TownAtmosphere.Footstep((Vector2)transform.position + Vector2.down * .66f, true);
             }
-
-            if (spriteAnimator != null)
+            if (animator != null)
             {
-                spriteAnimator.Play(moving ? "walk" : "idle");
+                animator.Row = DirectionRow(rollTime > 0 ? rollDirection : facing);
+                animator.Play(rollTime > 0 ? "dodge" : input.sqrMagnitude > .001f ? running ? "run" : "walk" : "idle");
             }
-
-            if (directionalAnimator != null)
+            if (spriteView != null) spriteView.sortingOrder = TownAtmosphere.Order(transform.position.y - .66f) + 1;
+            if (input.sqrMagnitude > .001f && rollTime <= 0)
             {
-                directionalAnimator.SetMovement(input, moving);
+                stepTimer -= Time.deltaTime;
+                if (stepTimer <= 0) { stepTimer = running ? .25f : .34f; TownAtmosphere.Footstep((Vector2)transform.position + Vector2.down * .66f, running); }
             }
-
+            else stepTimer = .10f;
         }
-
         private void FixedUpdate()
         {
-            // 只在物理步进中写入刚体速度。此前在 Update 中直接改 velocity，渲染帧率与
-            // 物理帧率不同步时会产生细小来回抽动；插值后的刚体由物理系统平滑呈现。
-            var moving = input.sqrMagnitude > 0.001f;
-            body.velocity = moving ? input.normalized * moveSpeed : Vector2.zero;
+            if (ControlsBlocked || GamePanel.Blocked) { body.velocity = Vector2.zero; return; }
+            body.velocity = rollTime > 0 ? rollDirection * 8.3f : input.normalized * GameSession.Rules.MoveSpeed * (running ? 1.32f : 1);
         }
-
         private static Vector2 ReadKeyboardInput()
         {
-            var x = 0f;
-            var y = 0f;
-            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) x -= 1f;
-            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) x += 1f;
-            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) y += 1f;
-            if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) y -= 1f;
-            return new Vector2(x, y);
+            return new Vector2((GameInput.Held("right") || Input.GetKey(KeyCode.RightArrow) ? 1 : 0) - (GameInput.Held("left") || Input.GetKey(KeyCode.LeftArrow) ? 1 : 0),
+                (GameInput.Held("up") || Input.GetKey(KeyCode.UpArrow) ? 1 : 0) - (GameInput.Held("down") || Input.GetKey(KeyCode.DownArrow) ? 1 : 0));
         }
-
-        /// <summary>速度向量 → 图集方向行号（0=S，顺时针 45°/行，与烘焙行序一致）。</summary>
+        /// <summary>Sheet rows: S, SE, E, NE, N, NW, W, SW.</summary>
         public static int DirectionRow(Vector2 velocity)
         {
-            var degrees = Mathf.Atan2(velocity.y, velocity.x) * Mathf.Rad2Deg + 90f;
-            var row = Mathf.RoundToInt(degrees / 45f);
-            return ((row % Rows8) + Rows8) % Rows8;
+            var row = Mathf.RoundToInt((Mathf.Atan2(velocity.y, velocity.x) * Mathf.Rad2Deg + 90) / 45);
+            return (row % 8 + 8) % 8;
         }
-
-        private const int Rows8 = 8;
     }
 }

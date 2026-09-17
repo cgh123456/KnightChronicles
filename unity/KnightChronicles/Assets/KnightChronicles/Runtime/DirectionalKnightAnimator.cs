@@ -93,6 +93,7 @@ namespace KnightChronicles.Runtime
                 spriteRenderer.sprite = sprites[(int)Facing];
             }
         }
+        private void OnDestroy() { foreach (var sprite in sprites) if (sprite != null) Destroy(sprite); }
 
         private static FacingDirection ToFacingDirection(Vector2 direction)
         {

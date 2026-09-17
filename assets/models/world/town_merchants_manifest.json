@@ -1,0 +1,62 @@
+[
+  {
+    "key": "npc_smith",
+    "character": "Barbarian",
+    "source": "D:/游戏/KnightChronicles/assets/models/world/npc_smith_source.blend",
+    "license": "CC0 KayKit Adventurers",
+    "cameraElevation": 51.34,
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "size": [
+      384,
+      384
+    ]
+  },
+  {
+    "key": "npc_alchemist",
+    "character": "Mage",
+    "source": "D:/游戏/KnightChronicles/assets/models/world/npc_alchemist_source.blend",
+    "license": "CC0 KayKit Adventurers",
+    "cameraElevation": 51.34,
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "size": [
+      384,
+      384
+    ]
+  },
+  {
+    "key": "npc_guild",
+    "character": "Knight",
+    "source": "D:/游戏/KnightChronicles/assets/models/world/npc_guild_source.blend",
+    "license": "CC0 KayKit Adventurers",
+    "cameraElevation": 51.34,
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "size": [
+      384,
+      384
+    ]
+  },
+  {
+    "key": "npc_trader",
+    "character": "Rogue",
+    "source": "D:/游戏/KnightChronicles/assets/models/world/npc_trader_source.blend",
+    "license": "CC0 KayKit Adventurers",
+    "cameraElevation": 51.34,
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "size": [
+      384,
+      384
+    ]
+  }
+]

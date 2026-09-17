@@ -16,6 +16,7 @@ namespace KnightChronicles.Tests
         [UnityTest]
         public IEnumerator Lobby_RendersKnightSpriteAndMenu()
         {
+            KnightChronicles.Runtime.GameSession.BeginIsolatedTestSession(Path.Combine(Path.GetTempPath(), "KnightChronicles-PlayTests"));
             var load = SceneManager.LoadSceneAsync("Assets/Scenes/Lobby.unity");
             while (!load.isDone)
             {

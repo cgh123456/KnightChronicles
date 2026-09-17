@@ -1,0 +1,1044 @@
+{
+  "world": [
+    {
+      "key": "alchemy",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        115,
+        34,
+        654,
+        731
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "armor_shop",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        118,
+        34,
+        650,
+        731
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "barrel",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        100,
+        22,
+        412,
+        487
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "bench",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        22,
+        90,
+        490,
+        422
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "bones",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        22,
+        121,
+        490,
+        391
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "bookshelf",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        51,
+        26,
+        461,
+        486
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "bush",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        22,
+        79,
+        490,
+        433
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "cart",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        106,
+        25,
+        406,
+        490
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "chest",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        26,
+        24,
+        486,
+        484
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "cobble_tile",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "crate",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        86,
+        26,
+        426,
+        486
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "door",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        22,
+        36,
+        490,
+        476
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "fence",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        22,
+        183,
+        490,
+        342
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "fountain",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        22,
+        29,
+        490,
+        483
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "gate",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        34,
+        148,
+        734,
+        620
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "general_shop",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        133,
+        34,
+        635,
+        733
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "grass_tile",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "guild",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        89,
+        34,
+        680,
+        732
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "hut",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        106,
+        34,
+        662,
+        731
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "lantern",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        188,
+        59,
+        324,
+        490
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "npc_alchemist",
+      "size": [
+        384,
+        384
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        63,
+        10,
+        321,
+        351
+      ],
+      "inManifest": false
+    },
+    {
+      "key": "npc_guild",
+      "size": [
+        384,
+        384
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        94,
+        51,
+        313,
+        384
+      ],
+      "inManifest": false
+    },
+    {
+      "key": "npc_smith",
+      "size": [
+        384,
+        384
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        94,
+        62,
+        298,
+        383
+      ],
+      "inManifest": false
+    },
+    {
+      "key": "npc_trader",
+      "size": [
+        384,
+        384
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        57,
+        72,
+        286,
+        315
+      ],
+      "inManifest": false
+    },
+    {
+      "key": "pillar",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        166,
+        25,
+        346,
+        487
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "portal",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        23,
+        96,
+        489,
+        416
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "rocks",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        22,
+        87,
+        490,
+        420
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "scroll_shop",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        118,
+        34,
+        650,
+        731
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "signpost",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        22,
+        65,
+        490,
+        447
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "smith",
+      "size": [
+        768,
+        768
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        48,
+        34,
+        720,
+        731
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "stair_down",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        89,
+        25,
+        423,
+        487
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "stair_up",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        86,
+        24,
+        426,
+        487
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "stone_floor",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "stone_wall",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        22,
+        108,
+        490,
+        404
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "stone_wall_side",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        203,
+        25,
+        309,
+        487
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "supplies",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        22,
+        60,
+        490,
+        448
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "torch",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        176,
+        69,
+        336,
+        490
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "tree",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        66,
+        74,
+        446,
+        480
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "urn",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        78,
+        56,
+        434,
+        461
+      ],
+      "inManifest": true
+    },
+    {
+      "key": "wood_floor",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alphaBounds": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "inManifest": true
+    }
+  ],
+  "characters": [
+    {
+      "sheet": "KnightVariant_Attack_sheet.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "frame": 256,
+      "columns": 8,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 16,
+      "motionFramesPerDirection": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 4.970274448394775
+    },
+    {
+      "sheet": "KnightVariant_Cast_sheet.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "frame": 256,
+      "columns": 8,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 23,
+      "motionFramesPerDirection": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 4.970274448394775
+    },
+    {
+      "sheet": "KnightVariant_Dodge_Forward_sheet.png",
+      "size": [
+        2560,
+        2048
+      ],
+      "frame": 256,
+      "columns": 10,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 34,
+      "motionFramesPerDirection": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 4.970274448394775
+    },
+    {
+      "sheet": "KnightVariant_Hit_sheet.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "frame": 256,
+      "columns": 8,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 41,
+      "motionFramesPerDirection": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 4.970274448394775
+    },
+    {
+      "sheet": "KnightVariant_Idle_sheet.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "frame": 256,
+      "columns": 12,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 46,
+      "motionFramesPerDirection": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 4.970274448394775
+    },
+    {
+      "sheet": "KnightVariant_Running_A_sheet.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "frame": 256,
+      "columns": 12,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 49,
+      "motionFramesPerDirection": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 4.970274448394775
+    },
+    {
+      "sheet": "KnightVariant_Walking_A_sheet.png",
+      "size": [
+        3072,
+        2048
+      ],
+      "frame": 256,
+      "columns": 12,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 51,
+      "motionFramesPerDirection": [
+        12,
+        12,
+        12,
+        12,
+        11,
+        12,
+        12,
+        12
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 4.970274448394775
+    },
+    {
+      "sheet": "Skeleton_Minion_attack_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 8,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 3.1886792182922363
+    },
+    {
+      "sheet": "Skeleton_Minion_idle_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 21,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 3.1886792182922363
+    },
+    {
+      "sheet": "Skeleton_Minion_walk_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 25,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 3.1886792182922363
+    },
+    {
+      "sheet": "Skeleton_Rogue_attack_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 8,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 3.3148674964904785
+    },
+    {
+      "sheet": "Skeleton_Rogue_idle_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 19,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 3.3148674964904785
+    },
+    {
+      "sheet": "Skeleton_Rogue_walk_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 32,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 3.3148674964904785
+    },
+    {
+      "sheet": "Skeleton_Mage_attack_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 9,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 4.457637786865234
+    },
+    {
+      "sheet": "Skeleton_Mage_idle_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 22,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 4.457637786865234
+    },
+    {
+      "sheet": "Skeleton_Mage_walk_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 38,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 4.457637786865234
+    },
+    {
+      "sheet": "Skeleton_Warrior_attack_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 8,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 3.994776487350464
+    },
+    {
+      "sheet": "Skeleton_Warrior_idle_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 16,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 3.994776487350464
+    },
+    {
+      "sheet": "Skeleton_Warrior_walk_sheet.png",
+      "size": [
+        1152,
+        1536
+      ],
+      "frame": 192,
+      "columns": 6,
+      "uniqueDirections": 8,
+      "minimumAlphaMargin": 28,
+      "motionFramesPerDirection": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "cameraElevation": 51.34,
+      "orthoScale": 3.994776487350464
+    }
+  ],
+  "issues": []
+}

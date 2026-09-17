@@ -17,6 +17,7 @@ namespace KnightChronicles.Runtime
 
         private void Awake()
         {
+            AudioDirector.Ensure();
             CreateCamera();
             CreateBackground();
             CreateKnight();
@@ -24,7 +25,7 @@ namespace KnightChronicles.Runtime
 
         private static void CreateCamera()
         {
-            var cameraNode = new GameObject("LobbyCamera2D", typeof(Camera));
+            var cameraNode = new GameObject("LobbyCamera2D", typeof(Camera), typeof(AudioListener));
             var camera = cameraNode.GetComponent<Camera>();
             camera.orthographic = true;
             camera.orthographicSize = 5.4f;  // 背景图 941px/100PPU 高度的一半

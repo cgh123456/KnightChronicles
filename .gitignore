@@ -11,3 +11,12 @@ __pycache__/
 # 临时/备份文件
 *.tmp
 *.swp
+
+# Local validation projects, logs and editor installers
+.work/
+
+# Unpacked Windows runtime; distribute the versioned ZIP instead
+/builds/Windows/
+
+# Blender automatic backups (existing tracked history is preserved)
+*.blend[0-9]
